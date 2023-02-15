@@ -1,0 +1,86 @@
+/*=======================================
+ Common Style
+========================================*/
+:root {
+  --menu: #ea1a70;
+  --logo_leter: #FFFFFF;
+  --logo_first_leter_background: #3E64FF;
+  --logo_last_part: #5a41cc;
+  --box_shadow: #dddddd;
+}
+
+body{
+  font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+  /* display:flex; */
+  /* align-items:center; */
+  /*justify-content:center;=>will make ul center horizontal*/
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*=======================================
+ Header Area Style
+========================================*/
+#header_area {
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  top: 0px;
+  z-index: 99;
+  position: fixed;
+  padding: 15px 0;
+  box-shadow: 0px 0px .53px 0px var(--box_shadow);
+  transition: all 2s;
+}
+#header_area.sticky {
+  background-image: url(../image/banner.png);
+  box-shadow: 0px 0px 1px 1px var(--box_shadow);
+  transition: all 2s;
+}
+#header_area .header_area_wraper {
+  padding: 5px;
+}
+
+#header_area .logo_area a {
+  color: var(--logo_leter);
+  font-size: 25px;
+}
+#header_area .logo_area .logo_first_letter {
+  background: var(--logo_first_leter_background);
+  padding: 7px 10px;
+  border-radius: 50%;
+  font-weight: 900;
+}
+#header_area .logo_area .logo_last_part {
+  margin-left: -5px;
+}
+
+#header_area .menu_area {
+  align-self: center;
+}
+#header_area .menu_area ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  float: right;
+}
+#header_area .menu_area ul a {
+  color: #ffffff;
+  padding: 0px 35px;
+}
+
+/*=======================================
+ Introduction Area Style
+========================================*/
+.introduction_area{
+  background-image: url(../image/banner.png);
+  position: relative;
+  z-index: 0;
+  height: 900px;
+}
