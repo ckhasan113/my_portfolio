@@ -40,6 +40,17 @@
     //Navigation menu toogle check
     $('#check').click(function(){
       $('#header_area .menu_area ul').toggleClass('show');
+    });
+
+    // Navigation menu hide from anywhere click
+    $('body').on('click', function (e) {
+      if($(e.target).closest('#check').length || $(e.target).closest('#header_menu').length){
+        return;
+      }
+
+      if($('#header_area .menu_area ul').hasClass('show')){
+        $('#header_area .menu_area ul').toggleClass('show');
+      }
     });  
 
     //Pre Loader
