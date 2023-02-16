@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 #header_area.sticky {
   background-image: url(../image/banner.png);
-  ackground-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 0px 1px 1px var(--box_shadow);
   transition: all 2s;
@@ -122,17 +122,43 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 /*=======================================
  Home Area Style
 ========================================*/
-.set_max_height_for_home{
-  height: 776px;
+.set_height_for_home{
+  height: 780px;
 }
 #home_area {
   font-family: 'Poppins', sans-serif;
   background-image: url(../image/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   position: relative;
   z-index: 0;
-  height: 900px;
+  height: 780px;
+}
+#home_area::before {
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  background-image: url(../image/circle_bottom_left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 724px;
+  height: 767px;
+  content: '';
+  z-index: -2;
+}
+#home_area::after {
+  position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../image/cirlcle_top_right.png);
+    width: 531px;
+    height: 504px;
+    content: '';
+    z-index: -2;
+}
+.content_area {
+  margin-top: -200px;
 }
 #home_area span.subheading{
   font-size: 16px;
@@ -161,4 +187,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 	text-align: center;
 	user-select: none;
   color: var(--active_heighlighter);
+}
+
+.style_area {
+  position: absolute;
+  left: 65%;
+  bottom: 0;
 }
