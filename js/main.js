@@ -42,12 +42,13 @@
       $('#header_area .menu_area ul').toggleClass('show');
     });
 
-    // Navigation menu hide from anywhere click
+    //Click enent any element from the body
     $('body').on('click', function (e) {
+
+      // Navigation menu hide from anywhere click
       if($(e.target).closest('#check').length || $(e.target).closest('#header_menu').length){
         return;
       }
-
       if($('#header_area .menu_area ul').hasClass('show')){
         $('#header_area .menu_area ul').toggleClass('show');
       }
