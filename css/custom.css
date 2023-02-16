@@ -106,9 +106,19 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   visibility: visible;
   transform: scaleX(1);
 }
+#check{
+  display: none;
+  font-size: 30px;
+  color: var(--menu);
+  float: right;
+  line-height: 40px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
 
 /*=======================================
- Introduction Area Style
+ Home Area Style
 ========================================*/
 .set_max_height_for_home{
   height: 776px;
@@ -121,7 +131,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   height: 900px;
 }
 #home_area span.subheading{
-  text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
   color: var(--active_heighlighter);

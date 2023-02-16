@@ -12,7 +12,7 @@ get_header();
         <div class="text text-center">
           <span class="subheading">Hey! I Am</span>
           <h1>Md Al Mehedi Hasan</h1>
-          <h2>I'm developing with</h2>
+          <h2>I'm working with</h2>
 
 
             <div class="text_animation">

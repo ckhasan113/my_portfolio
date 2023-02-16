@@ -35,6 +35,9 @@ I. Exceptional
 ----------------------------------------------
 ==============================================
 */
+:root {
+  --nav_background: #4138CF;
+}
 
 /*------------------
   Wide_Screen_Layout
@@ -67,21 +70,46 @@ I. Exceptional
       Tab_Layout
 -------------------*/
 @media only screen and (max-width: 991px) {
-  
+  #check{
+    display: block;
+  }
+  #header_area .menu_area ul {
+    display: block;
+    position: fixed;
+    height: 100vh;
+    background: var(--nav_background);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  #header_area .menu_area ul a span {
+    margin: 25px 35px;
+  }
+  #header_area .menu_area ul li a {
+    font-size: 20px;
+  }
+  #header_area .menu_area ul.show{
+    left: 0;
+  }
 }
 
 /*-------------------------
     Mobile_Landscap_Layout
 --------------------------*/
-@media only screen and (max-width: 750px) and (min-width: 481px) {
-  
+@media only screen and (max-width: 990px) and (min-width: 481px) {
+  #header_area .menu_area ul {
+    width: 35%;
+  }
 }
 
 /*------------------
     Mobile_Layout
 -------------------*/
 @media only screen and (max-width: 480px) {
-  
+  #header_area .menu_area ul {
+    width: 55%;
+  }
 }
 
 /*------------------------------

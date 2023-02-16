@@ -37,6 +37,11 @@
       );
     });
 
+    //Navigation menu toogle check
+    $('#check').click(function(){
+      $('#header_area .menu_area ul').toggleClass('show');
+    });  
+
     //Pre Loader
     // function handlePreloader() {
     //   if ($(".preloader").length) {
