@@ -11,10 +11,16 @@ get_header();
 
 
     <div class="style_area">
-    <img src="/portfolio/wp-content/themes/myportfolio/image/grid.png" alt=""/> 
+      <img src="/portfolio/wp-content/themes/myportfolio/image/grid.png" alt=""/> 
     </div>
 
-    <div class="social_media_area"></div>
+    <div class="social_media_area">
+      <ul>
+        <li><a href="https://www.facebook.com/tohasan1992" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/md-al-mehedi-hasan-b14578136/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://twitter.com/CKHASAN113" target="_blank"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
 
 
     <div class="content_area">
@@ -52,9 +58,9 @@ get_header();
   </div>    
 </section>
 
-<section style="width: 700px; height: 500px; background: #f00;">
+<!-- <section style="width: 700px; height: 500px; background: #f00;">
 
-</section>
+</section> -->
 
 
 <?php wp_footer() ?>

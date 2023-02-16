@@ -19,7 +19,8 @@ D. Only_Tab_Landscope_Layout:
 E. Tab_Layout:
       1. 
 
-F. Mobile_Landscap_Layout:;
+F. Mobile_Landscap_Layout:
+      1. Mobile_Land_Header_Area.
 
 G. Mobile_Layout:
       1.
@@ -70,6 +71,7 @@ I. Exceptional
       Tab_Layout
 -------------------*/
 @media only screen and (max-width: 991px) {
+  /* Tab_Header_Menu_Area */
   #check{
     display: block;
   }
@@ -92,12 +94,36 @@ I. Exceptional
   #header_area .menu_area ul.show{
     left: 0;
   }
+
+  /* Tab_Home_Area */
+  /* #home_area::before, */
+  #home_area::after {
+    content: none;
+  }
+  #home_area::before {
+    width: 450px;
+    height: 494px;
+  }
+  .social_media_area,
+  .style_area {
+    display: none;
+  }
+  #home_area h1 {
+    font-size: 30px;
+  }
+  #home_area h2 {
+    font-size: 20px;
+  }
+  #text1, #text2 {
+    font-size: 25pt;
+  }
 }
 
 /*-------------------------
     Mobile_Landscap_Layout
 --------------------------*/
 @media only screen and (max-width: 990px) and (min-width: 481px) {
+  /* Mobile_Land_Header_Area */
   #header_area .menu_area ul {
     width: 35%;
   }
@@ -109,6 +135,10 @@ I. Exceptional
 @media only screen and (max-width: 480px) {
   #header_area .menu_area ul {
     width: 55%;
+  }
+  #home_area::before {
+    width: 350px;
+    height: 394px;
   }
 }
 

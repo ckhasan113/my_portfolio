@@ -4,22 +4,26 @@
 :root {
   --menu: #FFFFFF;
   --logo_leter: #FFFFFF;
+  --social_media: #FFFFFF;
   --logo_first_leter_background: #3E64FF;
   --logo_last_part: #5a41cc;
   --box_shadow: #dddddd;
   --active_heighlighter: #00ffb8;
+  --link_color: #1299F6;
 }
 
 body{
   font-family: 'Public Sans', sans-serif;
 }
-
 a {
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: black;
+}
+ul {
+  list-style: none;
 }
 
 .justify-content-center {
@@ -34,6 +38,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
  Header Area Style
 ========================================*/
 #header_area {
+  overflow: hidden;
   left: 0px;
   right: 0px;
   width: 100%;
@@ -137,7 +142,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 #home_area::before {
   position: absolute;
-  bottom: -80px;
+  bottom: -43px;
   left: 0;
   background-image: url(../image/circle_bottom_left.png);
   background-repeat: no-repeat;
@@ -156,9 +161,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     height: 504px;
     content: '';
     z-index: -2;
-}
-.content_area {
-  margin-top: -200px;
 }
 #home_area span.subheading{
   font-size: 16px;
@@ -190,7 +192,61 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .style_area {
+  text-align: end;
   position: absolute;
-  left: 65%;
   bottom: 0;
+  right: 20%;
+}
+.social_media_area {
+  text-align: center;
+  position: absolute;
+  justify-content: end;
+  display: flex;
+  right: 100px;
+}
+.social_media_area li {
+  margin: 30px 0px;
+}
+.social_media_area li a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--social_media);
+  font-size: 15px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.social_media_area li a::before {
+  background: #615cfd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #615cfd 0%, #d465ef 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #615cfd 0%, #d465ef 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#615cfd', endColorstr='#d465ef',GradientType=0 );
+  /* IE6-9 */
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.social_media_area li a:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+.social_media_area li a:hover {
+  color: var(--link_color);
 }
