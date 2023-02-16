@@ -25,12 +25,11 @@
         <div class="col-md-9 menu_area">
         <!-- <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?> -->
           <ul class="nav-menu">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#home_area"><span>Home</span></a></li>
+            <li><a href="#"><span>About</span></a></li>
+            <li><a href="#"><span>Service</span></a></li>
+            <li><a href="#"><span>Projects</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
           </ul>
         </div>
       </div>

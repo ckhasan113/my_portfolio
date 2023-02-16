@@ -2,11 +2,12 @@
  Common Style
 ========================================*/
 :root {
-  --menu: #ea1a70;
+  --menu: #FFFFFF;
   --logo_leter: #FFFFFF;
   --logo_first_leter_background: #3E64FF;
   --logo_last_part: #5a41cc;
   --box_shadow: #dddddd;
+  --active_heighlighter: #00ffa1;
 }
 
 body{
@@ -71,14 +72,39 @@ a {
   float: right;
 }
 #header_area .menu_area ul a {
-  color: #ffffff;
-  padding: 0px 35px;
+  color: var(--menu);
+  
+}
+#header_area .menu_area ul li.active a {
+  color: var(--active_heighlighter);
+}
+#header_area .menu_area ul a span {
+  position: relative;
+  display: block;
+  margin: 0 35px;
+  padding-bottom: 2px;
+}
+#header_area .menu_area ul a span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #3e64ff;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+#header_area .menu_area ul li.active a span::before {
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 /*=======================================
  Introduction Area Style
 ========================================*/
-.introduction_area{
+#home_area{
   background-image: url(../image/banner.png);
   position: relative;
   z-index: 0;
