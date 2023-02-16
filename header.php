@@ -23,13 +23,12 @@
           <a href="<?php echo home_url(); ?>"><span class="logo_first_letter">M</span><span class="logo_last_part">hasan</span></a>
         </div>
         <div class="col-md-9 menu_area">
-        <!-- <?php wp_nav_menu(array('theme_location' => 'main_menu', 'menu_id' => 'nav')); ?> -->
-          <ul class="nav-menu">
-            <li class="active"><a href="#home_area"><span>Home</span></a></li>
-            <li><a href="#"><span>About</span></a></li>
-            <li><a href="#"><span>Service</span></a></li>
-            <li><a href="#"><span>Projects</span></a></li>
-            <li><a href="#"><span>Contact</span></a></li>
+          <ul class="nav-menu" id="header_menu">
+            <li class="active"><a class="menu_link active" href="#home_area"><span>Home</span></a></li>
+            <li><a class="menu_link" href="#"><span>About</span></a></li>
+            <li><a class="menu_link" href="#"><span>Service</span></a></li>
+            <li><a class="menu_link" href="#"><span>Projects</span></a></li>
+            <li><a class="menu_link" href="#"><span>Contact</span></a></li>
           </ul>
         </div>
       </div>

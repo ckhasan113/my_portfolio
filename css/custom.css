@@ -7,23 +7,28 @@
   --logo_first_leter_background: #3E64FF;
   --logo_last_part: #5a41cc;
   --box_shadow: #dddddd;
-  --active_heighlighter: #00ffa1;
+  --active_heighlighter: #00ffb8;
 }
 
 body{
   font-family: 'Public Sans', sans-serif;
 }
 
-.container{
-  /* display:flex; */
-  /* align-items:center; */
-  /*justify-content:center;=>will make ul center horizontal*/
-}
-
 a {
   text-decoration: none;
 }
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  line-height: 1.5;
+  color: black;
+}
 
+.justify-content-center {
+  justify-content: center !important; }
+.align-items-center {
+  align-items: center !important; }
+.text-center {
+  text-align: center !important;
+}
 
 /*=======================================
  Header Area Style
@@ -75,7 +80,7 @@ a {
   color: var(--menu);
   
 }
-#header_area .menu_area ul li.active a {
+#header_area .menu_area ul li a.active {
   color: var(--active_heighlighter);
 }
 #header_area .menu_area ul a span {
@@ -91,12 +96,13 @@ a {
   height: 2px;
   bottom: 0;
   left: 0;
-  background: #3e64ff;
+  background: var(--logo_first_leter_background);
   visibility: visible;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
-#header_area .menu_area ul li.active a span::before {
+#header_area .menu_area ul li a:hover span::before,
+#header_area .menu_area ul li a.active span::before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -104,9 +110,42 @@ a {
 /*=======================================
  Introduction Area Style
 ========================================*/
+.set_max_height_for_home{
+  height: 776px;
+}
 #home_area{
+  font-family: 'Poppins', sans-serif;
   background-image: url(../image/banner.png);
   position: relative;
   z-index: 0;
   height: 900px;
+}
+#home_area span.subheading{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--active_heighlighter);
+  letter-spacing: 4px;
+}
+#home_area h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--menu);
+}
+#home_area h2 {
+  color: var(--menu);
+}
+
+#container {
+  display: flex;
+	filter: url(#threshold) blur(0.6px);
+}
+#text1, #text2 {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	font-size: 40pt;
+	text-align: center;
+	user-select: none;
+  color: var(--active_heighlighter);
 }

@@ -1,0 +1,99 @@
+/*
+==============================================
+----------------------------------------------
+==============================================
+
+Table Of Content
+
+A. Wide_Screen_Layout:;
+
+B. Wide_Laptop_Layout:
+      1. 
+
+C. Small_Laptop_Layout:
+      1. 
+
+D. Only_Tab_Landscope_Layout: 
+      1. 
+
+E. Tab_Layout:
+      1. 
+
+F. Mobile_Landscap_Layout:;
+
+G. Mobile_Layout:
+      1.
+
+H. Small_Mobile_Layout:
+      1.
+      
+I. Exceptional
+
+      
+
+==============================================
+----------------------------------------------
+==============================================
+*/
+
+/*------------------
+  Wide_Screen_Layout
+-------------------*/
+@media only screen and (max-width: 1700px) {
+  
+}
+/*--------------------
+  Wide_Laptop_Layout
+---------------------*/
+@media only screen and (max-width: 1450px) {
+  
+}
+
+/*--------------------
+  Small_Laptop_Layout
+---------------------*/
+@media only screen and (max-width: 1200px) {
+  
+}
+
+/*-----------------------------
+  Only_Tab_Landscope_Layout
+-----------------------------*/
+@media only screen and (max-width: 1350px) and (min-width: 992px) {
+  
+}
+
+/*------------------
+      Tab_Layout
+-------------------*/
+@media only screen and (max-width: 991px) {
+  
+}
+
+/*-------------------------
+    Mobile_Landscap_Layout
+--------------------------*/
+@media only screen and (max-width: 750px) and (min-width: 481px) {
+  
+}
+
+/*------------------
+    Mobile_Layout
+-------------------*/
+@media only screen and (max-width: 480px) {
+  
+}
+
+/*------------------------------
+   Small_Mobile_Layout
+-------------------------------*/
+@media only screen and (max-width: 320px) {
+  
+}
+
+/*====================
+    Exceptional
+=====================*/
+@media only screen and (max-width: 569px) and (min-width: 481px) {
+  
+}
