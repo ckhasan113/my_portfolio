@@ -42,7 +42,7 @@
       $('#header_area .menu_area ul').toggleClass('show');
     });
 
-    //Click enent any element from the body
+    //Click enent for any element from the body
     $('body').on('click', function (e) {
 
       // Navigation menu hide from anywhere click
