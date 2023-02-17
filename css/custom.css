@@ -267,6 +267,7 @@ ul {
 
 .fade_in{
   animation-name: fadeIn;
+  animation-fill-mode: both;
 }
 @keyframes fadeIn {
   0% {opacity: 0;}
@@ -287,3 +288,4 @@ ul {
   
   }
 }
+
