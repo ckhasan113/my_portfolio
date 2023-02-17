@@ -55,12 +55,12 @@
     });  
 
     //Pre Loader
-    // function handlePreloader() {
-    //   if ($(".preloader").length) {
-    //     $(".preloader").delay(200).fadeOut(500);
-    //   }
-    // }
-    // handlePreloader();
+    function handlePreloader() {
+      if ($(".preloader").length) {
+        $(".preloader").delay(200).fadeOut(500);
+      }
+    }
+    handlePreloader();
 
   });
   

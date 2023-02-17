@@ -61,10 +61,12 @@ get_header();
 <!-- Home Section End -->
 
 <!-- About Section Start -->
-<section class="about_area">
+<section id="about_area">
   <div class="container">
     <div class="row justify-content-center align-center">
       <div class="col-md-10">
+        <div  class="margin-top-80"></div>
+        <h1>About Me</h1>
         <div class="row">
           <div class="col-md-6 about_me_image">
             <img src="/portfolio/wp-content/themes/myportfolio/image/about_me.png" alt="">
@@ -78,7 +80,6 @@ get_header();
   </div>
 </section>
 <!-- About Section End -->
-
 
 <?php wp_footer() ?>
 </body>

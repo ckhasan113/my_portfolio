@@ -33,7 +33,7 @@
           <div class="col-md-9 menu_area">
             <ul class="nav-menu" id="header_menu">
               <li class="active"><a class="menu_link active" href="#home_area"><span>Home</span></a></li>
-              <li><a class="menu_link" href="#"><span>About</span></a></li>
+              <li><a class="menu_link" href="#about_area"><span>About</span></a></li>
               <li><a class="menu_link" href="#"><span>Service</span></a></li>
               <li><a class="menu_link" href="#"><span>Projects</span></a></li>
               <li><a class="menu_link" href="#"><span>Contact</span></a></li>
@@ -43,3 +43,13 @@
       </div>
     </div>
   </header>
+
+  <!-- Pre Loader -->
+  <div class="preloader">
+      <div class="pre">
+        <div class="dash uno"></div>
+        <div class="dash dos"></div>
+        <div class="dash tres"></div>
+        <div class="dash cuatro"></div>
+      </div>
+    </div>
