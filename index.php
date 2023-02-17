@@ -64,12 +64,12 @@ get_header();
 <section class="about_area">
   <div class="container">
     <div class="row justify-content-center align-center">
-      <div class="col-md-8">
+      <div class="col-md-10">
         <div class="row">
-          <div class="col-md-5">
-            <h1>hello image</h1>
+          <div class="col-md-6 about_me_image">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/about_me.png" alt="">
           </div>
-          <div class="col-md-7">
+          <div class="col-md-6">
             <h1>Hello text</h1>
           </div>
         </div>
