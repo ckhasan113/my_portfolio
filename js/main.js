@@ -71,6 +71,7 @@
 })(jQuery);
 
 
+//TextAnimation
 const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2") };
@@ -154,4 +155,8 @@ function animate() {
 
 // Start the animation.
 animate();
+
+
+//
+
 

@@ -95,7 +95,12 @@ get_header();
 </section>
 <!-- About Section End -->
 
-<section style="height: 150px;"></section>
+<section id="resume_area" style="height: 750px;">
+  <div class="margin-top-80"></div>
+  <h1>h</h1>
+  <div class="margin-top-80"></div>
+  <h1>i</h1>
+</section>
 
 <?php wp_footer() ?>
 </body>

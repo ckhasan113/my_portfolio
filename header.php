@@ -34,6 +34,7 @@
             <ul class="nav-menu" id="header_menu">
               <li class="active"><a class="menu_link active" href="#home_area"><span>Home</span></a></li>
               <li><a class="menu_link" href="#about_area"><span>About</span></a></li>
+              <li><a class="menu_link" href="#resume_area"><span>Resume</span></a></li>
               <li><a class="menu_link" href="#"><span>Service</span></a></li>
               <li><a class="menu_link" href="#"><span>Projects</span></a></li>
               <li><a class="menu_link" href="#"><span>Contact</span></a></li>
