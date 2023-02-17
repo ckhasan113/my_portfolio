@@ -5,7 +5,8 @@
 get_header();
 ?>
 
-<section id="home_area">
+<!-- Home Section Start -->
+<section id="home_area" style="overflow: hidden;" >
   <div class="container">
     <div class="row justify-content-center align-items-center set_height_for_home">
 
@@ -23,7 +24,7 @@ get_header();
     </div>
 
 
-    <div class="content_area">
+    <div class="content_area fade_in animation_delay_1 animation_duration_5">
       <div class="text text-center">
         <span class="subheading">Hey! I Am</span>
         <h1>Md Al Mehedi Hasan</h1>
@@ -57,10 +58,26 @@ get_header();
     </div>
   </div>    
 </section>
+<!-- Home Section End -->
 
-<!-- <section style="width: 700px; height: 500px; background: #f00;">
-
-</section> -->
+<!-- About Section Start -->
+<section class="about_area">
+  <div class="container">
+    <div class="row justify-content-center align-center">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-5">
+            <h1>hello image</h1>
+          </div>
+          <div class="col-md-7">
+            <h1>Hello text</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
 
 
 <?php wp_footer() ?>

@@ -161,6 +161,8 @@ ul {
     height: 504px;
     content: '';
     z-index: -2;
+    animation-name: fadeout;
+    animation-delay: 5s;
 }
 #home_area span.subheading{
   font-size: 16px;
@@ -249,4 +251,39 @@ ul {
 }
 .social_media_area li a:hover {
   color: var(--link_color);
+}
+
+
+
+/*=======================================
+ Animation
+========================================*/
+.animation_delay_1{
+  animation-delay: 1s;
+}
+.animation_duration_5{
+  animation-duration: 5s;
+}
+
+.fade_in{
+  animation-name: fadeIn;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes slideUp {
+  0%,
+  50% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+   
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  
+  }
 }
