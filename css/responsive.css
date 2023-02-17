@@ -104,8 +104,7 @@ I. Exceptional
     width: 450px;
     height: 494px;
   }
-  .social_media_area,
-  .style_area {
+  .social_media_area {
     display: none;
   }
   #home_area h1 {
@@ -139,6 +138,9 @@ I. Exceptional
   #home_area::before {
     width: 350px;
     height: 394px;
+  }
+  .style_area {
+    display: none;
   }
 }
 
