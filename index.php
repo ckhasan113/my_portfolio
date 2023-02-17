@@ -63,18 +63,23 @@ get_header();
 <!-- About Section Start -->
 <section id="about_area">
   <div class="container">
-    <div class="row justify-content-center align-center">
-      <div class="col-md-10">
-        <div  class="margin-top-80"></div>
-        <h1>About Me</h1>
-        <div class="row">
-          <div class="col-md-6 about_me_image">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/about_me.png" alt="">
-          </div>
-          <div class="col-md-6">
-            <h1>Hello text</h1>
-          </div>
-        </div>
+    <div class="row justify-content-center align-items-center">
+    <div class="margin-top-80"></div>
+      <h1>About Me</h1>
+      <div class="col-md-5 about_me_image">
+        <img src="/portfolio/wp-content/themes/myportfolio/image/about_me.png" alt="">
+      </div>
+      <div class="col-md-7">
+        <p align="justify">Hi, I’m Rosie! I’m a front-end web developer specializing in WordPress. Before I started freelancing, I worked as a full-time developer for a marketing and web design company with hundreds of clients. This gave me experience building and maintaining a wide variety of websites, ranging from personal blogs to online stores to large corporate sites.</p>
+        <table class="about_me_tbl">
+          <tr><th>Name:</th><td>Md Al Mehedi Hasan</td></tr>
+          <tr><th>Date of birth:</th><td>January 03, 1995</td></tr>
+          <tr><th>Address:</th><td>15C, 5th Building, NHA Garden City, Ring Rd, Mohammadpur, Dhaka-1207</td></tr>
+          <tr class="no_space"><th>Email:</th><td>ck.hasan113@gmail.com</td></tr>
+          <tr><th></th><td>hasan15-7970@diu.edu.bd</td></tr>
+          <tr class="no_space"><th>Phone:</th><td>+88 01734-184888</td></tr>
+          <tr><th></th><td>+88 01845-592277</td></tr>
+        </table>
       </div>
     </div>
   </div>
