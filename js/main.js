@@ -157,6 +157,26 @@ function animate() {
 animate();
 
 
-//
+//Active_Animation_When_It_Is_In_View
+const elements = document.querySelectorAll('.animation_on_scroll');
 
+window.addEventListener('scroll', checkelEments);
 
+checkelEments()
+
+function checkelEments(){
+  // console.log(window.innerHeight);
+  // console.log(window.innerHeight / 5 * 4);
+  const triggerBottom = window.innerHeight / 5 * 4;
+
+  elements.forEach(element => {
+    const elementTop = element.getBoundingClientRect().top;
+
+    if(elementTop < triggerBottom){
+      element.classList.add('show_animation');
+    }
+    // else{
+    //   element.classList.remove('show_animation');
+    // }
+  });
+}

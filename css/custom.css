@@ -15,6 +15,10 @@
   --button_text_color: #FFFFFF;
 }
 
+.show_animation{
+  visibility: visible !important;
+}
+
 body{
   /* font-family: 'Public Sans', sans-serif; */
   font-family: 'Poppins', sans-serif;
@@ -173,16 +177,16 @@ ul {
 }
 #home_area::after {
   position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(../image/cirlcle_top_right.png);
-    width: 531px;
-    height: 504px;
-    content: '';
-    z-index: -2;
-    animation-name: slideDownAndRight;
-    animation-fill-mode: both;
-    animation-duration: 5s;
+  top: 0;
+  right: 0;
+  background-image: url(../image/cirlcle_top_right.png);
+  width: 531px;
+  height: 504px;
+  content: '';
+  z-index: -2;
+  animation-name: slideDownAndRight;
+  animation-fill-mode: both;
+  animation-duration: 5s;
 }
 #home_area span.subheading{
   font-size: 16px;
@@ -638,6 +642,7 @@ ul {
 .fadeIn{
   animation-name: fadeIn;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes fadeIn {
   0% {opacity: 0;}
@@ -647,6 +652,7 @@ ul {
 .slideDown{
   animation-name: slideDown;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideDown {
   0%
@@ -663,6 +669,7 @@ ul {
 .slideDown900{
   animation-name: slideDown900;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideDown900 {
   0%
@@ -680,6 +687,7 @@ ul {
 .slideUpAndLeft{
   animation-name: slideUpAndLeft;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideUpAndLeft {
   0%
@@ -697,6 +705,7 @@ ul {
 .slideDownAndRight{
   animation-name: slideDownAndRight;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideDownAndRight {
   0%
@@ -714,6 +723,7 @@ ul {
 .slideFromLeft{
   animation-name: slideFromLeft;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideFromLeft {
   0%
@@ -731,6 +741,7 @@ ul {
 .slideFromRight{
   animation-name: slideFromRight;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideFromRight {
   0%
@@ -748,6 +759,7 @@ ul {
 .slideFromRight900{
   animation-name: slideFromRight900;
   animation-fill-mode: both;
+  visibility: hidden;
 }
 @keyframes slideFromRight900 {
   0%
