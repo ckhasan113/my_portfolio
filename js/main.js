@@ -168,7 +168,7 @@ function checkelEments(){
   const clientHeight = document.documentElement.clientHeight;
 
   elements.forEach(element => {
-    if((element.getBoundingClientRect().y + ((element.getBoundingClientRect().height * 2) / 5))  < clientHeight){
+    if((element.getBoundingClientRect().y + ((element.getBoundingClientRect().height * 2) / 7))  < clientHeight){
       if(element.classList.contains('fadeIn')){
         element.classList.add('fadeInAnimation');
       }

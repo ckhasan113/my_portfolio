@@ -86,7 +86,9 @@ get_header();
 
         <p class="slideFromRight about_problem_solving animation_duration_6 animation_delay_08 animation_on_scroll">More than <span>250</span> problems have been solved on various online platforms</p>
 
-        <input class="slideFromRight900 download_cv_btn animation_duration_6 animation_delay_09 animation_on_scroll" type="button" value="Download CV">
+        <div class="button_wrapper">
+          <input class="slideFromRight900 download_cv_btn animation_duration_6 animation_delay_09 animation_on_scroll" type="button" value="Download CV">
+        </div>
 
       </div>
     </div>

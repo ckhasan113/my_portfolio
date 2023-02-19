@@ -16,7 +16,6 @@
 }
 
 body{
-  /* font-family: 'Public Sans', sans-serif; */
   font-family: 'Poppins', sans-serif;
   color: var(--text_color);
 }
@@ -154,6 +153,7 @@ ul {
   background-position: center center;
   position: relative;
   z-index: 0;
+  max-width: 100%;
   height: 900px;
 }
 #home_area::before {
@@ -282,6 +282,11 @@ ul {
 /*=======================================
  About_Me_Area
 ========================================*/
+/* overflow:hidden and max-width:100% used for removing scroll during animation */
+#about_area {
+  overflow: hidden;
+  max-width: 100%;
+}
 .about_me_image img{
   width: 100%;
   height: auto;
@@ -310,6 +315,9 @@ ul {
 #about_area .about_problem_solving span {
   color: var(--logo_first_leter_background);
   font-weight: 900;
+}
+.button_wrapper{
+  width: 100%;
 }
 #about_area input[type="button"] {
   background: var(--button_color);

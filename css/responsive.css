@@ -72,6 +72,7 @@ I. Exceptional
 -------------------*/
 @media only screen and (max-width: 991px) {
   /* Tab_Common */
+  #home_area h1,
   h1 {
     font-size: 30px;
   }
@@ -108,15 +109,11 @@ I. Exceptional
   #home_area::after {
     content: none;
   }
-  #home_area::before {
-    width: 450px;
-    height: 494px;
-  }
   .social_media_area {
     display: none;
   }
   #text1, #text2 {
-    font-size: 25pt;
+    font-size: 20pt;
   }
 }
 
@@ -128,6 +125,8 @@ I. Exceptional
   #header_area .menu_area ul {
     width: 35%;
   }
+  /* Mobile_Land_Home_Area */
+  
 }
 
 /*------------------
@@ -137,6 +136,9 @@ I. Exceptional
   #header_area .menu_area ul {
     width: 55%;
   }
+  #home_area {
+    height: 740px;
+  }
   #home_area::before {
     content: none;
   }
@@ -145,13 +147,23 @@ I. Exceptional
 /*------------------------------
    Small_Mobile_Layout
 -------------------------------*/
-@media only screen and (max-width: 320px) {
-  
+@media only screen and (max-width: 360px) {
+  .style_area{
+    display: none;
+  }
 }
 
 /*====================
     Exceptional
 =====================*/
-@media only screen and (max-width: 569px) and (min-width: 481px) {
-  
+@media only screen and (max-width: 767px){
+  #header_area .menu_area ul {
+    width: 50%;
+  }
+  #home_area::before {
+    height: 500px;
+  }
+  .button_wrapper{
+    text-align: center;
+  }
 }
