@@ -15,10 +15,6 @@
   --button_text_color: #FFFFFF;
 }
 
-.show_animation{
-  visibility: visible !important;
-}
-
 body{
   /* font-family: 'Public Sans', sans-serif; */
   font-family: 'Poppins', sans-serif;
@@ -148,7 +144,7 @@ ul {
  Home Area Style
 ========================================*/
 .set_height_for_home{
-  height: 780px;
+  height: 850px;
 }
 #home_area {
   /* font-family: 'Poppins', sans-serif; */
@@ -158,7 +154,7 @@ ul {
   background-position: center center;
   position: relative;
   z-index: 0;
-  height: 780px;
+  height: 900px;
 }
 #home_area::before {
   position: absolute;
@@ -521,6 +517,7 @@ ul {
 /*=======================================
  Animation
 ========================================*/
+
 /* Animation_delay */
 .animation_delay_01{
   animation-delay: 0.1s;
@@ -540,8 +537,14 @@ ul {
 .animation_delay_06{
   animation-delay: 0.6s;
 }
+.animation_delay_065{
+  animation-delay: 0.65s;
+}
 .animation_delay_07{
   animation-delay: 0.7s;
+}
+.animation_delay_075{
+  animation-delay: 0.75s;
 }
 .animation_delay_08{
   animation-delay: 0.8s;
@@ -639,10 +642,13 @@ ul {
   animation-duration: 10s;
 }
 
+/* Animation_Types */
 .fadeIn{
+  opacity: 0;
+}
+.fadeInAnimation{
   animation-name: fadeIn;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes fadeIn {
   0% {opacity: 0;}
@@ -650,9 +656,11 @@ ul {
 }
 
 .slideDown{
+  opacity: 0;
+}
+.slideDownAnimation{
   animation-name: slideDown;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideDown {
   0%
@@ -666,10 +674,13 @@ ul {
   
   }
 }
+
 .slideDown900{
+  opacity: 0;
+}
+.slideDown900Animation{
   animation-name: slideDown900;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideDown900 {
   0%
@@ -685,9 +696,11 @@ ul {
 }
 
 .slideUpAndLeft{
+  opacity: 0;
+}
+.slideUpAndLeftAnimation{
   animation-name: slideUpAndLeft;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideUpAndLeft {
   0%
@@ -703,9 +716,11 @@ ul {
 }
 
 .slideDownAndRight{
+  opacity: 0;
+}
+.slideDownAndRightAnimation{
   animation-name: slideDownAndRight;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideDownAndRight {
   0%
@@ -721,9 +736,11 @@ ul {
 }
 
 .slideFromLeft{
+  opacity: 0;
+}
+.slideFromLeftAnimation{
   animation-name: slideFromLeft;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideFromLeft {
   0%
@@ -739,9 +756,11 @@ ul {
 }
 
 .slideFromRight{
+  opacity: 0;
+}
+.slideFromRightAnimation{
   animation-name: slideFromRight;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideFromRight {
   0%
@@ -757,9 +776,11 @@ ul {
 }
 
 .slideFromRight900{
+  opacity: 0;
+}
+.slideFromRight900Animation{
   animation-name: slideFromRight900;
   animation-fill-mode: both;
-  visibility: hidden;
 }
 @keyframes slideFromRight900 {
   0%
@@ -773,5 +794,4 @@ ul {
   
   }
 }
-
 

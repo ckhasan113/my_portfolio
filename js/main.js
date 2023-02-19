@@ -165,18 +165,35 @@ window.addEventListener('scroll', checkelEments);
 checkelEments()
 
 function checkelEments(){
-  // console.log(window.innerHeight);
-  // console.log(window.innerHeight / 5 * 4);
-  const triggerBottom = window.innerHeight / 5 * 4;
+  const clientHeight = document.documentElement.clientHeight;
 
   elements.forEach(element => {
-    const elementTop = element.getBoundingClientRect().top;
-
-    if(elementTop < triggerBottom){
-      element.classList.add('show_animation');
+    if((element.getBoundingClientRect().y + ((element.getBoundingClientRect().height * 2) / 5))  < clientHeight){
+      if(element.classList.contains('fadeIn')){
+        element.classList.add('fadeInAnimation');
+      }
+      else if(element.classList.contains('slideDown')){
+        element.classList.add('slideDownAnimation');
+      }
+      else if(element.classList.contains('slideDown900')){
+        element.classList.add('slideDown900Animation');
+      }
+      else if(element.classList.contains('slideUpAndLeft')){
+        element.classList.add('slideUpAndLeftAnimation');
+      }
+      else if(element.classList.contains('slideDownAndRight')){
+        element.classList.add('slideDownAndRightAnimation');
+      }
+      else if(element.classList.contains('slideFromLeft')){
+        element.classList.add('slideFromLeftAnimation');
+      }
+      else if(element.classList.contains('slideFromRight')){
+        element.classList.add('slideFromRightAnimation');
+      }
+      else if(element.classList.contains('slideFromRight900')){
+        element.classList.add('slideFromRight900Animation');
+      }
+      
     }
-    // else{
-    //   element.classList.remove('show_animation');
-    // }
-  });
+  })
 }

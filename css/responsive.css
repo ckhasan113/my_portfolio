@@ -138,11 +138,7 @@ I. Exceptional
     width: 55%;
   }
   #home_area::before {
-    width: 350px;
-    height: 394px;
-  }
-  .style_area {
-    display: none;
+    content: none;
   }
 }
 
