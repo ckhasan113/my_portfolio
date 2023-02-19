@@ -10,12 +10,15 @@
   --box_shadow: #dddddd;
   --button_box_shadow: rgba(0, 0, 0, 0.1);
   --active_heighlighter: #00ffb8;
+  --active_heighlighter_social: #00ffb8;
   --link_color: #1299F6;
   --text_color: #000000;
   --button_color: #203bff;
   --button_text_color: #FFFFFF;
   --liner_gradient_first: #0045ff;
   --liner_gradient_last: #bd29f2;
+  --liner_gradient_first_edge: '#0045ff';
+  --liner_gradient_last_edge: '#bd29f2';
 }
 
 body{
@@ -401,15 +404,15 @@ a.cbtn.cbtn1:hover::after {
   overflow: hidden;
 }
 .social_media_area li a::before {
-  background: #615cfd;
+  background: var(--logo_last_part);
   /* Old browsers */
-  background: -moz-linear-gradient(top, #615cfd 0%, #d465ef 100%);
+  background: -moz-linear-gradient(top, var(--liner_gradient_first) 0%, var(--liner_gradient_last) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #615cfd 0%, #d465ef 100%);
+  background: -webkit-linear-gradient(top, var(--liner_gradient_first) 0%, var(--liner_gradient_last) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+  background: linear-gradient(to bottom, var(--liner_gradient_first) 0%, var(--liner_gradient_last) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#615cfd', endColorstr='#d465ef',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--liner_gradient_first_edge), endColorstr=var(--liner_gradient_last_edge),GradientType=0 );
   /* IE6-9 */
   position: absolute;
   left: 0;
@@ -427,7 +430,7 @@ a.cbtn.cbtn1:hover::after {
   transform: scale(1);
 }
 .social_media_area li a:hover {
-  color: var(--link_color);
+  color: var(--active_heighlighter_social);
 }
 
 /*=======================================
