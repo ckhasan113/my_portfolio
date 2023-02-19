@@ -292,8 +292,7 @@ ul {
   height: auto;
 }
 #about_area h1 {
-  text-align: center;
-  margin: 10px 0;
+  margin-bottom: 25px;
   font-weight: 900;
 }
 /* #about_area .about_me_tbl{

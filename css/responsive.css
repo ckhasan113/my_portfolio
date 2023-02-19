@@ -163,6 +163,10 @@ I. Exceptional
   #home_area::before {
     height: 500px;
   }
+  #about_area h1 {
+    text-align: center;
+    margin: 10px 0;
+  }
   .button_wrapper{
     text-align: center;
   }
