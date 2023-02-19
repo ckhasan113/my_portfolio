@@ -62,6 +62,18 @@
     }
     handlePreloader();
 
+    /* Download_CV_Btn_Text_Animation */
+    $(function () {
+      $(".download_cv_btn_action").hover(function () {
+        var classes = $(".download_cv_btn_action").parent().attr("class");
+        $(".download_cv_btn_action").parent().attr("class", "animate");
+        var indicator = $(".download_cv_btn_action");
+        setTimeout(function () {
+          $(indicator).parent().addClass(classes);
+        }, 20);
+      });
+    });
+
   });
   
 
@@ -197,3 +209,4 @@ function checkelEments(){
     }
   })
 }
+

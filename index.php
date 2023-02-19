@@ -86,8 +86,12 @@ get_header();
 
         <p class="slideFromRight about_problem_solving animation_duration_6 animation_delay_08 animation_on_scroll">More than <span>250</span> problems have been solved on various online platforms</p>
 
-        <div class="button_wrapper">
-          <input class="slideFromRight900 download_cv_btn animation_duration_6 animation_delay_09 animation_on_scroll" type="button" value="Download CV">
+        <div class="button_wrapper slideFromRight download_cv_btn animation_duration_6 animation_delay_1 animation_on_scroll">
+          <div class="animate animation_effect">
+            <a href="#" class="overflow-hidden download_cv_btn_action cbtn cbtn1">
+              <span>D</span><span>o</span><span>w</span><span>n</span><span>l</span><span>o</span><span>a</span><span>d</span>&nbsp;<span>C</span><span>V</span><span>&nbsp;<i class="fas fa-arrow-right"></i></span>
+            </a>
+          </div>
         </div>
 
       </div>
