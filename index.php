@@ -72,7 +72,7 @@ get_header();
 
         <h1 class="slideFromRight animation_duration_5 animation_delay_01 animation_on_scroll">About Me</h1>
 
-        <p class="slideFromRight about_me_text animation_duration_5 animation_delay_02 animation_on_scroll" align="justify">Hi, I’m Rosie! I’m a front-end web developer specializing in WordPress. Before I started freelancing, I worked as a full-time developer for a marketing and web design company with hundreds of clients. This gave me experience building and maintaining a wide variety of websites, ranging from personal blogs to online stores to large corporate sites.</p>
+        <p class="slideFromRight about_me_text animation_duration_5 animation_delay_02 animation_on_scroll" align="justify">Hi, I’m Hasan! I’m a front-end web developer specializing in WordPress. As a web developer, I have extensive experience in building and maintaining responsive and user-friendly websites and web applications. I am proficient in HTML, CSS, Bootstrap, and PHP, and have developed custom WordPress themes and plugins to meet the unique needs of clients.</p>
 
         <table class="about_me_tbl">
           <tr class="slideFromRight animation_duration_6 animation_delay_03 animation_on_scroll"><th>Name:</th><td>Md Al Mehedi Hasan</td></tr>
