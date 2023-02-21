@@ -462,7 +462,7 @@ a.cbtn.cbtn1:hover::after {
 /*=======================================
  Resume Area Style
 ========================================*/
-
+/* sticky not work if justify-content and align-item use */
 .stickt_resume_menu {
   position: sticky;
   top: 100px;
