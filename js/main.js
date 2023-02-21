@@ -2,14 +2,23 @@
   "use strict";
 
   jQuery(document).ready(function ($) {
-    //Sticky Navigationbar
+
+    // Pre Loader
+    function handlePreloader() {
+      if ($(".preloader").length) {
+        $(".preloader").delay(200).fadeOut(500);
+      }
+    }
+    handlePreloader();
+
+    // Sticky Navigationbar
     function stickyNav() {
       window.onscroll = function () {
         myFunction();
       };
 
-      var navbar = document.getElementById("header_area");
-      var sticky = navbar.offsetTop;
+      const navbar = document.getElementById("header_area");
+      const sticky = navbar.offsetTop;
 
       function myFunction() {
         if (window.pageYOffset > sticky) {
@@ -21,8 +30,8 @@
     }
     stickyNav();
 
-    //Navigation menu active class
-    var menuLink = document.querySelectorAll(".menu_link");
+    // Navigation menu active class
+    const menuLink = document.querySelectorAll(".menu_link");
 
     menuLink.forEach(function (item) {
       item.addEventListener(
@@ -37,12 +46,12 @@
       );
     });
 
-    //Navigation menu toogle check
+    // Navigation menu toogle check
     $('#check').click(function(){
       $('#header_area .menu_area ul').toggleClass('show');
     });
 
-    //Click enent for any element from the body
+    // Click enent for any element from the body
     $('body').on('click', function (e) {
 
       // Navigation menu hide from anywhere click
@@ -54,36 +63,64 @@
       }
     });  
 
-    //Pre Loader
-    function handlePreloader() {
-      if ($(".preloader").length) {
-        $(".preloader").delay(200).fadeOut(500);
-      }
-    }
-    handlePreloader();
+    // On go to specific section add extra hight
+    const onePageClick = function() {
 
-    /* Download_CV_Btn_Text_Animation */
+      $(document).on('click', '#nav_menu_bar a[href^="#"]', function (event) {
+        event.preventDefault();
+  
+        const href = $.attr(this, 'href');
+  
+        $('html, body').animate({
+            scrollTop: $(href).offset().top - 80
+        }, 100, function() {
+          // window.location.hash = href;
+        });
+      });
+  
+    };
+  
+    onePageClick();
+
+    // Download_CV_Btn_Text_Animation
     $(function () {
       $(".download_cv_btn_action").hover(function () {
-        var classes = $(".download_cv_btn_action").parent().attr("class");
+        const classes = $(".download_cv_btn_action").parent().attr("class");
         $(".download_cv_btn_action").parent().attr("class", "animate");
-        var indicator = $(".download_cv_btn_action");
+        const indicator = $(".download_cv_btn_action");
         setTimeout(function () {
           $(indicator).parent().addClass(classes);
         }, 20);
       });
     });
 
+    // Resume menu current class
+    const resumeMenuLink = document.querySelectorAll(".resume_menu_link");
+
+
+    resumeMenuLink.forEach(function (item) {
+      item.addEventListener(
+        "click",
+        function (e) {
+          resumeMenuLink.forEach(function (item) {
+            item.classList.remove("current");
+          });
+          item.classList.add("current");
+        },
+        false
+      );
+    });
+
   });
   
 
-  //jquery load function start
+  // jquery load function start
   jQuery(window).on("load", function () {});
 
 })(jQuery);
 
 
-//TextAnimation
+// TextAnimation
 const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2") };
@@ -169,7 +206,7 @@ function animate() {
 animate();
 
 
-//Active_Animation_When_It_Is_In_View
+// Active_Animation_When_It_Is_In_View
 const elements = document.querySelectorAll('.animation_on_scroll');
 
 window.addEventListener('scroll', checkelEments);
@@ -210,3 +247,56 @@ function checkelEments(){
   })
 }
 
+// Active Menu on view
+const bodyOfElements = document.querySelectorAll(".menu_activate_on_view_body");
+const menuSections = document.querySelectorAll(".menu_active_on_view");
+const menuItems = document.querySelectorAll(".menu_link");
+
+let percentage = 0;
+
+function menu_heighlight(){
+  let active = 0;
+  const innerHeight = window.innerHeight / 100;
+  const elementHeight = innerHeight * percentage; 
+  const scrollHeight = window.scrollY + elementHeight;
+
+
+  // Check which part is in view
+  menuSections.forEach(function(section, sectionIndex, elementWithClass){
+    if(scrollHeight > section.offsetTop - window.innerHeight / 4){
+      active = sectionIndex;
+    }
+  });
+
+  // Active corresponding menu
+  menuItems.forEach(function(menuItem, menuIndex, elementWithClass){
+    if(active === menuIndex){
+      menuItem.classList.add('active');
+    }else{
+      menuItem.classList.remove('active');
+    }
+  });
+}
+
+function element_srcoll_percentage(element){
+  let rect = element.getBoundingClientRect();
+  if(Math.sign(rect.top) == -1){
+    let value = Math.abs(rect.top);
+    let inc = (rect.height - window.innerHeight)/100;
+    percentage = value /inc;
+    if(percentage>100){
+      percentage = 100;
+    }else{
+      percentage = 0;
+    }
+    return percentage;
+  }
+}
+
+document.onscroll = function(){
+  bodyOfElements.forEach(element => {
+    percentage = element_srcoll_percentage(element);
+    menu_heighlight();
+  });
+}
+document.onscroll();

@@ -36,17 +36,6 @@ ul {
   list-style: none;
 }
 
-.justify-content-center {
-  justify-content: center !important; }
-.align-items-center {
-  align-items: center !important; }
-.text-center {
-  text-align: center !important;
-}
-
-.m-0{
-  margin: 0;
-}
 .margin-top-80{
   margin-top: 80px;
 }
@@ -60,10 +49,6 @@ ul {
 #about_area input[type="button"] {
   background: var(--button_color);
   border: 1px solid var(--button_color);
-  
-  
-  
-  
 }
 
 /* Common_CBTN */
@@ -306,6 +291,7 @@ a.cbtn.cbtn1:hover::after {
   background-size: cover;
   background-position: center center;
   position: relative;
+  overflow: hidden;
   z-index: 0;
   max-width: 100%;
   height: 900px;
@@ -473,10 +459,65 @@ a.cbtn.cbtn1:hover::after {
   width: 100%;
 }
 
+/*=======================================
+ Resume Area Style
+========================================*/
 
-/*=====================
-    Pre Loader Area CSS
-======================*/
+/* testing css */
+.skip_hide_under_nav{
+  margin-top: 80px;
+}
+#resume_area{
+  background: #00ffb8;
+}
+#page_education{
+  background: #bd29f2;
+}
+.resume_nav{
+  background: #0045ff;
+  position: sticky;
+  top: 180px;
+}
+nav{
+  display: block;
+}
+/* testing css */
+
+.resume_nav ul{
+  color: var(--text_color);
+}
+.resume_nav ul li{
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.resume_nav ul li a{
+  color: var(--text_color);
+  transition: all 0.5s;
+}
+.resume_nav ul li a.current{
+  color: var(--active_heighlighter);
+  position: relative;
+  margin-left: 30px;
+  transition: all 0.5s;
+}
+.resume_nav ul li a.current::after {
+  position: absolute;
+  background: var(--active_heighlighter);
+  content: '';
+  height: 2px;
+  width: 20px;
+  left: -30px;
+  top: 50%;
+  transition: all 0.5s;
+}
+.resume_nav ul li:hover a{
+  color: var(--active_heighlighter);
+}
+
+    
+/*======================================
+ Pre Loader Area CSS
+=======================================*/
 
 /* Pre_Loader_CSS */
 .preloader {
