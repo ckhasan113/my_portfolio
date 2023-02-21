@@ -281,7 +281,7 @@ function checkelEments() {
         (element.getBoundingClientRect().height * 2) / 7 <
       clientHeight
     ) {
-      if (element.classList.contains("fadeIn")) {
+      if (element.classList.contains("fadeIn")) {-
         element.classList.add("fadeInAnimation");
       } else if (element.classList.contains("slideDown")) {
         element.classList.add("slideDownAnimation");
@@ -355,7 +355,7 @@ document.onscroll = function () {
 };
 // document.onscroll();
 
-// Active_Animation_When_It_Is_In_View
+// Make_Resume_Menu_Fixed_It_Is_In_View
 const resumeElement = document.querySelector(".resume_area_wrap");
 const resumeNav = document.querySelector(".resume_nav");
 
@@ -365,8 +365,9 @@ checkelResumeEments();
 
 function checkelResumeEments() {
   const bottom = resumeElement.getBoundingClientRect().bottom;
+  console.log(bottom);
 
-  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 220 >= 0) {
+  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 240 >= 0) {
     resumeNav.classList.add("stickt_resume_menu");
   } else {
     resumeNav.classList.remove("stickt_resume_menu");

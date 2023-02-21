@@ -126,10 +126,10 @@ get_header();
   <section id="resume_area" class="menu_active_on_view">
     <div class="resume_area_wrap">
       <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <div class="row">
           <div class="margin-top-80"></div>
 
-          <div class="col-md-3" id="resume_menu_bar">
+          <div class="col-lg-3" id="resume_menu_bar">
             <nav class="resume_nav">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
@@ -140,7 +140,62 @@ get_header();
             </nav>
           </div>
 
-          <div class="col-md-9">
+          <div class="col-lg-9">
+
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div id="page_education">
               <div class="page_education_wrap">

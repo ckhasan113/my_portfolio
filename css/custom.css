@@ -464,12 +464,11 @@ a.cbtn.cbtn1:hover::after {
 ========================================*/
 
 .stickt_resume_menu {
-  position: fixed;
+  position: sticky;
   top: 100px;
-  left: -18%;
 }
 nav.resume_nav {
-  margin: 10px 40%;
+  margin: 10px 35%;
 }
 .resume_nav ul{
   color: var(--text_color);
