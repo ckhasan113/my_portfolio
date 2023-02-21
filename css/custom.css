@@ -463,26 +463,14 @@ a.cbtn.cbtn1:hover::after {
  Resume Area Style
 ========================================*/
 
-/* testing css */
-.skip_hide_under_nav{
-  margin-top: 80px;
+.stickt_resume_menu {
+  position: fixed;
+  top: 100px;
+  left: -18%;
 }
-#resume_area{
-  background: #00ffb8;
+nav.resume_nav {
+  margin: 10px 40%;
 }
-#page_education{
-  background: #bd29f2;
-}
-.resume_nav{
-  background: #0045ff;
-  position: sticky;
-  top: 180px;
-}
-nav{
-  display: block;
-}
-/* testing css */
-
 .resume_nav ul{
   color: var(--text_color);
 }

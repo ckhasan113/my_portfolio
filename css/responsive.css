@@ -115,6 +115,11 @@ I. Exceptional
   #text1, #text2 {
     font-size: 20pt;
   }
+
+  .stickt_resume_menu{
+    position: static;
+  }
+  
 }
 
 /*-------------------------

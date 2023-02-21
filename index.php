@@ -141,22 +141,18 @@ get_header();
           </div>
 
           <div class="col-md-9">
-            <div class="container">
-              <div class="row">
-                <div id="page_education">
-                  <div class="page_education_wrap">
-                    <h2 class="heading">Education</h2>
 
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-
+            <div id="page_education">
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -164,7 +160,7 @@ get_header();
   </section>
   <!-- Resume Section Area End -->
 
-  <section class="menu_active_on_view" style="height: 900px;"></section>
+  <section class="menu_active_on_view" style="height: 900px; background: #f00;"></section>
 </div>
 
 

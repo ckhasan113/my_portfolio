@@ -314,24 +314,18 @@ document.onscroll();
 
 // Active_Animation_When_It_Is_In_View
 const resumeElement = document.querySelector('.resume_area_wrap');
+const resumeNav = document.querySelector('.resume_nav');
 
 window.addEventListener('scroll', checkelResumeEments);
 
 checkelResumeEments();
 
 function checkelResumeEments(){
-  const clientHeight = document.documentElement.clientHeight;
   const bottom = resumeElement.getBoundingClientRect().bottom;
-  const height = resumeElement.getBoundingClientRect().height;
-  // console.log(clientHeight);
-  // console.log(window.innerHeight);
-  // console.log(resumeElement.getBoundingClientRect().height);
-  const overValue = bottom + height * 2 + clientHeight;
-  console.log(overValue);
   
-  if(resumeElement.getBoundingClientRect().y - 20 <= 0 && (overValue + 150 >= 0 )){
-    resumeElement.classList.add('stickt_resume_menu');
+  if(resumeElement.getBoundingClientRect().y - 20 <= 0 && (bottom - 220 >= 0 )){
+    resumeNav.classList.add('stickt_resume_menu');
   }else{
-    resumeElement.classList.remove('stickt_resume_menu');
+    resumeNav.classList.remove('stickt_resume_menu');
   }
 }
