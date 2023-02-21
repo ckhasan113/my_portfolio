@@ -2,7 +2,6 @@
   "use strict";
 
   jQuery(document).ready(function ($) {
-
     // Pre Loader
     function handlePreloader() {
       if ($(".preloader").length) {
@@ -47,50 +46,62 @@
     });
 
     // Navigation menu toogle check
-    $('#check').click(function(){
-      $('#header_area .menu_area ul').toggleClass('show');
+    $("#check").click(function () {
+      $("#header_area .menu_area ul").toggleClass("show");
     });
 
     // Click enent for any element from the body
-    $('body').on('click', function (e) {
-
+    $("body").on("click", function (e) {
       // Navigation menu hide from anywhere click
-      if($(e.target).closest('#check').length || $(e.target).closest('#header_menu').length){
+      if (
+        $(e.target).closest("#check").length ||
+        $(e.target).closest("#header_menu").length
+      ) {
         return;
       }
-      if($('#header_area .menu_area ul').hasClass('show')){
-        $('#header_area .menu_area ul').toggleClass('show');
+      if ($("#header_area .menu_area ul").hasClass("show")) {
+        $("#header_area .menu_area ul").toggleClass("show");
       }
-    });  
+    });
 
     // On go to specific section add extra hight
-    const onePageClick = function() {
+    const onePageClick = function () {
+      $(document).on("click", '#nav_menu_bar a[href^="#"]', function (event) {
+        event.preventDefault();
 
-      $(document).on('click', '#nav_menu_bar a[href^="#"]', function (event) {
-        event.preventDefault();
-  
-        const href = $.attr(this, 'href');
-  
-        $('html, body').animate({
-            scrollTop: $(href).offset().top - 80
-        }, 100, function() {
-          // window.location.hash = href;
-        });
+        const href = $.attr(this, "href");
+
+        $("html, body").animate(
+          {
+            scrollTop: $(href).offset().top - 80,
+          },
+          100,
+          function () {
+            // window.location.hash = href;
+          }
+        );
       });
-      $(document).on('click', '#resume_menu_bar a[href^="#"]', function (event) {
-        event.preventDefault();
-  
-        const href = $.attr(this, 'href');
-  
-        $('html, body').animate({
-            scrollTop: $(href).offset().top - 120
-        }, 100, function() {
-          // window.location.hash = href;
-        });
-      });
-  
+      $(document).on(
+        "click",
+        '#resume_menu_bar a[href^="#"]',
+        function (event) {
+          event.preventDefault();
+
+          const href = $.attr(this, "href");
+
+          $("html, body").animate(
+            {
+              scrollTop: $(href).offset().top - 120,
+            },
+            100,
+            function () {
+              // window.location.hash = href;
+            }
+          );
+        }
+      );
     };
-  
+
     onePageClick();
 
     // Download_CV_Btn_Text_Animation
@@ -108,7 +119,6 @@
     // Resume menu current class
     const resumeMenuLink = document.querySelectorAll(".resume_menu_link");
 
-
     resumeMenuLink.forEach(function (item) {
       item.addEventListener(
         "click",
@@ -121,28 +131,67 @@
         false
       );
     });
-
   });
-  
+
+
+  // const elements = document.querySelectorAll(".animation_on_scroll");
+
+  // $(window).resize(function () {
+  //   if ($(window).width() <= 991) {
+  //     elements.forEach((element) => {
+  //       if (element.classList.contains("animation_delay_01")) {
+  //         element.classList.remove("animation_delay_01");
+  //       }else if (element.classList.contains("animation_delay_02")) {
+  //         element.classList.remove("animation_delay_02");
+  //       }else if (element.classList.contains("animation_delay_03")) {
+  //         element.classList.remove("animation_delay_03");
+  //       } else if (element.classList.contains("animation_delay_04")) {
+  //         element.classList.remove("animation_delay_04");
+  //       } else if (element.classList.contains("animation_delay_05")) {
+  //         element.classList.remove("animation_delay_05");
+  //       } else if (element.classList.contains("animation_delay_06")) {
+  //         element.classList.remove("animation_delay_06");
+  //       } else if (element.classList.contains("animation_delay_065")) {
+  //         element.classList.remove("animation_delay_065");
+  //       } else if (element.classList.contains("animation_delay_07")) {
+  //         element.classList.remove("animation_delay_07");
+  //       } else if (element.classList.contains("animation_delay_075")) {
+  //         element.classList.remove("animation_delay_075");
+  //       } else if (element.classList.contains("animation_delay_08")) {
+  //         element.classList.remove("animation_delay_08");
+  //       } else if (element.classList.contains("animation_delay_1")) {
+  //         element.classList.remove("animation_delay_1");
+  //       }
+  //     });
+  //   }
+  // });
+
 
   // jquery load function start
+  
   jQuery(window).on("load", function () {});
-
 })(jQuery);
-
 
 // TextAnimation
 const elts = {
   text1: document.getElementById("text1"),
-  text2: document.getElementById("text2") };
-
+  text2: document.getElementById("text2"),
+};
 
 // The strings to morph between. You can change these to anything you want!
-const texts = ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "WordPress Theme", "WordPress Plugin"];
+const texts = [
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "JavaScript",
+  "PHP",
+  "WordPress Theme",
+  "WordPress Plugin",
+];
 
 // Controls the speed of morphing.
 const morphTime = 1.5;
-const cooldownTime = 0.50;
+const cooldownTime = 0.5;
 
 let textIndex = texts.length - 1;
 let time = new Date();
@@ -216,46 +265,41 @@ function animate() {
 // Start the animation.
 animate();
 
-
 // Active_Animation_When_It_Is_In_View
-const elements = document.querySelectorAll('.animation_on_scroll');
+const elements = document.querySelectorAll(".animation_on_scroll");
 
-window.addEventListener('scroll', checkelEments);
+window.addEventListener("scroll", checkelEments);
 
 checkelEments();
 
-function checkelEments(){
+function checkelEments() {
   const clientHeight = document.documentElement.clientHeight;
 
-  elements.forEach(element => {
-    if((element.getBoundingClientRect().y + ((element.getBoundingClientRect().height * 2) / 7))  < clientHeight){
-      if(element.classList.contains('fadeIn')){
-        element.classList.add('fadeInAnimation');
+  elements.forEach((element) => {
+    if (
+      element.getBoundingClientRect().y +
+        (element.getBoundingClientRect().height * 2) / 7 <
+      clientHeight
+    ) {
+      if (element.classList.contains("fadeIn")) {
+        element.classList.add("fadeInAnimation");
+      } else if (element.classList.contains("slideDown")) {
+        element.classList.add("slideDownAnimation");
+      } else if (element.classList.contains("slideDown900")) {
+        element.classList.add("slideDown900Animation");
+      } else if (element.classList.contains("slideUpAndLeft")) {
+        element.classList.add("slideUpAndLeftAnimation");
+      } else if (element.classList.contains("slideDownAndRight")) {
+        element.classList.add("slideDownAndRightAnimation");
+      } else if (element.classList.contains("slideFromLeft")) {
+        element.classList.add("slideFromLeftAnimation");
+      } else if (element.classList.contains("slideFromRight")) {
+        element.classList.add("slideFromRightAnimation");
+      } else if (element.classList.contains("slideFromRight900")) {
+        element.classList.add("slideFromRight900Animation");
       }
-      else if(element.classList.contains('slideDown')){
-        element.classList.add('slideDownAnimation');
-      }
-      else if(element.classList.contains('slideDown900')){
-        element.classList.add('slideDown900Animation');
-      }
-      else if(element.classList.contains('slideUpAndLeft')){
-        element.classList.add('slideUpAndLeftAnimation');
-      }
-      else if(element.classList.contains('slideDownAndRight')){
-        element.classList.add('slideDownAndRightAnimation');
-      }
-      else if(element.classList.contains('slideFromLeft')){
-        element.classList.add('slideFromLeftAnimation');
-      }
-      else if(element.classList.contains('slideFromRight')){
-        element.classList.add('slideFromRightAnimation');
-      }
-      else if(element.classList.contains('slideFromRight900')){
-        element.classList.add('slideFromRight900Animation');
-      }
-      
     }
-  })
+  });
 }
 
 // Active Menu on view
@@ -265,67 +309,95 @@ const menuItems = document.querySelectorAll(".menu_link");
 
 let percentage = 0;
 
-function menu_heighlight(){
+function menu_heighlight() {
   let active = 0;
   const innerHeight = window.innerHeight / 100;
-  const elementHeight = innerHeight * percentage; 
+  const elementHeight = innerHeight * percentage;
   const scrollHeight = window.scrollY + elementHeight;
 
-
   // Check which part is in view
-  menuSections.forEach(function(section, sectionIndex, elementWithClass){
-    if(scrollHeight > section.offsetTop - window.innerHeight / 4){
+  menuSections.forEach(function (section, sectionIndex, elementWithClass) {
+    if (scrollHeight > section.offsetTop - window.innerHeight / 4) {
       active = sectionIndex;
     }
   });
 
   // Active corresponding menu
-  menuItems.forEach(function(menuItem, menuIndex, elementWithClass){
-    if(active === menuIndex){
-      menuItem.classList.add('active');
-    }else{
-      menuItem.classList.remove('active');
+  menuItems.forEach(function (menuItem, menuIndex, elementWithClass) {
+    if (active === menuIndex) {
+      menuItem.classList.add("active");
+    } else {
+      menuItem.classList.remove("active");
     }
   });
 }
 
-function element_srcoll_percentage(element){
+function element_srcoll_percentage(element) {
   let rect = element.getBoundingClientRect();
-  if(Math.sign(rect.top) == -1){
+  if (Math.sign(rect.top) == -1) {
     let value = Math.abs(rect.top);
-    let inc = (rect.height - window.innerHeight)/100;
-    percentage = value /inc;
-    if(percentage>100){
+    let inc = (rect.height - window.innerHeight) / 100;
+    percentage = value / inc;
+    if (percentage > 100) {
       percentage = 100;
-    }else{
+    } else {
       percentage = 0;
     }
     return percentage;
   }
 }
 
-document.onscroll = function(){
-  bodyOfElements.forEach(element => {
+document.onscroll = function () {
+  bodyOfElements.forEach((element) => {
     percentage = element_srcoll_percentage(element);
     menu_heighlight();
   });
-}
-document.onscroll();
+};
+// document.onscroll();
 
 // Active_Animation_When_It_Is_In_View
-const resumeElement = document.querySelector('.resume_area_wrap');
-const resumeNav = document.querySelector('.resume_nav');
+const resumeElement = document.querySelector(".resume_area_wrap");
+const resumeNav = document.querySelector(".resume_nav");
 
-window.addEventListener('scroll', checkelResumeEments);
+window.addEventListener("scroll", checkelResumeEments);
 
 checkelResumeEments();
 
-function checkelResumeEments(){
+function checkelResumeEments() {
   const bottom = resumeElement.getBoundingClientRect().bottom;
-  
-  if(resumeElement.getBoundingClientRect().y - 20 <= 0 && (bottom - 220 >= 0 )){
-    resumeNav.classList.add('stickt_resume_menu');
-  }else{
-    resumeNav.classList.remove('stickt_resume_menu');
+
+  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 220 >= 0) {
+    resumeNav.classList.add("stickt_resume_menu");
+  } else {
+    resumeNav.classList.remove("stickt_resume_menu");
   }
+}
+
+// Number Counter Animation
+const valueDisplays = document.querySelectorAll(".counter");
+
+window.addEventListener("scroll", counterValueOnDisplay);
+
+function counterValueOnDisplay() {
+  valueDisplays.forEach((valueDisplay) => {
+    let counterDone = valueDisplay.getAttribute("isCounterDone");
+
+    if (
+      counterDone != "done" &&
+      valueDisplay.getBoundingClientRect().y <= window.innerHeight - 20
+    ) {
+      let interval = parseInt(valueDisplay.getAttribute("data-delay"));
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      const duration = Math.floor(interval / endValue);
+      valueDisplay.setAttribute("isCounterDone", "done");
+      let counter = setInterval(() => {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      }, duration);
+    }
+  });
 }
