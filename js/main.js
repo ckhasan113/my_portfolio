@@ -333,16 +333,13 @@ function menu_heighlight() {
     elementWithClass
   ) {
     let extraValue = 0;
-    if(sectionIndex == resumeMenuSections.length -1 ){
+    if (sectionIndex == resumeMenuSections.length - 1) {
       extraValue = (section.getBoundingClientRect().height * 4) / 5;
-    }else{
+    } else {
       extraValue = (section.getBoundingClientRect().height * 6) / 15;
     }
-    
-    if (
-      scrollHeight >
-      section.offsetTop + extraValue
-    ) {
+
+    if (scrollHeight > section.offsetTop + extraValue) {
       resumeActive = sectionIndex;
     }
   });
