@@ -123,7 +123,7 @@ get_header();
   <!-- About Section End -->
 
   <!-- Resume Section Area Start -->
-  <section id="resume_area" class="menu_active_on_view">
+  <section id="resume_area" class="menu_active_on_view resume_menu_active_on_view">
     <div class="resume_area_wrap">
       <div class="container">
         <div class="row">
@@ -133,16 +133,16 @@ get_header();
             <nav class="resume_nav">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
-                <li><a class="resume_menu_link" href="javascript:void(0)">Experience</a></li>
-                <li><a class="resume_menu_link" href="javascript:void(0)">Skills</a></li>
-                <li><a class="resume_menu_link" href="javascript:void(0)">Certificate</a></li>
+                <li><a class="resume_menu_link" href="#page_experience">Experience</a></li>
+                <li><a class="resume_menu_link" href="#page_skills">Skills</a></li>
+                <li><a class="resume_menu_link" href="#page_certificates">Certificates</a></li>
               </ul>
             </nav>
           </div>
 
           <div class="col-lg-9">
 
-            <div id="page_education">
+            <div id="page_education" class="resume_menu_active_on_view">
               <div class="page_education_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
@@ -151,9 +151,64 @@ get_header();
                   </div>
                 </div>
               </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <div id="page_education">
+            <div id="page_experience" class="resume_menu_active_on_view">
+              <div class="page_education_wrap">
+                <h2 class="heading">Experience</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
               <div class="page_education_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
@@ -162,9 +217,55 @@ get_header();
                   </div>
                 </div>
               </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <div id="page_education">
+            <div id="page_skills" class="resume_menu_active_on_view">
+              <div class="page_education_wrap">
+                <h2 class="heading">Skills</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
               <div class="page_education_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
@@ -173,20 +274,55 @@ get_header();
                   </div>
                 </div>
               </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
-            <div id="page_education">
+            <div id="page_certificates" class="resume_menu_active_on_view">
               <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
+                <h2 class="heading">Certificates</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
                     <i class="fas fa-book"></i>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div id="page_education">
               <div class="page_education_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
@@ -195,9 +331,7 @@ get_header();
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div id="page_education">
               <div class="page_education_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
@@ -206,6 +340,34 @@ get_header();
                   </div>
                 </div>
               </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="page_education_wrap">
+                <h2 class="heading">Education</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
           </div>

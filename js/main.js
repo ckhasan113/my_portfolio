@@ -91,7 +91,7 @@
 
           $("html, body").animate(
             {
-              scrollTop: $(href).offset().top - 120,
+              scrollTop: $(href).offset().top - 80,
             },
             10,
             function () {
@@ -305,12 +305,15 @@ function checkelEments() {
 // Active_Menu_On_View
 const bodyOfElements = document.querySelectorAll(".menu_activate_on_view_body");
 const menuSections = document.querySelectorAll(".menu_active_on_view");
+const resumeMenuSections = document.querySelectorAll(".resume_menu_active_on_view");
 const menuItems = document.querySelectorAll(".menu_link");
+const resumeMenuItems = document.querySelectorAll(".resume_menu_link");
 
 let percentage = 0;
 
 function menu_heighlight() {
   let active = 0;
+  let resumeActive = 0;
   const innerHeight = window.innerHeight / 100;
   const elementHeight = innerHeight * percentage;
   const scrollHeight = window.scrollY + elementHeight;
@@ -322,6 +325,13 @@ function menu_heighlight() {
     }
   });
 
+  resumeMenuSections.forEach(function (section, sectionIndex, elementWithClass) {
+   
+    if (scrollHeight > section.offsetTop + (section.getBoundingClientRect().height * 4)/5) {
+      resumeActive = sectionIndex;
+    }
+  });
+
   // Active_Corresponding_Menu
   menuItems.forEach(function (menuItem, menuIndex, elementWithClass) {
     if (active === menuIndex) {
@@ -330,6 +340,15 @@ function menu_heighlight() {
       menuItem.classList.remove("active");
     }
   });
+
+  resumeMenuItems.forEach(function (menuItem, menuIndex, elementWithClass) {
+    if (resumeActive === menuIndex) {
+      menuItem.classList.add("current");
+    } else {
+      menuItem.classList.remove("current");
+    }
+  });
+
 }
 
 function element_srcoll_percentage(element) {
@@ -365,9 +384,8 @@ checkelResumeEments();
 
 function checkelResumeEments() {
   const bottom = resumeElement.getBoundingClientRect().bottom;
-  console.log(bottom);
 
-  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 240 >= 0) {
+  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 180 >= 0) {
     resumeNav.classList.add("stickt_resume_menu");
   } else {
     resumeNav.classList.remove("stickt_resume_menu");
