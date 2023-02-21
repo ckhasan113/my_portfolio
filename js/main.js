@@ -75,7 +75,7 @@
           {
             scrollTop: $(href).offset().top - 80,
           },
-          100,
+          10,
           function () {
             // window.location.hash = href;
           }
@@ -93,7 +93,7 @@
             {
               scrollTop: $(href).offset().top - 120,
             },
-            100,
+            10,
             function () {
               // window.location.hash = href;
             }
@@ -302,7 +302,7 @@ function checkelEments() {
   });
 }
 
-// Active Menu on view
+// Active_Menu_On_View
 const bodyOfElements = document.querySelectorAll(".menu_activate_on_view_body");
 const menuSections = document.querySelectorAll(".menu_active_on_view");
 const menuItems = document.querySelectorAll(".menu_link");
@@ -315,14 +315,14 @@ function menu_heighlight() {
   const elementHeight = innerHeight * percentage;
   const scrollHeight = window.scrollY + elementHeight;
 
-  // Check which part is in view
+  // Check_Which_Part_Is_In_View
   menuSections.forEach(function (section, sectionIndex, elementWithClass) {
     if (scrollHeight > section.offsetTop - window.innerHeight / 4) {
       active = sectionIndex;
     }
   });
 
-  // Active corresponding menu
+  // Active_Corresponding_Menu
   menuItems.forEach(function (menuItem, menuIndex, elementWithClass) {
     if (active === menuIndex) {
       menuItem.classList.add("active");
@@ -355,7 +355,7 @@ document.onscroll = function () {
 };
 // document.onscroll();
 
-// Make_Resume_Menu_Fixed_It_Is_In_View
+// Make_Resume_Menu_Sticky_It_Is_In_View
 const resumeElement = document.querySelector(".resume_area_wrap");
 const resumeNav = document.querySelector(".resume_nav");
 
