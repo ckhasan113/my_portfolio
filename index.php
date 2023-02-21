@@ -198,7 +198,7 @@ get_header();
 
               <div class="resume_page_wrap">
 
-                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Experience</h2>
+                <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Experience</h2>
 
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -269,7 +269,7 @@ get_header();
 
               <div class="resume_page_wrap">
 
-                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Skills</h2>
+                <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Skills</h2>
 
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                   <!-- <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -343,7 +343,7 @@ get_header();
 
                 <div class="resume_page_wrap">
 
-                  <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Certificates</h2>
+                  <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_01">Certificates</h2>
 
                   <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                     <div class="resume_icon d-flex justify-content-center align-items-center">
