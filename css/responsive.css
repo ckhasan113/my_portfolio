@@ -57,7 +57,9 @@ I. Exceptional
   Small_Laptop_Layout
 ---------------------*/
 @media only screen and (max-width: 1200px) {
-  
+  nav.resume_nav {
+    margin-right: 40px;
+  }
 }
 
 /*-----------------------------
@@ -119,13 +121,23 @@ I. Exceptional
   .stickt_resume_menu{
     position: static;
   }
+
+  nav.resume_nav {
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-bottom: 40px;
+  }
+  .resume_page_wrap {
+    border: 0;
+    padding-left: 0px;
+  }
   
 }
 
 /*-------------------------
     Mobile_Landscap_Layout
 --------------------------*/
-@media only screen and (max-width: 990px) and (min-width: 481px) {
+@media only screen and (max-width: 990px) and (min-width: 501px) {
   /* Mobile_Land_Header_Area */
   #header_area .menu_area ul {
     width: 35%;
@@ -137,7 +149,7 @@ I. Exceptional
 /*------------------
     Mobile_Layout
 -------------------*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   #header_area .menu_area ul {
     width: 55%;
   }
@@ -146,6 +158,10 @@ I. Exceptional
   }
   #home_area::before {
     content: none;
+  }
+  nav.resume_nav {
+    margin-left: 30%;
+    margin-right: 20%;
   }
 }
 

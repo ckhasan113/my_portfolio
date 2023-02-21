@@ -8,11 +8,13 @@
   --logo_first_leter_background: #3E64FF;
   --logo_last_part: #5a41cc;
   --box_shadow: #dddddd;
-  --button_box_shadow: rgba(0, 0, 0, 0.1);
+  --border_box_shadow: rgba(0, 0, 0, 0.1);
   --active_heighlighter: #00ffb8;
+  --resume_active_heighlighter: #3e64ff;
   --active_heighlighter_social: #00ffb8;
   --link_color: #1299F6;
   --text_color: #000000;
+  --text_color_light: #999999;
   --button_color: #203bff;
   --button_text_color: #FFFFFF;
   --liner_gradient_first: #0045ff;
@@ -54,7 +56,7 @@ ul {
 /* Common_CBTN */
 a.cbtn {
   border-radius: 5px;
-  box-shadow: 0 8px 16px var(--button_box_shadow);
+  box-shadow: 0 8px 16px var(--border_box_shadow);
   display: inline-block;
   letter-spacing: 1px;
   text-align: center;
@@ -199,7 +201,7 @@ a.cbtn.cbtn1:hover::after {
   z-index: 99;
   position: absolute;
   padding: 15px 0;
-  box-shadow: 0px 0px .53px 0px var(--box_shadow);
+  /* box-shadow: 0px 0px .53px 0px var(--box_shadow); */
   transition: all 2s;
 }
 #header_area.sticky {
@@ -468,8 +470,9 @@ a.cbtn.cbtn1:hover::after {
   top: 160px;
 }
 nav.resume_nav {
-  margin-left: 10%;
-  margin-right: 25%;
+  margin-left: 10px;
+  margin-right: 70px;
+  margin-bottom: 10px;
   padding: 20px 30px 5px;
   border-radius: 20px;
   box-shadow: -10px 2px 50px -20px;
@@ -486,14 +489,14 @@ nav.resume_nav {
   transition: all 1s;
 }
 .resume_nav ul li a.current{
-  color: var(--active_heighlighter);
+  color: var(--resume_active_heighlighter);
   position: relative;
   margin-left: 30px;
   transition: all 1s;
 }
 .resume_nav ul li a.current::after {
   position: absolute;
-  background: var(--active_heighlighter);
+  background: var(--resume_active_heighlighter);
   content: '';
   height: 2px;
   width: 20px;
@@ -503,9 +506,75 @@ nav.resume_nav {
   animation: fadeIn 1s linear 0.2s 1 normal both;
 }
 .resume_nav ul li:hover a{
-  color: var(--active_heighlighter);
+  color: var(--resume_active_heighlighter);
 }
 
+.resume_menu_items{
+  margin-top: 50px;
+}
+.resume_menu_items:first-child{
+  margin-top: 0px;
+}
+
+.resume_page_wrap {
+  border-left: 2px solid var(--border_box_shadow);
+  border-left-style: dotted;
+  padding-left: 70px;
+}
+.resume_page_wrap h2.heading {
+  font-weight: 800;
+  font-size: 30px;
+  color: var(--resume_active_heighlighter);
+}
+.resume_wrap{
+  width: 100%;
+  border-bottom: 1px solid var(--border_box_shadow);
+  margin-top: 30px;
+}
+.resume_icon{
+  background-color: var(--resume_active_heighlighter);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.resume_icon i{
+  filter: invert(1);
+  font-size: 25px;
+}
+
+.resume_text {
+  padding-top: 5px;
+}
+.resume_text .date {
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--resume_active_heighlighter);
+}
+.resume_text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--text_color);
+  margin: 0;
+}
+.resume_text .name {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text_color);
+}
+.resume_text .address {
+  color: var(--text_color_light);
+  font-size: 14px;
+}
+.resume_text .address span{
+  font-size: 12px;
+}
+.resume_text .outcomes {
+  color: var(--text_color_light);
+  margin-top: 15px;
+}
+.resume_text li.outcome{
+  color: var(--text_color_light);
+}
     
 /*======================================
  Pre Loader Area CSS
@@ -843,6 +912,9 @@ nav.resume_nav {
 }
 
 /* Animation_duration */
+.animation_duration_2{
+  animation-duration: 2s;
+}
 .animation_duration_3{
   animation-duration: 3s;
 }
@@ -921,6 +993,26 @@ nav.resume_nav {
   }
 }
 
+.slideUp{
+  opacity: 0;
+}
+.slideUpAnimation{
+  animation-name: slideUp;
+  animation-fill-mode: both;
+}
+@keyframes slideUp {
+  0%
+  {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  
+  }
+}
+
 .slideUpAndLeft{
   opacity: 0;
 }
@@ -935,7 +1027,7 @@ nav.resume_nav {
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    transform: translate(0);
     opacity: 1;
   
   }

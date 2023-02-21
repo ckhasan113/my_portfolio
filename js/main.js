@@ -287,7 +287,9 @@ function checkelEments() {
         element.classList.add("slideDownAnimation");
       } else if (element.classList.contains("slideDown900")) {
         element.classList.add("slideDown900Animation");
-      } else if (element.classList.contains("slideUpAndLeft")) {
+      } else if (element.classList.contains("slideUp")) {
+        element.classList.add("slideUpAnimation");
+      }else if (element.classList.contains("slideUpAndLeft")) {
         element.classList.add("slideUpAndLeftAnimation");
       } else if (element.classList.contains("slideDownAndRight")) {
         element.classList.add("slideDownAndRightAnimation");

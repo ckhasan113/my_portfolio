@@ -72,7 +72,7 @@ get_header();
 
             <h1 class="slideFromRight animation_duration_5 animation_delay_01 animation_on_scroll">About Me</h1>
 
-            <p class="slideFromRight about_me_text animation_duration_5 animation_delay_02 animation_on_scroll" align="justify">Hi, I’m Hasan! I’m a front-end web developer specializing in WordPress. As a web developer, I have extensive experience in building and maintaining responsive and user-friendly websites and web applications. I am proficient in HTML, CSS, Bootstrap, and PHP, and have developed custom WordPress themes and plugins to meet the unique needs of clients.</p>
+            <p class="slideFromRight about_me_text animation_duration_5 animation_delay_02 animation_on_scroll" align="justify">Hi, I&#39;m Hasan! I&#39;m a front-end web developer specializing in WordPress. As a web developer, I have extensive experience in building and maintaining responsive and user-friendly websites as well as web applications. I am proficient in HTML, CSS, Bootstrap, PHP, and have developed custom WordPress themes and plugins to meet the unique needs of clients.</p>
 
             <table class="about_me_tbl">
               <tr class="slideFromRight animation_duration_6 animation_delay_03 animation_on_scroll">
@@ -129,8 +129,9 @@ get_header();
         <div class="row">
           <div class="margin-top-80"></div>
 
+          <!-- Resume Nav Menu -->
           <div class="col-lg-3" id="resume_menu_bar">
-            <nav class="resume_nav">
+            <nav class="resume_nav animation_on_scroll slideFromLeft animation_duration_2 animation_delay_01">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
                 <li><a class="resume_menu_link" href="#page_experience">Experience</a></li>
@@ -140,10 +141,141 @@ get_header();
             </nav>
           </div>
 
+          <!-- Resume Menu Items -->
           <div class="col-lg-9">
 
-            <div id="page_education" class="resume_menu_active_on_view">
-              <div class="page_education_wrap">
+            <!-- Education_Area -->
+            <div id="page_education" class="resume_menu_active_on_view resume_menu_items">
+
+              <div class="resume_page_wrap">
+                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Education</h2>
+
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">May, 2016</span> &#8211; <span class="end_date">December, 2019</span></p>
+                    <h3 class="position">B.Sc (Hons) in Computer Science & Engineering (CSE)</h3>
+                    <span class="name">Daffodil International University</span>
+                    <p class="address m-0">102 Sukrabad Rd, Dhaka 1207 <span class="extra">(Old Campus)</span></p>
+                    <p class="outcomes">3.66 out of 4.00</p>
+                  </div>
+                </div>
+
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">2010</span> &#8211; <span class="end_date">2012</span></p>
+                    <h3 class="position">Higher Secondary School Certificate (HSC)</h3>
+                    <span class="name">Nazipur Govt. College</span>
+                    <p class="address m-0">Nazipur, Patnitala, Naogaon</p>
+                    <p class="outcomes">5.00 out of 5.00</p>
+                  </div>
+                </div>
+
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">2005</span> &#8211; <span class="end_date">2010</span></p>
+                    <h3 class="position">Secondary School Certificate (SSC)</h3>
+                    <span class="name">Nazipur High School</span>
+                    <p class="address m-0">Nazipur, Patnitala, Naogaon</p>
+                    <p class="outcomes">5.00 out of 5.00</p>
+                  </div>
+                </div>
+                
+              </div>
+
+            </div>
+
+            <!-- Experience_Area -->
+            <div id="page_experience" class="resume_menu_active_on_view resume_menu_items">
+
+              <div class="resume_page_wrap">
+
+                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Experience</h2>
+                
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-laptop"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">June, 2019</span> &#8211; <span class="end_date">February, 2021</span></p>
+                    <h3 class="position">Android Developer</h3>
+                    <span class="name">aaalooo Healthcare Limited</span>
+                    <p class="address m-0">Gulshan Garace, House # 8, Flat # 6B, Gulshan - 1</p>
+                    <p class="outcomes">
+                      <ol>
+                        <li class="outcome">Creating mobile applications.</li>
+                        <li class="outcome">Debugging problems.</li>
+                        <li class="outcome">Helping to create, update, and debug API.</li>
+                        <li class="outcome">Publishing mobile app.</li>
+                      </ol>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-laptop"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">March, 2021</span> &#8211; <span class="end_date">Jully, 2022</span></p>
+                    <h3 class="position">IT &#38; Admin Manager</h3>
+                    <span class="name">Sobuj Group of Companies</span>
+                    <p class="address m-0">Nazipur, Patnitala, Naogaon</p>
+                    <p class="outcomes">
+                      <ol>
+                        <li class="outcome">IT consultant.</li>
+                        <li class="outcome">HR support.</li>
+                        <li class="outcome">Client management.</li>
+                        <li class="outcome">Managing service center.</li>
+                      </ol>
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-laptop"></i>
+                  </div>
+                  <div class="resume_text ps-4">
+                    <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
+                    <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
+                    <span class="name">WeTech Digital</span>
+                    <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
+                    <p class="outcomes">
+                      <ol>
+                        <li class="outcome">Communication with project team members, and clients.</li>
+                        <li class="outcome">Resource allocation.</li>
+                        <li class="outcome">Quality control.</li>
+                        <li class="outcome">Technical support for software applications.</li>
+                      </ol>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Skills_Area -->
+            <div id="page_skills" class="resume_menu_active_on_view resume_menu_items">
+              <div class="resume_page_wrap">
+                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Skills</h2>
+                <div class="resume_wrap">
+                  <div class="resume_icon">
+                    <i class="fas fa-book"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -152,7 +284,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -161,7 +293,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -170,7 +302,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -179,16 +311,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -199,9 +322,13 @@ get_header();
 
             </div>
 
-            <div id="page_experience" class="resume_menu_active_on_view">
-              <div class="page_education_wrap">
-                <h2 class="heading">Experience</h2>
+            <!-- Certificate_Area -->
+            <div id="page_certificates" class="resume_menu_active_on_view resume_menu_items">
+
+              <div class="resume_page_wrap">
+
+                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Certificates</h2>
+
                 <div class="resume_wrap">
                   <div class="resume_icon">
                     <i class="fas fa-book"></i>
@@ -209,7 +336,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -218,7 +345,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -227,7 +354,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -236,7 +363,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
@@ -245,121 +372,7 @@ get_header();
                 </div>
               </div>
 
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div id="page_skills" class="resume_menu_active_on_view">
-              <div class="page_education_wrap">
-                <h2 class="heading">Skills</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div id="page_certificates" class="resume_menu_active_on_view">
-              <div class="page_education_wrap">
-                <h2 class="heading">Certificates</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="page_education_wrap">
+              <div class="resume_page_wrap">
                 <h2 class="heading">Education</h2>
                 <div class="resume_wrap">
                   <div class="resume_icon">
