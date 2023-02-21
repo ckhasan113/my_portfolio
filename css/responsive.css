@@ -37,20 +37,18 @@ I. Exceptional
 ==============================================
 */
 :root {
-  --nav_background: #944AEB;
+  --nav_background: #944aeb;
 }
 
 /*------------------
   Wide_Screen_Layout
 -------------------*/
 @media only screen and (max-width: 1700px) {
-  
 }
 /*--------------------
   Wide_Laptop_Layout
 ---------------------*/
 @media only screen and (max-width: 1450px) {
-  
 }
 
 /*--------------------
@@ -66,7 +64,6 @@ I. Exceptional
   Only_Tab_Landscope_Layout
 -----------------------------*/
 @media only screen and (max-width: 1350px) and (min-width: 992px) {
-  
 }
 
 /*------------------
@@ -83,7 +80,7 @@ I. Exceptional
   }
 
   /* Tab_Header_Menu_Area */
-  #check{
+  #check {
     display: block;
   }
   #header_area .menu_area ul {
@@ -102,7 +99,7 @@ I. Exceptional
   #header_area .menu_area ul li a {
     font-size: 20px;
   }
-  #header_area .menu_area ul.show{
+  #header_area .menu_area ul.show {
     left: 0;
   }
 
@@ -114,11 +111,12 @@ I. Exceptional
   .social_media_area {
     display: none;
   }
-  #text1, #text2 {
+  #text1,
+  #text2 {
     font-size: 20pt;
   }
 
-  .stickt_resume_menu{
+  .stickt_resume_menu {
     position: static;
   }
 
@@ -131,7 +129,6 @@ I. Exceptional
     border: 0;
     padding-left: 0px;
   }
-  
 }
 
 /*-------------------------
@@ -143,7 +140,6 @@ I. Exceptional
     width: 35%;
   }
   /* Mobile_Land_Home_Area */
-  
 }
 
 /*------------------
@@ -169,7 +165,7 @@ I. Exceptional
    Small_Mobile_Layout
 -------------------------------*/
 @media only screen and (max-width: 360px) {
-  .style_area{
+  .style_area {
     display: none;
   }
 }
@@ -177,7 +173,7 @@ I. Exceptional
 /*====================
     Exceptional
 =====================*/
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   #header_area .menu_area ul {
     width: 50%;
   }
@@ -188,7 +184,7 @@ I. Exceptional
     text-align: center;
     margin: 10px 0;
   }
-  .button_wrapper{
+  .button_wrapper {
     text-align: center;
   }
 }

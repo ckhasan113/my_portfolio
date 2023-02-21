@@ -133,7 +133,6 @@
     });
   });
 
-
   // const elements = document.querySelectorAll(".animation_on_scroll");
 
   // $(window).resize(function () {
@@ -166,9 +165,8 @@
   //   }
   // });
 
-
   // jquery load function start
-  
+
   jQuery(window).on("load", function () {});
 })(jQuery);
 
@@ -281,15 +279,15 @@ function checkelEments() {
         (element.getBoundingClientRect().height * 2) / 7 <
       clientHeight
     ) {
-      if (element.classList.contains("fadeIn")) {-
-        element.classList.add("fadeInAnimation");
+      if (element.classList.contains("fadeIn")) {
+        -element.classList.add("fadeInAnimation");
       } else if (element.classList.contains("slideDown")) {
         element.classList.add("slideDownAnimation");
       } else if (element.classList.contains("slideDown900")) {
         element.classList.add("slideDown900Animation");
       } else if (element.classList.contains("slideUp")) {
         element.classList.add("slideUpAnimation");
-      }else if (element.classList.contains("slideUpAndLeft")) {
+      } else if (element.classList.contains("slideUpAndLeft")) {
         element.classList.add("slideUpAndLeftAnimation");
       } else if (element.classList.contains("slideDownAndRight")) {
         element.classList.add("slideDownAndRightAnimation");
@@ -307,7 +305,9 @@ function checkelEments() {
 // Active_Menu_On_View
 const bodyOfElements = document.querySelectorAll(".menu_activate_on_view_body");
 const menuSections = document.querySelectorAll(".menu_active_on_view");
-const resumeMenuSections = document.querySelectorAll(".resume_menu_active_on_view");
+const resumeMenuSections = document.querySelectorAll(
+  ".resume_menu_active_on_view"
+);
 const menuItems = document.querySelectorAll(".menu_link");
 const resumeMenuItems = document.querySelectorAll(".resume_menu_link");
 
@@ -327,9 +327,15 @@ function menu_heighlight() {
     }
   });
 
-  resumeMenuSections.forEach(function (section, sectionIndex, elementWithClass) {
-   
-    if (scrollHeight > section.offsetTop + (section.getBoundingClientRect().height * 4)/5) {
+  resumeMenuSections.forEach(function (
+    section,
+    sectionIndex,
+    elementWithClass
+  ) {
+    if (
+      scrollHeight >
+      section.offsetTop + (section.getBoundingClientRect().height * 2) / 5
+    ) {
       resumeActive = sectionIndex;
     }
   });
@@ -350,7 +356,6 @@ function menu_heighlight() {
       menuItem.classList.remove("current");
     }
   });
-
 }
 
 function element_srcoll_percentage(element) {

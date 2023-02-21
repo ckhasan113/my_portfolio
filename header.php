@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file hase header part
  */
@@ -6,20 +7,22 @@
 
 <!DOCTYPE html>
 <html lang="<?php language_attributes(); ?>" class="no-js">
+
 <head>
-  <meta charset="<?php bloginfo( 'charset' ) ?>">
+  <meta charset="<?php bloginfo('charset') ?>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <?php wp_head( ) ?>
+  <?php wp_head() ?>
 
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body <?php body_class() ?>>
-  
-<header id="header_area" class="<?php echo get_theme_mod('mh_menu_position'); ?>">
+
+  <header id="header_area" class="<?php echo get_theme_mod('mh_menu_position'); ?>">
     <div class="container">
       <div class="header_area_wraper">
         <label id="check" class="checkBtn">
@@ -47,10 +50,10 @@
 
   <!-- Pre Loader -->
   <div class="preloader">
-      <div class="pre">
-        <div class="dash uno"></div>
-        <div class="dash dos"></div>
-        <div class="dash tres"></div>
-        <div class="dash cuatro"></div>
-      </div>
+    <div class="pre">
+      <div class="dash uno"></div>
+      <div class="dash dos"></div>
+      <div class="dash tres"></div>
+      <div class="dash cuatro"></div>
     </div>
+  </div>

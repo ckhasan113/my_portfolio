@@ -188,7 +188,7 @@ get_header();
                     <p class="outcomes">5.00 out of 5.00</p>
                   </div>
                 </div>
-                
+
               </div>
 
             </div>
@@ -199,7 +199,7 @@ get_header();
               <div class="resume_page_wrap">
 
                 <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Experience</h2>
-                
+
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
@@ -210,16 +210,16 @@ get_header();
                     <span class="name">aaalooo Healthcare Limited</span>
                     <p class="address m-0">Gulshan Garace, House # 8, Flat # 6B, Gulshan - 1</p>
                     <p class="outcomes">
-                      <ol>
-                        <li class="outcome">Creating mobile applications.</li>
-                        <li class="outcome">Debugging problems.</li>
-                        <li class="outcome">Helping to create, update, and debug API.</li>
-                        <li class="outcome">Publishing mobile app.</li>
-                      </ol>
+                    <ol>
+                      <li class="outcome">Creating mobile applications.</li>
+                      <li class="outcome">Debugging problems.</li>
+                      <li class="outcome">Helping to create, update, and debug API.</li>
+                      <li class="outcome">Publishing mobile app.</li>
+                    </ol>
                     </p>
                   </div>
                 </div>
-                
+
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
@@ -230,16 +230,16 @@ get_header();
                     <span class="name">Sobuj Group of Companies</span>
                     <p class="address m-0">Nazipur, Patnitala, Naogaon</p>
                     <p class="outcomes">
-                      <ol>
-                        <li class="outcome">IT consultant.</li>
-                        <li class="outcome">HR support.</li>
-                        <li class="outcome">Client management.</li>
-                        <li class="outcome">Managing service center.</li>
-                      </ol>
+                    <ol>
+                      <li class="outcome">IT consultant.</li>
+                      <li class="outcome">HR support.</li>
+                      <li class="outcome">Client management.</li>
+                      <li class="outcome">Managing service center.</li>
+                    </ol>
                     </p>
                   </div>
                 </div>
-                
+
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
@@ -250,12 +250,12 @@ get_header();
                     <span class="name">WeTech Digital</span>
                     <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
                     <p class="outcomes">
-                      <ol>
-                        <li class="outcome">Communication with project team members, and clients.</li>
-                        <li class="outcome">Resource allocation.</li>
-                        <li class="outcome">Quality control.</li>
-                        <li class="outcome">Technical support for software applications.</li>
-                      </ol>
+                    <ol>
+                      <li class="outcome">Communication with project team members, and clients.</li>
+                      <li class="outcome">Resource allocation.</li>
+                      <li class="outcome">Quality control.</li>
+                      <li class="outcome">Technical support for software applications.</li>
+                    </ol>
                     </p>
                   </div>
                 </div>
@@ -281,141 +281,141 @@ get_header();
                     <span class="name">WeTech Digital</span>
                     <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
                     <p class="outcomes">
+                    <ol>
+                      <li class="outcome">Communication with project team members, and clients.</li>
+                      <li class="outcome">Resource allocation.</li>
+                      <li class="outcome">Quality control.</li>
+                      <li class="outcome">Technical support for software applications.</li>
+                    </ol>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="resume_page_wrap">
+                  <h2 class="heading">Education</h2>
+                  <div class="resume_wrap">
+                    <div class="resume_icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="resume_page_wrap">
+                  <h2 class="heading">Education</h2>
+                  <div class="resume_wrap">
+                    <div class="resume_icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="resume_page_wrap">
+                  <h2 class="heading">Education</h2>
+                  <div class="resume_wrap">
+                    <div class="resume_icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="resume_page_wrap">
+                  <h2 class="heading">Education</h2>
+                  <div class="resume_wrap">
+                    <div class="resume_icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="resume_page_wrap">
+                  <h2 class="heading">Education</h2>
+                  <div class="resume_wrap">
+                    <div class="resume_icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Certificate_Area -->
+              <div id="page_certificates" class="resume_menu_active_on_view resume_menu_items">
+
+                <div class="resume_page_wrap">
+
+                  <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Certificates</h2>
+
+                  <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                    <div class="resume_icon d-flex justify-content-center align-items-center">
+                      <i class="fas fa-award"></i>
+                    </div>
+                    <div class="resume_text ps-4">
+                      <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
+                      <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
+                      <span class="name">WeTech Digital</span>
+                      <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
+                      <p class="outcomes">
                       <ol>
                         <li class="outcome">Communication with project team members, and clients.</li>
                         <li class="outcome">Resource allocation.</li>
                         <li class="outcome">Quality control.</li>
                         <li class="outcome">Technical support for software applications.</li>
                       </ol>
-                    </p>
+                      </p>
+                    </div>
                   </div>
+
+                  <div class="resume_page_wrap">
+                    <h2 class="heading">Education</h2>
+                    <div class="resume_wrap">
+                      <div class="resume_icon">
+                        <i class="fas fa-book"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resume_page_wrap">
+                    <h2 class="heading">Education</h2>
+                    <div class="resume_wrap">
+                      <div class="resume_icon">
+                        <i class="fas fa-book"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resume_page_wrap">
+                    <h2 class="heading">Education</h2>
+                    <div class="resume_wrap">
+                      <div class="resume_icon">
+                        <i class="fas fa-book"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resume_page_wrap">
+                    <h2 class="heading">Education</h2>
+                    <div class="resume_wrap">
+                      <div class="resume_icon">
+                        <i class="fas fa-book"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="resume_page_wrap">
+                    <h2 class="heading">Education</h2>
+                    <div class="resume_wrap">
+                      <div class="resume_icon">
+                        <i class="fas fa-book"></i>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
 
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
               </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
             </div>
-
-            <!-- Certificate_Area -->
-            <div id="page_certificates" class="resume_menu_active_on_view resume_menu_items">
-
-              <div class="resume_page_wrap">
-
-                <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Certificates</h2>
-
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-                  <div class="resume_icon d-flex justify-content-center align-items-center">
-                    <i class="fas fa-award"></i>
-                  </div>
-                  <div class="resume_text ps-4">
-                    <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
-                    <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-                    <span class="name">WeTech Digital</span>
-                    <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-                    <p class="outcomes">
-                      <ol>
-                        <li class="outcome">Communication with project team members, and clients.</li>
-                        <li class="outcome">Resource allocation.</li>
-                        <li class="outcome">Quality control.</li>
-                        <li class="outcome">Technical support for software applications.</li>
-                      </ol>
-                    </p>
-                  </div>
-                </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="resume_page_wrap">
-                <h2 class="heading">Education</h2>
-                <div class="resume_wrap">
-                  <div class="resume_icon">
-                    <i class="fas fa-book"></i>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
           </div>
         </div>
-      </div>
-    </div>
   </section>
   <!-- Resume Section Area End -->
 
