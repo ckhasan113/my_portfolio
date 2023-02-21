@@ -60,7 +60,7 @@ get_header();
   <!-- Home Section End -->
 
   <!-- About Section Start -->
-  <section id="about_area" class="menu_active_on_view">
+  <section id="about_area" class="menu_active_on_view mt-5">
     <div class="about_area_wrap">
       <div class="container">
         <div class="row justify-content-center align-items-center">

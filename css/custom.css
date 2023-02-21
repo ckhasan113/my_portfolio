@@ -465,10 +465,14 @@ a.cbtn.cbtn1:hover::after {
 /* sticky not work if justify-content and align-item use */
 .stickt_resume_menu {
   position: sticky;
-  top: 100px;
+  top: 160px;
 }
 nav.resume_nav {
-  margin: 10px 35%;
+  margin-left: 10%;
+  margin-right: 25%;
+  padding: 20px 30px 5px;
+  border-radius: 20px;
+  box-shadow: -10px 2px 50px -20px;
 }
 .resume_nav ul{
   color: var(--text_color);
@@ -479,13 +483,13 @@ nav.resume_nav {
 }
 .resume_nav ul li a{
   color: var(--text_color);
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .resume_nav ul li a.current{
   color: var(--active_heighlighter);
   position: relative;
   margin-left: 30px;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .resume_nav ul li a.current::after {
   position: absolute;
@@ -495,7 +499,8 @@ nav.resume_nav {
   width: 20px;
   left: -30px;
   top: 50%;
-  transition: all 0.5s;
+  opacity: 0;
+  animation: fadeIn 1s linear 0.2s 1 normal both;
 }
 .resume_nav ul li:hover a{
   color: var(--active_heighlighter);

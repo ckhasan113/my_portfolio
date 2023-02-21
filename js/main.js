@@ -385,7 +385,7 @@ checkelResumeEments();
 function checkelResumeEments() {
   const bottom = resumeElement.getBoundingClientRect().bottom;
 
-  if (resumeElement.getBoundingClientRect().y - 20 <= 0 && bottom - 180 >= 0) {
+  if (resumeElement.getBoundingClientRect().y - 80 <= 0 && bottom - 180 >= 0) {
     resumeNav.classList.add("stickt_resume_menu");
   } else {
     resumeNav.classList.remove("stickt_resume_menu");
