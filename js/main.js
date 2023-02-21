@@ -77,6 +77,17 @@
           // window.location.hash = href;
         });
       });
+      $(document).on('click', '#resume_menu_bar a[href^="#"]', function (event) {
+        event.preventDefault();
+  
+        const href = $.attr(this, 'href');
+  
+        $('html, body').animate({
+            scrollTop: $(href).offset().top - 120
+        }, 100, function() {
+          // window.location.hash = href;
+        });
+      });
   
     };
   
@@ -211,7 +222,7 @@ const elements = document.querySelectorAll('.animation_on_scroll');
 
 window.addEventListener('scroll', checkelEments);
 
-checkelEments()
+checkelEments();
 
 function checkelEments(){
   const clientHeight = document.documentElement.clientHeight;
@@ -300,3 +311,27 @@ document.onscroll = function(){
   });
 }
 document.onscroll();
+
+// Active_Animation_When_It_Is_In_View
+const resumeElement = document.querySelector('.resume_area_wrap');
+
+window.addEventListener('scroll', checkelResumeEments);
+
+checkelResumeEments();
+
+function checkelResumeEments(){
+  const clientHeight = document.documentElement.clientHeight;
+  const bottom = resumeElement.getBoundingClientRect().bottom;
+  const height = resumeElement.getBoundingClientRect().height;
+  // console.log(clientHeight);
+  // console.log(window.innerHeight);
+  // console.log(resumeElement.getBoundingClientRect().height);
+  const overValue = bottom + height * 2 + clientHeight;
+  console.log(overValue);
+  
+  if(resumeElement.getBoundingClientRect().y - 20 <= 0 && (overValue + 150 >= 0 )){
+    resumeElement.classList.add('stickt_resume_menu');
+  }else{
+    resumeElement.classList.remove('stickt_resume_menu');
+  }
+}

@@ -123,13 +123,13 @@ get_header();
   <!-- About Section End -->
 
   <!-- Resume Section Area Start -->
-  <section id="resume_area" class="menu_active_on_view">
+  <section id="resume_area" class="menu_active_on_view" style="height: 1800px;">
     <div class="resume_area_wrap">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="margin-top-80"></div>
 
-          <div class="col-md-3">
+          <div class="col-md-3" id="resume_menu_bar">
             <nav class="resume_nav">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
