@@ -332,9 +332,16 @@ function menu_heighlight() {
     sectionIndex,
     elementWithClass
   ) {
+    let extraValue = 0;
+    if(sectionIndex == resumeMenuSections.length -1 ){
+      extraValue = (section.getBoundingClientRect().height * 4) / 5;
+    }else{
+      extraValue = (section.getBoundingClientRect().height * 6) / 15;
+    }
+    
     if (
       scrollHeight >
-      section.offsetTop + (section.getBoundingClientRect().height * 2) / 5
+      section.offsetTop + extraValue
     ) {
       resumeActive = sectionIndex;
     }
