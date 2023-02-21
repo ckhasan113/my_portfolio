@@ -123,7 +123,7 @@ get_header();
   <!-- About Section End -->
 
   <!-- Resume Section Area Start -->
-  <section id="resume_area" class="menu_active_on_view" style="height: 1800px;">
+  <section id="resume_area" class="menu_active_on_view">
     <div class="resume_area_wrap">
       <div class="container">
         <div class="row justify-content-center align-items-center">
