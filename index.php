@@ -205,16 +205,17 @@ get_header();
                     <i class="fas fa-laptop"></i>
                   </div>
                   <div class="resume_text ps-4">
-                    <p class="date m-0"><span class="start_date">June, 2019</span> &#8211; <span class="end_date">February, 2021</span></p>
-                    <h3 class="position">Android Developer</h3>
-                    <span class="name">aaalooo Healthcare Limited</span>
-                    <p class="address m-0">Gulshan Garace, House # 8, Flat # 6B, Gulshan - 1</p>
+                    <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
+                    <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
+                    <span class="name">WeTech Digital</span>
+                    <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
                     <p class="outcomes">
                     <ol>
-                      <li class="outcome">Creating mobile applications.</li>
-                      <li class="outcome">Debugging problems.</li>
-                      <li class="outcome">Helping to create, update, and debug API.</li>
-                      <li class="outcome">Publishing mobile app.</li>
+                      <li class="outcome">Communication with project team members, and clients.</li>
+                      <li class="outcome">Resource allocation.</li>
+                      <li class="outcome">Quality control.</li>
+                      <li class="outcome">Technical support for software applications.</li>
+                      <li class="outcome">HR support.</li>
                     </ol>
                     </p>
                   </div>
@@ -245,16 +246,16 @@ get_header();
                     <i class="fas fa-laptop"></i>
                   </div>
                   <div class="resume_text ps-4">
-                    <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
-                    <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-                    <span class="name">WeTech Digital</span>
-                    <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
+                    <p class="date m-0"><span class="start_date">June, 2019</span> &#8211; <span class="end_date">February, 2021</span></p>
+                    <h3 class="position">Android Developer</h3>
+                    <span class="name">aaalooo Healthcare Limited</span>
+                    <p class="address m-0">Gulshan Garace, House # 8, Flat # 6B, Gulshan - 1</p>
                     <p class="outcomes">
                     <ol>
-                      <li class="outcome">Communication with project team members, and clients.</li>
-                      <li class="outcome">Resource allocation.</li>
-                      <li class="outcome">Quality control.</li>
-                      <li class="outcome">Technical support for software applications.</li>
+                      <li class="outcome">Creating mobile applications.</li>
+                      <li class="outcome">Debugging problems.</li>
+                      <li class="outcome">Helping to create, update, and debug API.</li>
+                      <li class="outcome">Publishing mobile app.</li>
                     </ol>
                     </p>
                   </div>
