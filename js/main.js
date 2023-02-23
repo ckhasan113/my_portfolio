@@ -91,7 +91,7 @@
 
           $("html, body").animate(
             {
-              scrollTop: $(href).offset().top - 80,
+              scrollTop: $(href).offset().top - 160,
             },
             10,
             function () {
@@ -336,7 +336,7 @@ function menu_heighlight() {
     if (sectionIndex == resumeMenuSections.length - 1) {
       extraValue = (section.getBoundingClientRect().height * 4) / 5;
     } else {
-      extraValue = (section.getBoundingClientRect().height * 6) / 15;
+      extraValue = (section.getBoundingClientRect().height * 7) / 15;
     }
 
     if (scrollHeight > section.offsetTop + extraValue) {
