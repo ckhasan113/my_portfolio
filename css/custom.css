@@ -5,10 +5,11 @@
   --menu: #ffffff;
   --logo_leter: #ffffff;
   --social_media: #ffffff;
+  --element_background_color: #ffffff;
   --logo_first_leter_background: #3e64ff;
   --logo_last_part: #5a41cc;
-  --box_shadow: #dddddd;
-  --border_box_shadow: rgba(0, 0, 0, 0.1);
+  --box_shadow_color: #dddddd;
+  --border_box_shadow_color: rgba(0, 0, 0, 0.15);
   --active_heighlighter: #00ffb8;
   --resume_active_heighlighter: #3e64ff;
   --active_heighlighter_social: #00ffb8;
@@ -54,6 +55,13 @@ ul {
   margin-bottom: 80px;
 }
 
+.element_background{
+  background: var(--element_background_color);
+}
+.shadow {
+  box-shadow: 0px 0rem 20px var(--border_box_shadow_color) !important;
+}
+
 /*=======================================
  Button Style
 ========================================*/
@@ -65,7 +73,7 @@ ul {
 /* Common_CBTN */
 a.cbtn {
   border-radius: 5px;
-  box-shadow: 0 8px 16px var(--border_box_shadow);
+  box-shadow: 0 8px 16px var(--border_box_shadow_color);
   display: inline-block;
   letter-spacing: 1px;
   text-align: center;
@@ -213,14 +221,14 @@ a.cbtn.cbtn1:hover::after {
   z-index: 99;
   position: absolute;
   padding: 15px 0;
-  /* box-shadow: 0px 0px .53px 0px var(--box_shadow); */
+  /* box-shadow: 0px 0px .53px 0px var(--box_shadow_color); */
   transition: all 2s;
 }
 #header_area.sticky {
   background-image: url(../image/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0px 0px 1px 1px var(--box_shadow);
+  box-shadow: 0px 0px 1px 1px var(--box_shadow_color);
   transition: all 2s;
   position: fixed;
 }
@@ -500,7 +508,7 @@ nav.resume_nav {
   margin-bottom: 10px;
   padding: 20px 30px 5px;
   border-radius: 20px;
-  box-shadow: -10px 2px 50px -20px;
+  box-shadow: 0px 2px 50px -20px;
 }
 .resume_nav ul {
   color: var(--text_color);
@@ -542,7 +550,7 @@ nav.resume_nav {
 }
 
 .resume_page_wrap {
-  border-left: 2px solid var(--border_box_shadow);
+  border-left: 2px solid var(--border_box_shadow_color);
   border-left-style: dotted;
   padding-left: 70px;
 }
@@ -553,7 +561,7 @@ nav.resume_nav {
 }
 .resume_wrap {
   width: 100%;
-  border-bottom: 1px solid var(--border_box_shadow);
+  border-bottom: 1px solid var(--border_box_shadow_color);
   margin-top: 30px;
 }
 .resume_icon {
@@ -611,7 +619,7 @@ nav.resume_nav {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background: #000;
+  background: rgb(31, 31, 31);
 }
 
 .pre {

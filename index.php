@@ -131,7 +131,7 @@ get_header();
 
           <!-- Resume Nav Menu -->
           <div class="col-lg-3" id="resume_menu_bar">
-            <nav class="resume_nav animation_on_scroll slideFromLeft animation_duration_2 animation_delay_01">
+            <nav class="resume_nav element_background animation_on_scroll slideFromLeft animation_duration_2 animation_delay_01">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
                 <li><a class="resume_menu_link" href="#page_experience">Experience</a></li>
@@ -271,6 +271,12 @@ get_header();
               <div class="resume_page_wrap">
 
                 <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Skills</h2>
+
+                <div class="row progress-circle mb-5">
+                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_06">hi</div>
+                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_08">hi</div>
+                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_1">hi</div>
+                </div>
 
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                   <!-- <div class="resume_icon d-flex justify-content-center align-items-center">
