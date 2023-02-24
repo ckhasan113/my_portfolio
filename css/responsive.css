@@ -188,7 +188,7 @@ I. Exceptional
 /*------------------------------
    Small_Mobile_Layout
 -------------------------------*/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 365px) {
   .style_area {
     display: none;
   }
@@ -216,5 +216,8 @@ I. Exceptional
   }
   .button_wrapper {
     text-align: center;
+  }
+  .linear_progress_wrap {
+    width: 100%;
   }
 }

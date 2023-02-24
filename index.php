@@ -150,7 +150,7 @@ get_header();
               <div class="resume_page_wrap">
                 <h2 class="heading animation_on_scroll slideUp animation_duration_2 animation_delay_01">Education</h2>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-book"></i>
                   </div>
@@ -163,7 +163,7 @@ get_header();
                   </div>
                 </div>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-book"></i>
                   </div>
@@ -176,7 +176,7 @@ get_header();
                   </div>
                 </div>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-book"></i>
                   </div>
@@ -200,7 +200,7 @@ get_header();
 
                 <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Experience</h2>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_01">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
                   </div>
@@ -221,7 +221,7 @@ get_header();
                   </div>
                 </div>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_02">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
                   </div>
@@ -241,7 +241,7 @@ get_header();
                   </div>
                 </div>
 
-                <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                <div class="resume_wrap border-bottom d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
                   <div class="resume_icon d-flex justify-content-center align-items-center">
                     <i class="fas fa-laptop"></i>
                   </div>
@@ -266,81 +266,101 @@ get_header();
             </div>
 
             <!-- Skills_Area -->
-            <?php 
-              $data_delay = 3000;
+            <?php
+            $data_delay = 3000;
 
-              $data_value_html = 95;
-              $data_value_css = 90;
-              $data_value_js = 80;
+            $data_value_html = 95;
+            $data_value_css = 90;
+            $data_value_js = 80;
+            $data_value_php = 85;
 
-              $progress_bar_value_html = (357 - (357 * ($data_value_html/100)));
-              $progress_bar_value_css = (357 - (357 * ($data_value_css/100)));
-              $progress_bar_value_js = (357 - (357 * ($data_value_js/100)));
+            $progress_bar_value_html = (357 - (357 * ($data_value_html / 100)));
+            $progress_bar_value_css = (357 - (357 * ($data_value_css / 100)));
+            $progress_bar_value_js = (357 - (357 * ($data_value_js / 100)));
+            $progress_bar_value_js = (357 - (357 * ($data_value_php / 100)));
 
-              $last_week_html_value = 28;
-              $last_month_html_value = 60;
+            $last_week_html_value = 28;
+            $last_month_html_value = 60;
 
-              $last_week_css_value = 28;
-              $last_month_css_value = 60;
+            $last_week_css_value = 28;
+            $last_month_css_value = 60;
 
-              $last_week_js_value = 28;
-              $last_month_js_value = 60;
+            $last_week_js_value = 28;
+            $last_month_js_value = 60;
 
-              $jQuery_progress_value = 85;
+            $last_week_php_value = 28;
+            $last_month_php_value = 60;
+
+            $c_progress_value = 85;
+            $java_progress_value = 80;
+            $jQuery_progress_value = 80;
+            $android_progress_value = 70;
+            $database_progress_value = 60;
+            $wp_theme_progress_value = 90;
+            $photoshop_progress_value = 30;
+            $wp_plugin_progress_value = 30;
             ?>
 
             <!-- Circular progress bar color css start -->
             <style>
-              <?php /* Add "<?php echo (variable/function name, that take the value from database which is set through CMS)" in color code vale's place ?> */ ?>
-              :root{
+              <?php /* Add "<?php echo (variable/function name, that take the value from database which is set through CMS)" in color code vale's place ?> */ ?> :root {
                 --progress_bar_color: #0045ff;
               }
+
               /* Gradient color circile */
-                circle{
-                  fill: none;
-                  stroke: var(--progress_bar_color);
-                  stroke-width: 5px;
-                  stroke-dasharray: 357;
-                  stroke-dashoffset: 357;
+              circle {
+                fill: none;
+                stroke: var(--progress_bar_color);
+                stroke-width: 5px;
+                stroke-dasharray: 357;
+                stroke-dashoffset: 357;
+              }
+
+              /* Color cirle posiiton */
+              svg {
+                width: 120px;
+                height: 120px;
+                position: absolute;
+                top: 0;
+                left: 0;
+              }
+
+              .progressAnimationData {
+                animation-duration: <?php echo ($data_delay / 1000); ?>s;
+                animation-fill-mode: both;
+              }
+
+              .htmlProgressAnimation {
+                animation-name: htmlProgressAnimation;
+              }
+
+              @keyframes htmlProgressAnimation {
+                100% {
+                  stroke-dashoffset: <?php echo $progress_bar_value_html; ?>;
                 }
-                /* Color cirle posiiton */
-                svg{
-                  width: 120px;
-                  height: 120px;
-                  position: absolute;
-                  top: 0;
-                  left: 0;
+              }
+
+              .cssProgressAnimation {
+                animation-name: cssProgressAnimation;
+              }
+
+              @keyframes cssProgressAnimation {
+                100% {
+                  stroke-dashoffset: <?php echo $progress_bar_value_css; ?>;
                 }
-                .progressAnimationData{
-                  animation-duration: <?php echo ($data_delay/1000); ?>s;
-                  animation-fill-mode: both;
+              }
+
+              .jsProgressAnimation {
+                animation-name: jsProgressAnimation;
+              }
+
+              @keyframes jsProgressAnimation {
+                100% {
+                  stroke-dashoffset: <?php echo $progress_bar_value_js; ?>;
                 }
-                .htmlProgressAnimation{
-                  animation-name: htmlProgressAnimation;
-                }
-                @keyframes htmlProgressAnimation {
-                  100%{
-                    stroke-dashoffset: <?php echo $progress_bar_value_html; ?>;
-                  }
-                }
-                .cssProgressAnimation{
-                  animation-name: cssProgressAnimation;
-                }
-                @keyframes cssProgressAnimation {
-                  100%{
-                    stroke-dashoffset: <?php echo $progress_bar_value_css; ?>;
-                  }
-                }
-                .jsProgressAnimation{
-                  animation-name: jsProgressAnimation;
-                }
-                @keyframes jsProgressAnimation {
-                  100%{
-                    stroke-dashoffset: <?php echo $progress_bar_value_js; ?>;
-                  }
-                }
+              }
             </style>
-              <!-- Circular progress bar color css end -->
+            <!-- Circular progress bar color css end -->
 
             <div id="page_skills" class="resume_menu_active_on_view resume_menu_items">
 
@@ -350,7 +370,7 @@ get_header();
 
                 <div class="row progress-circle mb-2">
 
-                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_06">
+                  <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_01">
 
                     <div class="element_backgrount shadow border_radious_15 p-4">
 
@@ -374,7 +394,7 @@ get_header();
                             </linearGradient>
                           </defs> -->
 
-                          <circle class="htmlProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_html ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
+                          <circle class="htmlProgress circle_progress_animation progressAnimationData" data-val="<?php echo $data_value_html ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 
@@ -404,8 +424,8 @@ get_header();
 
                   </div>
 
-                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_1">
-                    
+                  <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_04">
+
                     <div class="element_backgrount shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">CSS</h2>
@@ -421,7 +441,7 @@ get_header();
 
                         <svg version="1.1">
 
-                          <circle class="cssProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_css ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
+                          <circle class="cssProgress circle_progress_animation progressAnimationData" data-val="<?php echo $data_value_css ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 
@@ -448,11 +468,11 @@ get_header();
 
                       </div>
                     </div>
-                    
+
                   </div>
-                  
-                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_14">
-                    
+
+                  <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_07">
+
                     <div class="element_backgrount shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">JavaScript</h2>
@@ -468,7 +488,7 @@ get_header();
 
                         <svg version="1.1" width="120px" height="120px">
 
-                          <circle class="jsProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_js ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
+                          <circle class="jsProgress circle_progress_animation progressAnimationData" data-val="<?php echo $data_value_js ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 
@@ -495,32 +515,221 @@ get_header();
 
                       </div>
                     </div>
-                    
+
                   </div>
-                </div>
 
-                <div class="row">
+                  <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_1">
 
-                  <div class="col-md-6">
+                    <div class="element_backgrount shadow border_radious_15 p-4">
 
-                    <div class="linear_progress_wrap">
+                      <h2 class="small_heading mb-4 text-center">PHP</h2>
 
-                      <h2 class="small_subheading text-left">jQuery</h2>
+                      <div class="circular_progress_bar mx-auto">
+                        <div class="outer">
+                          <div class="inner">
+                            <div id="number">
+                              <span class="counter" data-val="<?php echo $data_value_php ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%
+                            </div>
+                          </div>
+                        </div>
 
-                      <div class="progress" style="height: 10px;">
-                        <div class="progress-bar" role="progressbar" style="width: <?php echo $jQuery_progress_value ?>%; height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100"></div>
+                        <svg version="1.1" width="120px" height="120px">
+
+                          <circle class="jsProgress circle_progress_animation progressAnimationData" data-val="<?php echo $data_value_php ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
+
+                        </svg>
+
                       </div>
-                      
+
+                      <div class="row text-center mt-4">
+
+                        <div class="col-6 border-right">
+                          <div class="percentage mb-0" id="last_week_work"><span class="counter" data-val="<?php echo $last_week_php_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</div>
+                          <div class="small_text text-gray">
+                            Last week
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+
+                          <div class="percentage mb-0" id="last_month_work"><span class="counter" data-val="<?php echo $last_month_php_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</div>
+
+                          <div class="small_text text-gray">
+                            Last month
+                          </div>
+
+                        </div>
+
+                      </div>
                     </div>
 
                   </div>
 
                 </div>
 
+                <div class="row" style="overflow: hidden;">
+
+                  <!-- Photoshop -->
+                  <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_05">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">Photoshop</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- jQuery -->
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_05">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">jQuery</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- C -->
+                  <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_07">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">C</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $c_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Java -->
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_07">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">Java</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $java_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Adndroid -->
+                  <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_09">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">Android App Development</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $android_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Database -->
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_09">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">Database <span>(</span><span class="text">Firebase, MySql, &#38; SQLite</span><span>)</span></h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $database_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Worpress Theme -->
+                  <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_11">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">WordPress Theme <span>(</span><span class="text">Development &#38; Customization</span><span>)</span></h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Worpress Plugin -->
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_11">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">WordPress Plugin Development</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Certificate_Area -->
+            <div id="page_certificates" class="resume_menu_active_on_view resume_menu_items">
+
+              <div class="resume_page_wrap">
+
+                <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_01">Certificates</h2>
+
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-                  <!-- <div class="resume_icon d-flex justify-content-center align-items-center">
-                    <i class="fas fa-laptop"></i>
-                  </div> -->
+                  <div class="resume_icon d-flex justify-content-center align-items-center">
+                    <i class="fas fa-award"></i>
+                  </div>
                   <div class="resume_text ps-4">
                     <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
                     <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
@@ -584,82 +793,8 @@ get_header();
 
               </div>
 
-              <!-- Certificate_Area -->
-              <div id="page_certificates" class="resume_menu_active_on_view resume_menu_items">
-
-                <div class="resume_page_wrap">
-
-                  <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_01">Certificates</h2>
-
-                  <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-                    <div class="resume_icon d-flex justify-content-center align-items-center">
-                      <i class="fas fa-award"></i>
-                    </div>
-                    <div class="resume_text ps-4">
-                      <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
-                      <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-                      <span class="name">WeTech Digital</span>
-                      <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-                      <p class="outcomes">
-                      <ol>
-                        <li class="outcome">Communication with project team members, and clients.</li>
-                        <li class="outcome">Resource allocation.</li>
-                        <li class="outcome">Quality control.</li>
-                        <li class="outcome">Technical support for software applications.</li>
-                      </ol>
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="resume_page_wrap">
-                    <h2 class="heading">Education</h2>
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="resume_page_wrap">
-                    <h2 class="heading">Education</h2>
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="resume_page_wrap">
-                    <h2 class="heading">Education</h2>
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="resume_page_wrap">
-                    <h2 class="heading">Education</h2>
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="resume_page_wrap">
-                    <h2 class="heading">Education</h2>
-                    <div class="resume_wrap">
-                      <div class="resume_icon">
-                        <i class="fas fa-book"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
             </div>
+
           </div>
         </div>
   </section>

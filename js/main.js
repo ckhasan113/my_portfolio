@@ -322,7 +322,7 @@ function menu_heighlight() {
 
   // Check_Which_Part_Is_In_View
   menuSections.forEach(function (section, sectionIndex, elementWithClass) {
-    if (scrollHeight > section.offsetTop - window.innerHeight / 4) {
+    if (scrollHeight > section.offsetTop - window.innerHeight / 3) {
       active = sectionIndex;
     }
   });
@@ -410,46 +410,101 @@ window.addEventListener("scroll", counterValueOnDisplay);
 window.addEventListener("load", counterValueOnDisplay);
 
 function counterValueOnDisplay(event) {
-
-  // if (event.type === 'load') {
-  //   // Code to run when the page has finished loading
-  //   console.log('Page loaded!');
-  // } else if (event.type === 'scroll') {
-  //   // Code to run when the user scrolls the page
-  //   console.log('Page scrolled!');
-  // }
-
   valueDisplays.forEach((valueDisplay) => {
     let counterDone = valueDisplay.getAttribute("isCounterDone");
 
-    if (
-      counterDone != "done" &&
-      valueDisplay.getBoundingClientRect().y <= window.innerHeight - 20
-    ) {
-      let interval = parseInt(valueDisplay.getAttribute("data-delay")); // 5000 = 5s
-      let startValue = 0;
-      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-      const duration = Math.floor(interval / endValue);
-      valueDisplay.setAttribute("isCounterDone", "done");
-      if(valueDisplay.classList.contains('proress_bar_color_circle') && !valueDisplay.classList.contains('progressAnim')){
-        if(valueDisplay.classList.contains('htmlProgress')){
-          valueDisplay.classList.add('htmlProgressAnimation');
-        }else if(valueDisplay.classList.contains('cssProgress')){
-          valueDisplay.classList.add('cssProgressAnimation');
-        }else if(valueDisplay.classList.contains('jsProgress')){
-          valueDisplay.classList.add('jsProgressAnimation');
-        }
-        return;
+    if (counterDone != "done") {
+      // if (event.type === 'load') {
+      //   // Code to run when the page has finished loading
+      //   console.log('Page loaded!');
+      // } else if (event.type === 'scroll') {
+      //   // Code to run when the user scrolls the page
+      //   console.log('Page scrolled!');
+      // }
+
+      if (valueDisplay.getBoundingClientRect().y <= window.innerHeight - 20) {
+        let interval = parseInt(valueDisplay.getAttribute("data-delay")); // 5000 = 5s
+        let startValue = 0;
+        let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+        const duration = Math.floor(interval / endValue);
+        valueDisplay.setAttribute("isCounterDone", "done");
+
+        let counter = setInterval(() => {
+          startValue += 1;
+          valueDisplay.textContent = startValue;
+          if (startValue == endValue) {
+            clearInterval(counter);
+          }
+        }, duration);
       }
-      let counter = setInterval(() => {
+    }
+  });
+}
+
+// Circle Progress Animation
+const circleProgressDisplays = document.querySelectorAll(
+  ".circle_progress_animation"
+);
+
+window.addEventListener("scroll", circleProgressValueOnDisplay);
+window.addEventListener("load", circleProgressValueOnDisplay);
+
+function circleProgressValueOnDisplay(event) {
+  circleProgressDisplays.forEach((progressDisplay) => {
+    let progressDone = progressDisplay.getAttribute("isProgressDone");
+
+    if (
+      progressDone != "done" &&
+      progressDisplay.getBoundingClientRect().y <= window.innerHeight - 20
+    ) {
+      let interval = parseInt(progressDisplay.getAttribute("data-delay")); // 5000 = 5s
+      let startValue = 0;
+      let endValue = parseInt(progressDisplay.getAttribute("data-val"));
+      const duration = Math.floor(interval / endValue);
+
+      progressDisplay.setAttribute("isProgressDone", "done");
+
+      if (progressDisplay.classList.contains("htmlProgress")) {
+        progressDisplay.classList.add("htmlProgressAnimation");
+      } else if (progressDisplay.classList.contains("cssProgress")) {
+        progressDisplay.classList.add("cssProgressAnimation");
+      } else if (progressDisplay.classList.contains("jsProgress")) {
+        progressDisplay.classList.add("jsProgressAnimation");
+      }
+    }
+  });
+}
+
+// Linear Progress Animation
+const linearProgressDisplays = document.querySelectorAll(
+  ".linear_progress_animation"
+);
+
+window.addEventListener("scroll", linerProgressValueOnDisplay);
+window.addEventListener("load", linerProgressValueOnDisplay);
+
+function linerProgressValueOnDisplay(event) {
+  linearProgressDisplays.forEach((progressDisplay) => {
+    let progressDone = progressDisplay.getAttribute("isProgressDone");
+
+    if (
+      progressDone != "done" &&
+      progressDisplay.getBoundingClientRect().y <= window.innerHeight - 20
+    ) {
+      let interval = parseInt(progressDisplay.getAttribute("data-delay")); // 5000 = 5s
+      let startValue = 0;
+      let endValue = parseInt(progressDisplay.getAttribute("data-val"));
+      const duration = Math.floor(interval / endValue);
+
+      progressDisplay.setAttribute("isProgressDone", "done");
+
+      let progress = setInterval(() => {
         startValue += 1;
-        valueDisplay.textContent = startValue;
+        progressDisplay.style.width = startValue + "%";
         if (startValue == endValue) {
-          clearInterval(counter);
+          clearInterval(progress);
         }
       }, duration);
     }
   });
 }
-
-
