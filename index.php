@@ -580,7 +580,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -598,7 +598,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -616,7 +616,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $c_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -634,7 +634,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $java_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -652,7 +652,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $android_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -670,7 +670,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $database_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -688,7 +688,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -706,7 +706,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 10px;">
+                      <div class="progress" style="height: 7px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
