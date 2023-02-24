@@ -732,7 +732,7 @@ get_header();
                     <i class="fas fa-award"></i>
                   </div>
                   <div class="resume_text ps-4">
-                    <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
+                    <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
                     <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
                     <span class="name">WeTech Digital</span>
                     <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
