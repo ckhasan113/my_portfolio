@@ -407,20 +407,26 @@ function checkelResumeEments() {
 const valueDisplays = document.querySelectorAll(".counter");
 
 window.addEventListener("scroll", counterValueOnDisplay);
+window.addEventListener("load", counterValueOnDisplay);
 
 function counterValueOnDisplay() {
   valueDisplays.forEach((valueDisplay) => {
+    console.log(valueDisplay);
     let counterDone = valueDisplay.getAttribute("isCounterDone");
 
     if (
       counterDone != "done" &&
       valueDisplay.getBoundingClientRect().y <= window.innerHeight - 20
     ) {
-      let interval = parseInt(valueDisplay.getAttribute("data-delay"));
+      let interval = parseInt(valueDisplay.getAttribute("data-delay")); // 5000 = 5s
       let startValue = 0;
       let endValue = parseInt(valueDisplay.getAttribute("data-val"));
       const duration = Math.floor(interval / endValue);
       valueDisplay.setAttribute("isCounterDone", "done");
+      if(valueDisplay.classList.contains('proress_bar_color_circle') && !valueDisplay.classList.contains('progressAnim')){
+        valueDisplay.classList.add('progressAnim');
+        return;
+      }
       let counter = setInterval(() => {
         startValue += 1;
         valueDisplay.textContent = startValue;
@@ -431,3 +437,5 @@ function counterValueOnDisplay() {
     }
   });
 }
+
+

@@ -2,6 +2,7 @@
  Common Style
 ========================================*/
 :root {
+  /* Color Variables */
   --menu: #ffffff;
   --logo_leter: #ffffff;
   --social_media: #ffffff;
@@ -22,6 +23,7 @@
   --liner_gradient_last: #bd29f2;
   --liner_gradient_first_edge: "#0045ff";
   --liner_gradient_last_edge: "#bd29f2";
+
 }
 
 body {
@@ -60,6 +62,18 @@ ul {
 }
 .shadow {
   box-shadow: 0px 0rem 20px var(--border_box_shadow_color) !important;
+}
+.border-right{
+  border-right: 1px solid var(--border_box_shadow_color);
+}
+.border_radious_15{
+  border-radius: 15px;
+}
+.small_text{
+  font-size: 80%;
+}
+.text-gray{
+  color: var(--text_color_light);
 }
 
 /*=======================================
@@ -609,6 +623,40 @@ nav.resume_nav {
   color: var(--text_color_light);
 }
 
+.small_heading {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/*======================================
+ Circular Progress Bar CSS
+=======================================*/
+.circular_progress_bar{
+  width: 160px;
+  height: 180px;
+  position: relative;
+}
+.outer{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255 , 0.7);
+}
+.inner{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px -1px rgba(255, 255, 255, 1), 0.5px 0.5px 0px -1px rgba(0, 0, 0, 0.2), 0px 12px 10px -1px rgba(0, 0, 0, 0.05);
+}
+#number{
+  font-weight: 600;
+  color: #555;
+}
+
 /*======================================
  Pre Loader Area CSS
 =======================================*/
@@ -1133,3 +1181,7 @@ nav.resume_nav {
     opacity: 1;
   }
 }
+
+
+
+

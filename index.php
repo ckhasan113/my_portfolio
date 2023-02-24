@@ -206,7 +206,7 @@ get_header();
                   </div>
                   <div class="resume_text ps-4">
                     <p class="date m-0"><span class="start_date">September, 2021</span> &#8211; &#8211; <span class="end_date"></span></p>
-                    <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
+                    <h3 class="position">Project co-ordinator</h3>
                     <span class="name">WeTech Digital</span>
                     <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
                     <p class="outcomes">
@@ -273,9 +273,107 @@ get_header();
                 <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Skills</h2>
 
                 <div class="row progress-circle mb-5">
-                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_06">hi</div>
-                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_08">hi</div>
+
+                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_06">
+
+                    <div class="element_backgrount shadow border_radious_15 p-4">
+
+                      <h2 class="small_heading mb-4 text-center">HTML</h2>
+
+                      <div class="circular_progress_bar mx-auto">
+                        <div class="outer">
+                          <div class="inner">
+                            <div id="number">
+                             
+                              <?php 
+                                $data_value = 90;
+                                $data_delay = 3000;
+                                $progress_bar_value = (440 - (440 * ($data_value/100)));
+                              ?>
+
+                              <span class="counter" data-val="<?php echo $data_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no">0</span>%
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px"> -->
+                        <svg version="1.1" width="160px" height="160px">
+                          <!-- <defs>
+                            <linearGradient id="GradientColor">
+                              <?php /* use stop-color="<?php echo (variable/function name, that take the value from database which is set through CMS)" ?> */ ?>
+                              <stop offset="0%" stop-color="#bd29f2" />
+                              <stop offset="100%" stop-color="#0045ff" />
+                            </linearGradient>
+                          </defs> -->
+
+
+                          <!-- Circular progress bar color css start -->
+                          
+                          <style>
+                          <?php /* Add "<?php echo (variable/function name, that take the value from database which is set through CMS)" in color code vale's place ?> */ ?>
+                            :root{
+                              --progress_bar_color: #0045ff;
+                            }
+                            /* Gradient color circile */
+                              circle{
+                                fill: none;
+                                stroke: var(--progress_bar_color);
+                                stroke-width: 20px;
+                                stroke-dasharray: 440;
+                                stroke-dashoffset: 440;
+                              }
+                              /* Color cirle posiiton */
+                              svg{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                              }
+                              .progressAnim{
+                                animation-name: progressAnim;
+                                animation-duration: <?php echo ($data_delay/1000); ?>s;
+                                animation-fill-mode: both;
+                              }
+                              @keyframes progressAnim {
+                                100%{
+                                  stroke-dashoffset: <?php echo $progress_bar_value; ?>;
+                                }
+                              }
+                          </style>
+                          <!-- Circular progress bar color css end -->
+
+                          <circle class="counter proress_bar_color_circle" data-val="<?php echo $data_value ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="80" cy="80" r="70" stroke-linecap="round" />
+
+                        </svg>
+
+                      </div>
+
+                      <div class="row text-center mt-4">
+
+                        <div class="col-6 border-right">
+                          <div class="percentage mb-0" id="last_week_work">28%</div>
+                          <div class="small_text text-gray">
+                            Last week
+                          </div>
+                        </div>
+
+                        <div class="col-6">
+
+                          <div class="percentage mb-0" id="last_month_work">60%</div>
+
+                          <div class="small_text text-gray">
+                            Last month
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
                   <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_1">hi</div>
+                  
+                  <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_14">hi</div>
                 </div>
 
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
