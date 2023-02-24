@@ -570,18 +570,36 @@ get_header();
 
                 <div class="row" style="overflow: hidden;">
 
-                  <!-- Photoshop -->
+                  <!-- Worpress Theme -->
                   <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_05">
 
                     <div class="linear_progress_wrap border-bottom">
 
                       <div class="linear_progress_heading_wrap">
-                        <h2 class="small_subheading">Photoshop</h2>
-                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
+                        <h2 class="small_subheading">WordPress Theme <span>(</span><span class="text">Development &#38; Customization</span><span>)</span></h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
                       <div class="progress" style="height: 7px;">
-                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Worpress Plugin -->
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_05">
+
+                    <div class="linear_progress_wrap border-bottom">
+
+                      <div class="linear_progress_heading_wrap">
+                        <h2 class="small_subheading">WordPress Plugin Development</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
+                      </div>
+
+                      <div class="progress" style="height: 7px;">
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
                     </div>
@@ -589,7 +607,7 @@ get_header();
                   </div>
 
                   <!-- jQuery -->
-                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_05">
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_07">
 
                     <div class="linear_progress_wrap border-bottom">
 
@@ -625,7 +643,7 @@ get_header();
                   </div>
 
                   <!-- Java -->
-                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_07">
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_09">
 
                     <div class="linear_progress_wrap border-bottom">
 
@@ -661,7 +679,7 @@ get_header();
                   </div>
 
                   <!-- Database -->
-                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_09">
+                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_11">
 
                     <div class="linear_progress_wrap border-bottom">
 
@@ -678,36 +696,18 @@ get_header();
 
                   </div>
 
-                  <!-- Worpress Theme -->
+                  <!-- Photoshop -->
                   <div class="col-md-6 animation_on_scroll slideFromLeft animation_duration_5 animation_delay_11">
 
                     <div class="linear_progress_wrap border-bottom">
 
                       <div class="linear_progress_heading_wrap">
-                        <h2 class="small_subheading">WordPress Theme <span>(</span><span class="text">Development &#38; Customization</span><span>)</span></h2>
-                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
+                        <h2 class="small_subheading">Photoshop</h2>
+                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
                       <div class="progress" style="height: 7px;">
-                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                  <!-- Worpress Plugin -->
-                  <div class="col-md-6 animation_on_scroll slideFromRight animation_duration_5 animation_delay_11">
-
-                    <div class="linear_progress_wrap border-bottom">
-
-                      <div class="linear_progress_heading_wrap">
-                        <h2 class="small_subheading">WordPress Plugin Development</h2>
-                        <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
-                      </div>
-
-                      <div class="progress" style="height: 7px;">
-                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
+                        <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
                     </div>
