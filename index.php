@@ -105,7 +105,7 @@ get_header();
               </tr>
             </table>
 
-            <p class="slideFromRight about_problem_solving animation_duration_6 animation_delay_08 animation_on_scroll">More than <span class="counter" data-val="250" data-delay="7000" isCounterDone="no">0</span><span>+</span> problems have been solved on various online platforms</p>
+            <p class="slideFromRight about_problem_solving animation_duration_6 animation_delay_08 animation_on_scroll"><span class="counter" data-val="250" data-delay="7000" isCounterDone="no">0</span><span>+</span> problems have been solved on various online platforms</p>
 
             <div class="button_wrapper slideFromRight download_cv_btn animation_duration_6 animation_delay_1 animation_on_scroll">
               <div class="animate animation_effect">
