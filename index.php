@@ -273,9 +273,9 @@ get_header();
               $data_value_css = 90;
               $data_value_js = 80;
 
-              $progress_bar_value_html = (440 - (440 * ($data_value_html/100)));
-              $progress_bar_value_css = (440 - (440 * ($data_value_css/100)));
-              $progress_bar_value_js = (440 - (440 * ($data_value_js/100)));
+              $progress_bar_value_html = (357 - (357 * ($data_value_html/100)));
+              $progress_bar_value_css = (357 - (357 * ($data_value_css/100)));
+              $progress_bar_value_js = (357 - (357 * ($data_value_js/100)));
 
               $last_week_html_value = 28;
               $last_month_html_value = 60;
@@ -297,12 +297,14 @@ get_header();
                 circle{
                   fill: none;
                   stroke: var(--progress_bar_color);
-                  stroke-width: 20px;
-                  stroke-dasharray: 440;
-                  stroke-dashoffset: 440;
+                  stroke-width: 5px;
+                  stroke-dasharray: 357;
+                  stroke-dashoffset: 357;
                 }
                 /* Color cirle posiiton */
                 svg{
+                  width: 120px;
+                  height: 120px;
                   position: absolute;
                   top: 0;
                   left: 0;
@@ -361,7 +363,7 @@ get_header();
                           </div>
                         </div>
 
-                        <svg version="1.1" width="160px" height="160px">
+                        <svg version="1.1">
                           <!-- <defs>
                             <linearGradient id="GradientColor">
                               <?php /* use stop-color="<?php echo (variable/function name, that take the value from database which is set through CMS)" ?> */ ?>
@@ -370,7 +372,7 @@ get_header();
                             </linearGradient>
                           </defs> -->
 
-                          <circle class="htmlProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_html ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="80" cy="80" r="70" stroke-linecap="round" />
+                          <circle class="htmlProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_html ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 
@@ -415,9 +417,9 @@ get_header();
                           </div>
                         </div>
 
-                        <svg version="1.1" width="160px" height="160px">
+                        <svg version="1.1">
 
-                          <circle class="cssProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_css ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="80" cy="80" r="70" stroke-linecap="round" />
+                          <circle class="cssProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_css ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 
@@ -462,9 +464,9 @@ get_header();
                           </div>
                         </div>
 
-                        <svg version="1.1" width="160px" height="160px">
+                        <svg version="1.1" width="120px" height="120px">
 
-                          <circle class="jsProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_js ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="80" cy="80" r="70" stroke-linecap="round" />
+                          <circle class="jsProgress counter proress_bar_color_circle progressAnimationData" data-val="<?php echo $data_value_js ?>" data-delay="<?php echo $data_delay ?>" isCounterDone="no" cx="60" cy="60" r="57" stroke-linecap="round" />
 
                         </svg>
 

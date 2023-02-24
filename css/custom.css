@@ -631,21 +631,22 @@ nav.resume_nav {
 /*======================================
  Circular Progress Bar CSS
 =======================================*/
-.circular_progress_bar{
-  width: 160px;
-  height: 180px;
-  position: relative;
-}
-.outer{
+.circular_progress_bar {
+  width: 120px;
   height: 160px;
-  width: 160px;
+  position: relative;
+  margin-top: 40px;
+}
+.outer {
+  height: 118px;
+  width: 118px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 6px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255 , 0.7);
 }
-.inner{
-  height: 120px;
-  width: 120px;
+.inner {
+  height: 108px;
+  width: 108px;
   border-radius: 50%;
   display: flex;
   align-items: center;
