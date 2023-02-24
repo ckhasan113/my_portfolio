@@ -285,6 +285,8 @@ get_header();
 
               $last_week_js_value = 28;
               $last_month_js_value = 60;
+
+              $jQuery_progress_value = 85;
             ?>
 
             <!-- Circular progress bar color css start -->
@@ -346,7 +348,7 @@ get_header();
 
                 <h2 class="heading animation_on_scroll slideUp animation_duration_3 animation_delay_04">Skills</h2>
 
-                <div class="row progress-circle mb-5">
+                <div class="row progress-circle mb-2">
 
                   <div class="col-lg-4 mb-4 animation_on_scroll slideUp animation_duration_4 animation_delay_06">
 
@@ -495,6 +497,24 @@ get_header();
                     </div>
                     
                   </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-6">
+
+                    <div class="linear_progress_wrap">
+
+                      <h2 class="small_subheading text-left">jQuery</h2>
+
+                      <div class="progress" style="height: 10px;">
+                        <div class="progress-bar" role="progressbar" style="width: <?php echo $jQuery_progress_value ?>%; height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
                 </div>
 
                 <div class="resume_wrap d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">

@@ -627,6 +627,11 @@ nav.resume_nav {
     font-weight: 700;
     font-size: 25px;
 }
+.small_subheading {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
 
 /*======================================
  Circular Progress Bar CSS
