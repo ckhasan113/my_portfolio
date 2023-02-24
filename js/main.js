@@ -409,9 +409,17 @@ const valueDisplays = document.querySelectorAll(".counter");
 window.addEventListener("scroll", counterValueOnDisplay);
 window.addEventListener("load", counterValueOnDisplay);
 
-function counterValueOnDisplay() {
+function counterValueOnDisplay(event) {
+
+  // if (event.type === 'load') {
+  //   // Code to run when the page has finished loading
+  //   console.log('Page loaded!');
+  // } else if (event.type === 'scroll') {
+  //   // Code to run when the user scrolls the page
+  //   console.log('Page scrolled!');
+  // }
+
   valueDisplays.forEach((valueDisplay) => {
-    console.log(valueDisplay);
     let counterDone = valueDisplay.getAttribute("isCounterDone");
 
     if (
@@ -424,7 +432,13 @@ function counterValueOnDisplay() {
       const duration = Math.floor(interval / endValue);
       valueDisplay.setAttribute("isCounterDone", "done");
       if(valueDisplay.classList.contains('proress_bar_color_circle') && !valueDisplay.classList.contains('progressAnim')){
-        valueDisplay.classList.add('progressAnim');
+        if(valueDisplay.classList.contains('htmlProgress')){
+          valueDisplay.classList.add('htmlProgressAnimation');
+        }else if(valueDisplay.classList.contains('cssProgress')){
+          valueDisplay.classList.add('cssProgressAnimation');
+        }else if(valueDisplay.classList.contains('jsProgress')){
+          valueDisplay.classList.add('jsProgressAnimation');
+        }
         return;
       }
       let counter = setInterval(() => {
