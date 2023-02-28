@@ -566,6 +566,7 @@ nav.resume_nav {
   margin-top: 0px;
 }
 
+/* Resume_items */
 .resume_page_wrap {
   border-left: 2px solid var(--border_box_shadow_color);
   border-left-style: dotted;
@@ -625,6 +626,7 @@ nav.resume_nav {
   color: var(--text_color_light);
 }
 
+/* resume_area_headings */
 .small_heading {
   font-weight: 700;
   font-size: 25px;
@@ -643,6 +645,7 @@ nav.resume_nav {
   font-size: 12px;
 }
 
+/* Linear Progressbar */
 .linear_progress_wrap {
   width: 98%;
   margin-bottom: 10px;
@@ -659,9 +662,7 @@ nav.resume_nav {
   background-color: var(--progress_bar_color);
 }
 
-/*======================================
- Circular Progress Bar CSS
-=======================================*/
+ /* Circular Progress Bar CSS */
 .circular_progress_bar {
   width: 120px;
   height: 160px;
@@ -692,6 +693,30 @@ nav.resume_nav {
 #number {
   font-weight: 600;
   color: #555;
+}
+
+/* Single Certificate */
+.single_certificate{
+  position: relative;
+}
+.single_certificate .resume_text,
+.single_certificate .certificate_image,
+.single_certificate .resume_icon
+{
+  position: absolute;
+}
+.single_certificate .resume_text
+{
+  width: 100%;
+}
+.single_certificate .certificate_image img
+{
+  width: 100%;
+  height: auto;
+  min-height: 245px;
+}
+.single_certificate_col{
+  min-height: 250px;
 }
 
 /*======================================
