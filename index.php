@@ -267,39 +267,39 @@ get_header();
 
             <!-- Skills_Area -->
             <?php
-            $data_delay = 3000;
-            $linear_data_delay = 7000;
+              $data_delay = 3000;
+              $linear_data_delay = 7000;
 
-            $data_value_html = 95;
-            $data_value_css = 90;
-            $data_value_js = 80;
-            $data_value_php = 85;
+              $data_value_html = 95;
+              $data_value_css = 90;
+              $data_value_js = 80;
+              $data_value_php = 85;
 
-            $progress_bar_value_html = (357 - (357 * ($data_value_html / 100)));
-            $progress_bar_value_css = (357 - (357 * ($data_value_css / 100)));
-            $progress_bar_value_js = (357 - (357 * ($data_value_js / 100)));
-            $progress_bar_value_js = (357 - (357 * ($data_value_php / 100)));
+              $progress_bar_value_html = (357 - (357 * ($data_value_html / 100)));
+              $progress_bar_value_css = (357 - (357 * ($data_value_css / 100)));
+              $progress_bar_value_js = (357 - (357 * ($data_value_js / 100)));
+              $progress_bar_value_js = (357 - (357 * ($data_value_php / 100)));
 
-            $last_week_html_value = 28;
-            $last_month_html_value = 60;
+              $last_week_html_value = 28;
+              $last_month_html_value = 60;
 
-            $last_week_css_value = 28;
-            $last_month_css_value = 60;
+              $last_week_css_value = 28;
+              $last_month_css_value = 60;
 
-            $last_week_js_value = 28;
-            $last_month_js_value = 60;
+              $last_week_js_value = 28;
+              $last_month_js_value = 60;
 
-            $last_week_php_value = 28;
-            $last_month_php_value = 60;
+              $last_week_php_value = 28;
+              $last_month_php_value = 60;
 
-            $c_progress_value = 85;
-            $java_progress_value = 80;
-            $jQuery_progress_value = 80;
-            $android_progress_value = 70;
-            $database_progress_value = 60;
-            $wp_theme_progress_value = 90;
-            $photoshop_progress_value = 30;
-            $wp_plugin_progress_value = 30;
+              $c_progress_value = 85;
+              $java_progress_value = 80;
+              $jQuery_progress_value = 80;
+              $android_progress_value = 70;
+              $database_progress_value = 60;
+              $wp_theme_progress_value = 90;
+              $photoshop_progress_value = 30;
+              $wp_plugin_progress_value = 30;
             ?>
 
             <!-- Circular progress bar color css start -->
@@ -731,290 +731,32 @@ get_header();
 
                   <div class="row">
 
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
+                    <!-- BSc Certificate -->
+                    <div class="col-md-6 single_certificate_col">
 
                       <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
 
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
+                        <div class="certificate_content">
 
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
+                          <img id="" src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
 
-                        <div class="resume_text ps-4">
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
 
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
+                            <div class="resume_text hover_effect_slide_up_padding">
 
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
+                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
-                          <span class="name">WeTech Digital</span>
+                              <h3 class="position">B.Sc in CSE</h3>
 
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
+                              <span class="name">Daffodil International University</span>
 
-                        </div>
+                              <div class="image_view_button">View</div>
 
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <!-- Anser VDP Certificate -->
-                    <div class="col-lg-6 col-xl-4 col-md-6 single_certificate_col">
-
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
-
-                        <div class="certificate_image">
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
-                        </div>
-
-                        <div class="resume_icon d-flex justify-content-center align-items-center">
-                          <i class="fas fa-award"></i>
-                        </div>
-
-                        <div class="resume_text ps-4">
-
-                          <p class="date m-0"><span class="start_date">September, 2022</span> &#8211; &#8211; <span class="end_date"></span></p>
-
-                          <h3 class="position">Project co-ordinator &#38; Admin Manager</h3>
-
-                          <span class="name">WeTech Digital</span>
-
-                          <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
-
+                            </div>
+                          </div>
                         </div>
 
                       </div>
@@ -1035,6 +777,9 @@ get_header();
 
   <section id="service_area" class="menu_active_on_view" style="height: 900px; background: #f00;">
     <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
+    <!-- <div class="container_test">
+      <div class="newsletter"><p>weee!</p></div>
+    </div> -->
   </section>
 </div>
 

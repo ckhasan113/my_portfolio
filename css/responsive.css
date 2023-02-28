@@ -50,6 +50,14 @@ I. Exceptional
 ---------------------*/
 @media only screen and (max-width: 1450px) {
 }
+/*--------------------
+  Wide_Laptop_Layout
+---------------------*/
+@media only screen and (max-width: 1390px){
+  .hover_effect_slide_up_padding {
+    padding: 2.5rem 1.3rem 0 !important;
+  }
+}
 
 /*--------------------
   Small_Laptop_Layout
@@ -57,6 +65,9 @@ I. Exceptional
 @media only screen and (max-width: 1200px) {
   nav.resume_nav {
     margin-right: 40px;
+  }
+  .hover_effect_slide_up_padding {
+    padding: 2.5rem 3.3rem 0 !important;
   }
 }
 
@@ -143,6 +154,9 @@ I. Exceptional
   .resume_text .address {
     font-size: 12px;
   }
+  .hover_effect_slide_up_padding {
+    padding: 2.7rem 4.45rem 0 !important;
+}
 }
 
 /*-------------------------
@@ -179,9 +193,9 @@ I. Exceptional
   .linear_progress_wrap {
     width: 100%;
   }
-  .single_certificate_col {
+  /* .single_certificate_col {
     min-height: 400px;
-  }
+  } */
 }
 @media only screen and (max-width: 500px) {
   /* Header_Area */
@@ -207,9 +221,9 @@ I. Exceptional
   .resume_icon i {
     font-size: 18px;
   }
-  .single_certificate_col {
+  /* .single_certificate_col {
     min-height: 350px;
-  }
+  } */
 }
 
 /*------------------------------
@@ -225,9 +239,9 @@ I. Exceptional
   .resume_icon i {
     font-size: 15px;
   }
-  .single_certificate_col {
+  /* .single_certificate_col {
     min-height: 250px;
-  }
+  } */
 }
 
 /*====================
