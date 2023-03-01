@@ -762,6 +762,141 @@ get_header();
                       </div>
 
                     </div>
+
+                    <!--  -->
+                    <!-- <div class="row justify-content-center align-self-center"> -->
+                      <!-- First Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="0.3s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+                          <div class="single_service_title">
+                            <h3>Web Design</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Second Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="0.5s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+
+                          <div class="single_service_title">
+                            <h3>Motion Design</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Third Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="0.7s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+
+                          <div class="single_service_title">
+                            <h3>Digital Marketing</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Fourth Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="0.9s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+
+                          <div class="single_service_title">
+                            <h3>Web Development</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Fifth Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="1.1s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+
+                          <div class="single_service_title">
+                            <h3>App Development</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div> -->
+
+                      <!-- Sixth Service -->
+                      <!-- <div
+                        class="col-lg-4 col-sm-6"
+                        data-wow-delay="1.3s"
+                      >
+                        <div class="single_service_card">
+                          <div class="single_service_icon_area">
+                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
+                          </div>
+
+                          <div class="single_service_title">
+                            <h3>Creative Service</h3>
+                          </div>
+                          <div class="single_service_description">
+                            <p>
+                              It is a long fact that a reader will be distracted by the
+                              content of a page .
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                    <!--  -->
                     
                   </div>
                 </div>
