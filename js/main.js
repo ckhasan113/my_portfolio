@@ -508,3 +508,30 @@ function linerProgressValueOnDisplay(event) {
     }
   });
 }
+
+
+// Certificate Image View
+// Get the modal
+const modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+const imageViewBtns = document.querySelectorAll(".image_view_button");
+const images = document.querySelectorAll(".image_view_onclick");
+const modalImage = document.getElementById("modal_image");
+const captionText = document.getElementById("modal_caption");
+
+imageViewBtns.forEach((btnItem, btnIndex, elementWithClass) => {
+  btnItem.onclick = function(){
+    modal.style.display = "block";
+    modalImage.src = images[btnIndex].src;
+    captionText.innerHTML = images[btnIndex].alt;
+  }
+});
+
+// Get the <span> element that closes the modal
+const closeModal = document.getElementById("modal_close");
+
+// When the user clicks on <span> (x), close the modal
+closeModal.onclick = function() {
+  modal.style.display = "none";
+}

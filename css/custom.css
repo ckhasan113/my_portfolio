@@ -15,22 +15,24 @@
   --resume_active_heighlighter: #3e64ff;
   --active_heighlighter_social: #00ffb8;
   --link_color: #1299f6;
-  --text_color: #000000;
-  --text_color_light: #999999;
+  --text_color_primary: #000000;
+  --text_color_primary_light: #999999;
+  --text_color_secondary: #f1f1f1;
   --button_color: #203bff;
-  --button_text_color: #ffffff;
+  --button_text_color_primary: #ffffff;
   --liner_gradient_first: #0045ff;
   --liner_gradient_last: #bd29f2;
   --progress_bar_color: #0045ff;
+  --closs_button_hover: rgb(171, 125, 125);
   --hover_effect_transparent_background: #3f65ffb4;
-  --hover_effect_transparent_background_text_color: #ffffff;
+  --hover_effect_transparent_background_text_color_primary: #ffffff;
   --liner_gradient_first_edge: "#0045ff";
   --liner_gradient_last_edge: "#bd29f2";
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--text_color);
+  color: var(--text_color_primary);
 }
 a {
   text-decoration: none;
@@ -78,7 +80,7 @@ ul {
   font-size: 80%;
 }
 .text-gray {
-  color: var(--text_color_light);
+  color: var(--text_color_primary_light);
 }
 
 /*=======================================
@@ -112,7 +114,7 @@ a.cbtn.cbtn1 {
     var(--liner_gradient_first) 0%,
     var(--liner_gradient_last) 100%
   );
-  color: var(--button_text_color);
+  color: var(--button_text_color_primary);
 }
 a.cbtn.cbtn1:hover {
   color: var(--liner_gradient_first);
@@ -530,14 +532,14 @@ nav.resume_nav {
   box-shadow: 0px 2px 50px -20px;
 }
 .resume_nav ul {
-  color: var(--text_color);
+  color: var(--text_color_primary);
 }
 .resume_nav ul li {
   margin-bottom: 10px;
   font-weight: 700;
 }
 .resume_nav ul li a {
-  color: var(--text_color);
+  color: var(--text_color_primary);
   transition: all 1s;
 }
 .resume_nav ul li a.current {
@@ -605,27 +607,27 @@ nav.resume_nav {
 .resume_text h3 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--text_color);
+  color: var(--text_color_primary);
   margin: 0;
 }
 .resume_text .name {
   font-weight: 700;
   font-size: 18px;
-  color: var(--text_color);
+  color: var(--text_color_primary);
 }
 .resume_text .address {
-  color: var(--text_color_light);
+  color: var(--text_color_primary_light);
   font-size: 14px;
 }
 .resume_text .address span {
   font-size: 12px;
 }
 .resume_text .outcomes {
-  color: var(--text_color_light);
+  color: var(--text_color_primary_light);
   margin-top: 15px;
 }
 .resume_text li.outcome {
-  color: var(--text_color_light);
+  color: var(--text_color_primary_light);
 }
 
 /* resume_area_headings */
@@ -641,7 +643,7 @@ nav.resume_nav {
 }
 .small_subheading span {
   font-size: 14px;
-  color: var(--text_color_light);
+  color: var(--text_color_primary_light);
 }
 .small_subheading span.text {
   font-size: 12px;
@@ -733,7 +735,7 @@ nav.resume_nav {
 .certificate_content .resume_text .position,
 .certificate_content .resume_text .name,
 .image_view_button {
-  color: var(--hover_effect_transparent_background_text_color);
+  color: var(--hover_effect_transparent_background_text_color_primary);
 }
 .certificate_content .resume_text .date{
   font-weight: 900;
@@ -757,7 +759,7 @@ nav.resume_nav {
 }
 .image_view_button:hover{
   color: var(--hover_effect_transparent_background);
-  background: var(--hover_effect_transparent_background_text_color);
+  background: var(--hover_effect_transparent_background_text_color_primary);
 }
 /* todo */
 
@@ -1293,5 +1295,74 @@ nav.resume_nav {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+
+/*=======================================
+ Animation
+========================================*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal_content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#modal_caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: var(--text_color_secondary);
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal_content, #modal_caption {
+  animation-name: zoom;
+  animation-duration: 1s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+#modal_close {
+  position: absolute;
+  z-index: 1;
+  top: 85px;
+  right: 35px;
+  color: var(--text_color_secondary);
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#modal_close:hover,
+#modal_close:focus {
+  color: var(--closs_button_hover);
+  text-decoration: none;
+  cursor: pointer;
 }
 

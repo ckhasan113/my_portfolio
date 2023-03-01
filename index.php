@@ -738,7 +738,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="B.Sc (Hons) in Computer Science &#38; Engineering (CSE)">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -770,7 +770,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/basis_certificate.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/basis_certificate.jpg" alt="Mobile App Development">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -802,7 +802,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/blood_donation.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/blood_donation.jpg" alt="Blood Donation">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -834,7 +834,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/hsc.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/hsc.jpg" alt="Higher Secondary School Certificate">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -866,7 +866,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/computer_diploma.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/computer_diploma.jpg" alt="Diploma in Computer Science">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -898,7 +898,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/volleyball.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/volleyball.jpg" alt="Volleyball">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -930,7 +930,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="Ansar &#38; VDP Force ">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -962,7 +962,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ssc.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/ssc.jpg" alt="Secondary School Certificate">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -994,7 +994,7 @@ get_header();
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/scout.jpg" alt="">
+                          <img class="image_view_onclick" src="/portfolio/wp-content/themes/myportfolio/image/certificate/scout.jpg" alt="Scouts Health Camp">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -1039,6 +1039,19 @@ get_header();
   </section>
 </div>
 
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span id="modal_close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal_content" id="modal_image">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="modal_caption"></div>
+
+</div>
 
 <?php wp_footer() ?>
 </body>
