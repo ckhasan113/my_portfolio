@@ -729,12 +729,12 @@ get_header();
 
                 <div class="certificates_list">
 
-                  <div class="row">
+                  <div class="row justify-content-center align-self-center">
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -745,7 +745,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -761,12 +761,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -777,7 +777,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -793,12 +793,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -809,7 +809,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -825,12 +825,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -841,7 +841,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -857,12 +857,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -873,7 +873,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -889,12 +889,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -905,7 +905,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -921,12 +921,12 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
                     <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col">
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
 
-                      <div class="resume_wrap single_certificate d-flex animation_on_scroll slideUp animation_duration_2 animation_delay_03">
+                      <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
@@ -937,7 +937,7 @@ get_header();
                               <i class="fas fa-award"></i>
                             </div>
 
-                            <div class="resume_text hover_effect_slide_up_padding">
+                            <div class="resume_text">
 
                               <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
 
@@ -953,142 +953,103 @@ get_header();
 
                       </div>
 
-                    </div>
+                    </div>                    
 
-                    <!--  -->
-                    <!-- <div class="row justify-content-center align-self-center"> -->
-                      <!-- First Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="0.3s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-                          <div class="single_service_title">
-                            <h3>Web Design</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
+                    <!-- BSc Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+
+                              <h3 class="position">B.Sc in CSE</h3>
+
+                              <span class="name">Daffodil International University</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
                           </div>
                         </div>
-                      </div> -->
 
-                      <!-- Second Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="0.5s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-
-                          <div class="single_service_title">
-                            <h3>Motion Design</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
-                          </div>
-                        </div>
-                      </div> -->
-
-                      <!-- Third Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="0.7s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-
-                          <div class="single_service_title">
-                            <h3>Digital Marketing</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
-                          </div>
-                        </div>
-                      </div> -->
-
-                      <!-- Fourth Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="0.9s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-
-                          <div class="single_service_title">
-                            <h3>Web Development</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
-                          </div>
-                        </div>
-                      </div> -->
-
-                      <!-- Fifth Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="1.1s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-
-                          <div class="single_service_title">
-                            <h3>App Development</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
-                          </div>
-                        </div>
-                      </div> -->
-
-                      <!-- Sixth Service -->
-                      <!-- <div
-                        class="col-lg-4 col-sm-6"
-                        data-wow-delay="1.3s"
-                      >
-                        <div class="single_service_card">
-                          <div class="single_service_icon_area">
-                            <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" />
-                          </div>
-
-                          <div class="single_service_title">
-                            <h3>Creative Service</h3>
-                          </div>
-                          <div class="single_service_description">
-                            <p>
-                              It is a long fact that a reader will be distracted by the
-                              content of a page .
-                            </p>
-                          </div>
-                        </div>
                       </div>
-                    </div> -->
-                    <!--  -->
+
+                    </div>                    
+
+                    <!-- BSc Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+
+                              <h3 class="position">B.Sc in CSE</h3>
+
+                              <span class="name">Daffodil International University</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>                    
+
+                    <!-- BSc Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+
+                              <h3 class="position">B.Sc in CSE</h3>
+
+                              <span class="name">Daffodil International University</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>                    
                     
                   </div>
                 </div>
