@@ -1031,13 +1031,14 @@ get_header();
   </section>
   <!-- Resume Section Area End -->
 
-  <section id="service_area" class="menu_active_on_view" style="height: 900px; background: #f00;">
+  <section id="service_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
     <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
     <div class="container_test">
       <div class="newsletter"><p>weee!</p></div>
     </div>
   </section>
 </div>
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
