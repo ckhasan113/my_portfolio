@@ -156,7 +156,7 @@ get_header();
                   </div>
                   <div class="resume_text ps-4">
                     <p class="date m-0"><span class="start_date">May, 2016</span> &#8211; <span class="end_date">December, 2019</span></p>
-                    <h3 class="position">B.Sc (Hons) in Computer Science & Engineering (CSE)</h3>
+                    <h3 class="position">B.Sc (Hons) in Computer Science &#38; Engineering (CSE)</h3>
                     <span class="name">Daffodil International University</span>
                     <p class="address m-0">102 Sukrabad Rd, Dhaka 1207 <span class="extra">(Old Campus)</span></p>
                     <p class="outcomes">3.66 out of 4.00</p>
@@ -763,14 +763,14 @@ get_header();
 
                     </div>                    
 
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                    <!-- BITM Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_02">
 
                       <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/basis_certificate.jpg" alt="">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -779,11 +779,11 @@ get_header();
 
                             <div class="resume_text">
 
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+                              <p class="date m-0"><span class="start_date">April, 2019<span class="end_date"></span></p>
 
-                              <h3 class="position">B.Sc in CSE</h3>
+                              <h3 class="position">Mobile App Development</h3>
 
-                              <span class="name">Daffodil International University</span>
+                              <span class="name">B I T M</span>
 
                               <div class="image_view_button">View</div>
 
@@ -795,14 +795,14 @@ get_header();
 
                     </div>                    
 
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                    <!-- Blood Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_03">
 
                       <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/blood_donation.jpg" alt="">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -811,11 +811,11 @@ get_header();
 
                             <div class="resume_text">
 
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+                              <p class="date m-0"><span class="start_date">October, 2015<span class="end_date"></span></p>
 
-                              <h3 class="position">B.Sc in CSE</h3>
+                              <h3 class="position">Blood Donation</h3>
 
-                              <span class="name">Daffodil International University</span>
+                              <span class="name">Quantum Foundation</span>
 
                               <div class="image_view_button">View</div>
 
@@ -827,14 +827,14 @@ get_header();
 
                     </div>                    
 
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                    <!-- HSC Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_04">
 
                       <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/hsc.jpg" alt="">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -843,11 +843,139 @@ get_header();
 
                             <div class="resume_text">
 
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+                              <p class="date m-0"><span class="start_date">May, 2012<span class="end_date"></span></p>
 
-                              <h3 class="position">B.Sc in CSE</h3>
+                              <h3 class="position">H S C</h3>
 
-                              <span class="name">Daffodil International University</span>
+                              <span class="name">Nazipur Govt. College</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                    
+                    <!-- Diploma Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_05">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/computer_diploma.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">June, 2011<span class="end_date"></span></p>
+
+                              <h3 class="position">Diploma in CS</h3>
+
+                              <span class="name">Nurul Islam Judo Unnayan Society</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div> 
+                    
+                    <!-- Volleyball Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_06">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/volleyball.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">February, 2011<span class="end_date"></span></p>
+
+                              <h3 class="position">Volleyball</h3>
+
+                              <span class="name">Nazipur Govt. College</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>                     
+
+                    <!-- VDP Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_07">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ansar_vdp_training.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">January, 2011<span class="end_date"></span></p>
+
+                              <h3 class="position">V D P</h3>
+
+                              <span class="name">Ansar &#38; VDP Force</span>
+
+                              <div class="image_view_button">View</div>
+
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>                                                    
+
+                    <!-- SSC Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_08">
+
+                      <div class="resume_wrap single_certificate d-flex">
+
+                        <div class="certificate_content">
+
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/ssc.jpg" alt="">
+
+                          <div class="hover_effect_slide_up">
+                            <div class="resume_icon d-flex justify-content-center align-items-center">
+                              <i class="fas fa-award"></i>
+                            </div>
+
+                            <div class="resume_text">
+
+                              <p class="date m-0"><span class="start_date">March, 2010<span class="end_date"></span></p>
+
+                              <h3 class="position">S S C</h3>
+
+                              <span class="name">Nazipur High School</span>
 
                               <div class="image_view_button">View</div>
 
@@ -859,14 +987,14 @@ get_header();
 
                     </div>                    
 
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
+                    <!-- scout Certificate -->
+                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_09">
 
                       <div class="resume_wrap single_certificate d-flex">
 
                         <div class="certificate_content">
 
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
+                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/scout.jpg" alt="">
 
                           <div class="hover_effect_slide_up">
                             <div class="resume_icon d-flex justify-content-center align-items-center">
@@ -875,171 +1003,11 @@ get_header();
 
                             <div class="resume_text">
 
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
+                              <p class="date m-0"><span class="start_date">December, 2009<span class="end_date"></span></p>
 
-                              <h3 class="position">B.Sc in CSE</h3>
+                              <h3 class="position">Health Camp</h3>
 
-                              <span class="name">Daffodil International University</span>
-
-                              <div class="image_view_button">View</div>
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>                    
-
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
-
-                      <div class="resume_wrap single_certificate d-flex">
-
-                        <div class="certificate_content">
-
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
-
-                          <div class="hover_effect_slide_up">
-                            <div class="resume_icon d-flex justify-content-center align-items-center">
-                              <i class="fas fa-award"></i>
-                            </div>
-
-                            <div class="resume_text">
-
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
-
-                              <h3 class="position">B.Sc in CSE</h3>
-
-                              <span class="name">Daffodil International University</span>
-
-                              <div class="image_view_button">View</div>
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>                    
-
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
-
-                      <div class="resume_wrap single_certificate d-flex">
-
-                        <div class="certificate_content">
-
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
-
-                          <div class="hover_effect_slide_up">
-                            <div class="resume_icon d-flex justify-content-center align-items-center">
-                              <i class="fas fa-award"></i>
-                            </div>
-
-                            <div class="resume_text">
-
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
-
-                              <h3 class="position">B.Sc in CSE</h3>
-
-                              <span class="name">Daffodil International University</span>
-
-                              <div class="image_view_button">View</div>
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>                    
-
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
-
-                      <div class="resume_wrap single_certificate d-flex">
-
-                        <div class="certificate_content">
-
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
-
-                          <div class="hover_effect_slide_up">
-                            <div class="resume_icon d-flex justify-content-center align-items-center">
-                              <i class="fas fa-award"></i>
-                            </div>
-
-                            <div class="resume_text">
-
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
-
-                              <h3 class="position">B.Sc in CSE</h3>
-
-                              <span class="name">Daffodil International University</span>
-
-                              <div class="image_view_button">View</div>
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>                    
-
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
-
-                      <div class="resume_wrap single_certificate d-flex">
-
-                        <div class="certificate_content">
-
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
-
-                          <div class="hover_effect_slide_up">
-                            <div class="resume_icon d-flex justify-content-center align-items-center">
-                              <i class="fas fa-award"></i>
-                            </div>
-
-                            <div class="resume_text">
-
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
-
-                              <h3 class="position">B.Sc in CSE</h3>
-
-                              <span class="name">Daffodil International University</span>
-
-                              <div class="image_view_button">View</div>
-
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>                    
-
-                    <!-- BSc Certificate -->
-                    <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_01">
-
-                      <div class="resume_wrap single_certificate d-flex">
-
-                        <div class="certificate_content">
-
-                          <img src="/portfolio/wp-content/themes/myportfolio/image/certificate/undergraduate_certificate.jpg" alt="">
-
-                          <div class="hover_effect_slide_up">
-                            <div class="resume_icon d-flex justify-content-center align-items-center">
-                              <i class="fas fa-award"></i>
-                            </div>
-
-                            <div class="resume_text">
-
-                              <p class="date m-0"><span class="start_date">January, 2020<span class="end_date"></span></p>
-
-                              <h3 class="position">B.Sc in CSE</h3>
-
-                              <span class="name">Daffodil International University</span>
+                              <span class="name">Scouts &#38; Rover Scouts</span>
 
                               <div class="image_view_button">View</div>
 
