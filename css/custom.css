@@ -6,7 +6,9 @@
   --menu: #ffffff;
   --logo_leter: #ffffff;
   --social_media: #ffffff;
-  --element_background_color: #ffffff;
+  --element_background_color_primary: #ffffff;
+  --section_background_color_primary: #dddddd;
+  --section_background_color_secondary: #ebf9ff;
   --logo_first_leter_background: #3e64ff;
   --logo_last_part: #5a41cc;
   --box_shadow_color: #dddddd;
@@ -62,17 +64,17 @@ ul {
 }
 
 .element_background {
-  background: var(--element_background_color);
+  background: var(--element_background_color_primary);
 }
-.shadow {
+/* .shadow {
   box-shadow: 0px 0rem 20px var(--border_box_shadow_color) !important;
-}
-.border-bottom {
+} */
+/* .border-bottom {
   border-bottom: 1px solid var(--border_box_shadow_color);
-}
-.border-right {
+} */
+/* .border-right {
   border-right: 1px solid var(--border_box_shadow_color);
-}
+} */
 .border_radious_15 {
   border-radius: 15px;
 }
@@ -86,11 +88,6 @@ ul {
 /*=======================================
  Button Style
 ========================================*/
-#about_area input[type="button"] {
-  background: var(--button_color);
-  border: 1px solid var(--button_color);
-}
-
 /* Common_CBTN */
 a.cbtn {
   border-radius: 5px;
@@ -480,6 +477,7 @@ a.cbtn.cbtn1:hover::after {
 #about_area {
   overflow: hidden;
   max-width: 100%;
+  background: var(--section_background_color_primary);
 }
 .about_me_image img {
   width: 100%;
@@ -519,6 +517,9 @@ a.cbtn.cbtn1:hover::after {
  Resume Area Style
 ========================================*/
 /* sticky not work if justify-content and align-item use */
+#resume_area{
+  background: var(--section_background_color_secondary);
+}
 .stickt_resume_menu {
   position: sticky;
   top: 160px;
@@ -623,11 +624,18 @@ nav.resume_nav {
   font-size: 12px;
 }
 .resume_text .outcomes {
-  color: var(--text_color_primary_light);
+  color: var(--text_color_primary);
   margin-top: 15px;
 }
+/* ul.outcomes_list {
+  list-style: armenian;
+} */
 .resume_text li.outcome {
-  color: var(--text_color_primary_light);
+  color: var(--text_color_primary);
+}
+.resume_text li.outcome:before {
+  content: "\2605";
+  margin-right: 5px;
 }
 
 /* resume_area_headings */

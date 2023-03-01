@@ -60,8 +60,8 @@ get_header();
   <!-- Home Section End -->
 
   <!-- About Section Start -->
-  <section id="about_area" class="menu_active_on_view mt-5">
-    <div class="about_area_wrap">
+  <section id="about_area" class="menu_active_on_view">
+    <div class="about_area_wrap mt-5">
       <div class="container">
         <div class="row justify-content-center align-items-center">
 
@@ -210,13 +210,13 @@ get_header();
                     <span class="name">WeTech Digital</span>
                     <p class="address m-0">44 F/7(Rongon Tower), West Panthapath, Dhaka.</p>
                     <p class="outcomes">
-                    <ol>
+                    <ul class="outcomes_list">
                       <li class="outcome">Communication with project team members, and clients.</li>
                       <li class="outcome">Resource allocation.</li>
                       <li class="outcome">Quality control.</li>
                       <li class="outcome">Technical support for software applications.</li>
                       <li class="outcome">HR support.</li>
-                    </ol>
+                    </ul>
                     </p>
                   </div>
                 </div>
@@ -231,12 +231,12 @@ get_header();
                     <span class="name">Sobuj Group of Companies</span>
                     <p class="address m-0">Nazipur, Patnitala, Naogaon</p>
                     <p class="outcomes">
-                    <ol>
+                    <ul class="outcomes_list">
                       <li class="outcome">IT consultant.</li>
                       <li class="outcome">HR support.</li>
                       <li class="outcome">Client management.</li>
                       <li class="outcome">Managing service center.</li>
-                    </ol>
+                    </ul>
                     </p>
                   </div>
                 </div>
@@ -251,12 +251,12 @@ get_header();
                     <span class="name">aaalooo Healthcare Limited</span>
                     <p class="address m-0">Gulshan Garace, House # 8, Flat # 6B, Gulshan - 1</p>
                     <p class="outcomes">
-                    <ol>
+                    <ul class="outcomes_list">
                       <li class="outcome">Creating mobile applications.</li>
                       <li class="outcome">Debugging problems.</li>
                       <li class="outcome">Helping to create, update, and debug API.</li>
                       <li class="outcome">Publishing mobile app.</li>
-                    </ol>
+                    </ul>
                     </p>
                   </div>
                 </div>
@@ -268,7 +268,7 @@ get_header();
             <!-- Skills_Area -->
             <?php
               $data_delay = 3000;
-              $linear_data_delay = 7000;
+              $linear_data_delay = 700;
 
               $data_value_html = 95;
               $data_value_css = 90;
@@ -373,7 +373,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_01">
 
-                    <div class="element_backgrount shadow border_radious_15 p-4">
+                    <div class="element_background shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">HTML</h2>
 
@@ -427,7 +427,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_04">
 
-                    <div class="element_backgrount shadow border_radious_15 p-4">
+                    <div class="element_background shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">CSS</h2>
 
@@ -474,7 +474,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_07">
 
-                    <div class="element_backgrount shadow border_radious_15 p-4">
+                    <div class="element_background shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">JavaScript</h2>
 
@@ -521,7 +521,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_1">
 
-                    <div class="element_backgrount shadow border_radious_15 p-4">
+                    <div class="element_background shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">PHP</h2>
 
@@ -580,7 +580,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -598,7 +598,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -616,7 +616,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -634,7 +634,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $c_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -652,7 +652,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $java_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -670,7 +670,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $android_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -688,7 +688,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $database_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -706,7 +706,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress" style="height: 7px;">
+                      <div class="progress element_background" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
