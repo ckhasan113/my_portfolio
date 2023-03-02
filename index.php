@@ -115,6 +115,7 @@ get_header();
               </div>
             </div>
 
+            <!-- using a tag href to view cv. We can use iframe to view pdf on page -->
             <!-- <iframe class="resume_pdf_viewer" src="/portfolio/wp-content/themes/myportfolio/image/Md_Al_Mehedi_Hasan.pdf"></iframe> -->
             
           </div>
