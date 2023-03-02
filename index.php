@@ -70,51 +70,53 @@ get_header();
           </div>
           <div class="col-md-7">
 
-            <h1 class="slideFromRight animation_duration_5 animation_delay_01 animation_on_scroll">About Me</h1>
+            <h1 class="slideFromRight animation_duration_4 animation_delay_01 animation_on_scroll">About Me</h1>
 
-            <p class="slideFromRight about_me_text animation_duration_5 animation_delay_02 animation_on_scroll" align="justify">Hi, I&#39;m Hasan! I&#39;m a front-end web developer specializing in WordPress. As a web developer, I have extensive experience in building and maintaining responsive and user-friendly websites as well as web applications. I am proficient in HTML, CSS, Bootstrap, PHP, and have developed custom WordPress themes and plugins to meet the unique needs of clients.</p>
+            <p class="slideFromRight about_me_text animation_duration_4 animation_delay_02 animation_on_scroll" align="justify">Hi, I&#39;m Hasan! I&#39;m a front-end web developer specializing in WordPress. As a web developer, I have extensive experience in building and maintaining responsive and user-friendly websites as well as web applications. I am proficient in HTML, CSS, Bootstrap, PHP, and have developed custom WordPress themes and plugins to meet the unique needs of clients.</p>
 
             <table class="about_me_tbl">
-              <tr class="slideFromRight animation_duration_6 animation_delay_03 animation_on_scroll">
+              <tr class="slideFromRight animation_duration_4 animation_delay_03 animation_on_scroll">
                 <th>Name:</th>
                 <td>Md Al Mehedi Hasan</td>
               </tr>
-              <tr class="slideFromRight animation_duration_6 animation_delay_04 animation_on_scroll">
+              <tr class="slideFromRight animation_duration_4 animation_delay_04 animation_on_scroll">
                 <th>Date of birth:</th>
                 <td>January 03, 1995</td>
               </tr>
-              <tr class="slideFromRight animation_duration_6 animation_delay_05 animation_on_scroll">
+              <tr class="slideFromRight animation_duration_4 animation_delay_05 animation_on_scroll">
                 <th>Address:</th>
                 <td>15C, 5th Building, NHA Garden City, Ring Rd, Mohammadpur, Dhaka-1207</td>
               </tr>
-              <tr class="slideFromRight no_space animation_duration_6 animation_delay_06 animation_on_scroll">
+              <tr class="slideFromRight no_space animation_duration_4 animation_delay_06 animation_on_scroll">
                 <th>Email:</th>
                 <td>ck.hasan113@gmail.com</td>
               </tr>
-              <tr class="slideFromRight animation_duration_6 animation_delay_065 animation_on_scroll">
+              <tr class="slideFromRight animation_duration_4 animation_delay_065 animation_on_scroll">
                 <th></th>
                 <td>hasan15-7970@diu.edu.bd</td>
               </tr>
-              <tr class="slideFromRight no_space animation_duration_6 animation_delay_07 animation_on_scroll">
+              <tr class="slideFromRight no_space animation_duration_4 animation_delay_07 animation_on_scroll">
                 <th>Phone:</th>
                 <td>+88 01734-184888</td>
               </tr>
-              <tr class="slideFromRight no_space animation_duration_6 animation_delay_075 animation_on_scroll">
+              <tr class="slideFromRight no_space animation_duration_4 animation_delay_075 animation_on_scroll">
                 <th></th>
                 <td>+88 01845-592277</td>
               </tr>
             </table>
 
-            <p class="slideFromRight about_problem_solving animation_duration_6 animation_delay_08 animation_on_scroll"><span class="counter" data-val="250" data-delay="7000" isCounterDone="no">0</span><span>+</span> problems have been solved on various online platforms</p>
+            <p class="slideFromRight about_problem_solving animation_duration_4 animation_delay_08 animation_on_scroll"><span class="counter" data-val="250" data-delay="7000" isCounterDone="no">0</span><span>+</span> problems have been solved on various online platforms</p>
 
-            <div class="button_wrapper slideFromRight download_cv_btn animation_duration_6 animation_delay_1 animation_on_scroll">
+            <div class="button_wrapper slideFromRight download_cv_btn animation_duration_4 animation_delay_1 animation_on_scroll">
               <div class="animate animation_effect">
-                <a href="#" class="overflow-hidden download_cv_btn_action cbtn cbtn1">
+                <a href="/portfolio/wp-content/themes/myportfolio/image/Md_Al_Mehedi_Hasan.pdf" class="overflow-hidden download_cv_btn_action cbtn cbtn1" target="_blank">
                   <span>D</span><span>o</span><span>w</span><span>n</span><span>l</span><span>o</span><span>a</span><span>d</span>&nbsp;<span>C</span><span>V</span><span>&nbsp;<i class="fas fa-arrow-right"></i></span>
                 </a>
               </div>
             </div>
 
+            <!-- <iframe class="resume_pdf_viewer" src="/portfolio/wp-content/themes/myportfolio/image/Md_Al_Mehedi_Hasan.pdf"></iframe> -->
+            
           </div>
         </div>
       </div>

@@ -520,6 +520,7 @@ const images = document.querySelectorAll(".image_view_onclick");
 const modalImage = document.getElementById("modal_image");
 const captionText = document.getElementById("modal_caption");
 
+// Get the selected image
 imageViewBtns.forEach((btnItem, btnIndex, elementWithClass) => {
   btnItem.onclick = function(){
     modal.style.display = "block";

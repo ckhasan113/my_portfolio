@@ -124,6 +124,12 @@ I. Exceptional
     font-size: 20pt;
   }
 
+  /* About_Area */
+  a.download_cv_btn_action {
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+
   /* Resume_Area */
   /* resume_menu */
   .stickt_resume_menu {
