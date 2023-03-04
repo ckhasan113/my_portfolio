@@ -67,7 +67,7 @@ get_header();
       <div class="container">
         <div class="row justify-content-center align-items-center">
 
-          <div class="slideFromLeft col-md-5 about_me_image animation_duration_3 animation_delay_01 animation_on_scroll">
+          <div class="slideUp col-md-5 about_me_image animation_duration_3 animation_delay_01 animation_on_scroll">
             <img src="/portfolio/wp-content/themes/myportfolio/image/about_me_2.png" alt="">
           </div>
           <div class="col-md-7">
@@ -1041,7 +1041,7 @@ get_header();
   <!-- Service Section Area start -->
   <section id="service_area" class="menu_active_on_view">
     
-  <div class="container">
+    <div class="container">
 
       <div class="row justify-content-center align-items-center text-center">
         
@@ -1049,11 +1049,11 @@ get_header();
 
         <div class="section_heading">
           <div class="service_area_title">
-            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_2 animation_delay_03">My Services</h2>
+            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">My Services</h2>
           </div>
 
           <div class="service_area_subtitle">
-            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_2 animation_delay_03">As a professional web and WordPress developer, I offer a wide range of services to help businesses create a dynamic and engaging online presence. With a focus on quality and results, I work closely with clients to understand their unique business needs and deliver exceptional results that exceed expectations.</p>
+            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_3 animation_delay_03">As a professional web and WordPress developer, I offer a wide range of services to help businesses create a dynamic and engaging online presence. With a focus on quality and results, I work closely with clients to understand their unique business needs and deliver exceptional results that exceed expectations.</p>
           </div>
         </div>
 
@@ -1062,7 +1062,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/web_development.png" alt="">
             </div>
             <div class="service_title">Web Development</div>
             <div class="service_subtitle">I can develop custom websites using various programming languages such as HTML, CSS, JavaScript, PHP, and backend WordPress, Firebase. I will ensure that the website is mobile-friendly, user-friendly, and secure.
@@ -1076,7 +1076,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/web_maintenance.png" alt="">
             </div>
             <div class="service_title">Website Maintenance</div>
             <div class="service_subtitle">I can provide ongoing maintenance and support for websites, including security updates, software upgrades, and troubleshooting issues that arise with the website.
@@ -1090,7 +1090,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/e_commerce_development.png" alt="">
             </div>
             <div class="service_title">E-commerce Development</div>
             <div class="service_subtitle">I can create online stores and marketplaces for businesses, including integrating payment gateways, shipping APIs, and inventory management systems.
@@ -1104,7 +1104,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/cms.png" alt="">
             </div>
             <div class="service_title">Content Management Systems</div>
             <div class="service_subtitle">I can work with CMS platforms like WordPress to create dynamic websites that can be easily managed and updated by non-technical users.
@@ -1118,7 +1118,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/custom_plugin.png" alt="">
             </div>
             <div class="service_title">Custom Plugin Development</div>
             <div class="service_subtitle">I can develop custom WordPress plugins to meet the unique needs of my clients. This includes creating custom post types, custom fields, and other functionality specific to the client's business.
@@ -1132,7 +1132,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/theme_customization.png" alt="">
             </div>
             <div class="service_title">Theme Customization</div>
             <div class="service_subtitle">I can modify existing WordPress themes to meet the specific design requirements of my clients. This includes modifying CSS, HTML, and PHP code to achieve the desired look and feel of the website.
@@ -1146,7 +1146,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/mobile_app_development.png" alt="">
             </div>
             <div class="service_title">Mobile App Development</div>
             <div class="service_subtitle">I can develop mobile applications that can run on iOS, Android, or other platforms.
@@ -1160,7 +1160,7 @@ get_header();
 
           <div class="single_service_wrap d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <i class="fas fa-laptop"></i>
+              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/technoical_support.png" alt="">
             </div>
             <div class="service_title">Technical Support</div>
             <div class="service_subtitle">I can provide technical support to clients, troubleshooting issues that arise with their websites or applications.
@@ -1177,8 +1177,12 @@ get_header();
   
   </section>
   <!-- Service Section Area End -->
+
+  <section id="project_area" class="menu_active_on_view">
+    
+  </section>
   
-  <section id="project_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
+  <section id="contact_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
     <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
     <div class="container_test">
       <div class="newsletter">
@@ -1186,6 +1190,7 @@ get_header();
       </div>
     </div>
   </section>
+
 </div>
 
 

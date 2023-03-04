@@ -1055,15 +1055,15 @@ p.heading_subtitle {
   border-radius: 50%;
   transition: all 0.5s;
 }
-.service_icon i {
+.service_icon img {
+  width: 45px;
   filter: invert(1);
-  font-size: 30px;
   transition: all 0.5s;
 }
 .single_service_wrap:hover .service_icon {
   background: var(--element_background_color_primary);
 }
-.single_service_wrap:hover .service_icon i {
+.single_service_wrap:hover .service_icon img {
   filter: invert(0);
   font-size: 35px;
 }
