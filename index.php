@@ -7,6 +7,7 @@ get_header();
 ?>
 
 <div class="menu_activate_on_view_body">
+
   <!-- Home Section Start -->
   <section id="home_area" class="menu_active_on_view">
     <div class="container">
@@ -58,6 +59,7 @@ get_header();
     </div>
   </section>
   <!-- Home Section End -->
+
 
   <!-- About Section Start -->
   <section id="about_area" class="menu_active_on_view">
@@ -117,13 +119,14 @@ get_header();
 
             <!-- using a tag href to view cv. We can use iframe to view pdf on page -->
             <!-- <iframe class="resume_pdf_viewer" src="/portfolio/wp-content/themes/myportfolio/image/Md_Al_Mehedi_Hasan.pdf"></iframe> -->
-            
+
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- About Section End -->
+
 
   <!-- Resume Section Area Start -->
   <section id="resume_area" class="menu_active_on_view resume_menu_active_on_view">
@@ -270,39 +273,39 @@ get_header();
 
             <!-- Skills_Area -->
             <?php
-              $data_delay = 3000;
-              $linear_data_delay = 700;
+            $data_delay = 3000;
+            $linear_data_delay = 700;
 
-              $data_value_html = 95;
-              $data_value_css = 90;
-              $data_value_js = 80;
-              $data_value_php = 85;
+            $data_value_html = 95;
+            $data_value_css = 90;
+            $data_value_js = 80;
+            $data_value_php = 85;
 
-              $progress_bar_value_html = (357 - (357 * ($data_value_html / 100)));
-              $progress_bar_value_css = (357 - (357 * ($data_value_css / 100)));
-              $progress_bar_value_js = (357 - (357 * ($data_value_js / 100)));
-              $progress_bar_value_js = (357 - (357 * ($data_value_php / 100)));
+            $progress_bar_value_html = (357 - (357 * ($data_value_html / 100)));
+            $progress_bar_value_css = (357 - (357 * ($data_value_css / 100)));
+            $progress_bar_value_js = (357 - (357 * ($data_value_js / 100)));
+            $progress_bar_value_js = (357 - (357 * ($data_value_php / 100)));
 
-              $last_week_html_value = 28;
-              $last_month_html_value = 60;
+            $last_week_html_value = 28;
+            $last_month_html_value = 60;
 
-              $last_week_css_value = 28;
-              $last_month_css_value = 60;
+            $last_week_css_value = 28;
+            $last_month_css_value = 60;
 
-              $last_week_js_value = 28;
-              $last_month_js_value = 60;
+            $last_week_js_value = 28;
+            $last_month_js_value = 60;
 
-              $last_week_php_value = 28;
-              $last_month_php_value = 60;
+            $last_week_php_value = 28;
+            $last_month_php_value = 60;
 
-              $c_progress_value = 85;
-              $java_progress_value = 80;
-              $jQuery_progress_value = 80;
-              $android_progress_value = 70;
-              $database_progress_value = 60;
-              $wp_theme_progress_value = 90;
-              $photoshop_progress_value = 30;
-              $wp_plugin_progress_value = 30;
+            $c_progress_value = 85;
+            $java_progress_value = 80;
+            $jQuery_progress_value = 80;
+            $android_progress_value = 70;
+            $database_progress_value = 60;
+            $wp_theme_progress_value = 90;
+            $photoshop_progress_value = 30;
+            $wp_plugin_progress_value = 30;
             ?>
 
             <!-- Circular progress bar color css start -->
@@ -764,7 +767,7 @@ get_header();
 
                       </div>
 
-                    </div>                    
+                    </div>
 
                     <!-- BITM Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_02">
@@ -796,7 +799,7 @@ get_header();
 
                       </div>
 
-                    </div>                    
+                    </div>
 
                     <!-- Blood Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_03">
@@ -828,7 +831,7 @@ get_header();
 
                       </div>
 
-                    </div>                    
+                    </div>
 
                     <!-- HSC Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_04">
@@ -861,7 +864,7 @@ get_header();
                       </div>
 
                     </div>
-                    
+
                     <!-- Diploma Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_05">
 
@@ -892,8 +895,8 @@ get_header();
 
                       </div>
 
-                    </div> 
-                    
+                    </div>
+
                     <!-- Volleyball Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_06">
 
@@ -924,7 +927,7 @@ get_header();
 
                       </div>
 
-                    </div>                     
+                    </div>
 
                     <!-- VDP Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_07">
@@ -956,7 +959,7 @@ get_header();
 
                       </div>
 
-                    </div>                                                    
+                    </div>
 
                     <!-- SSC Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_08">
@@ -988,7 +991,7 @@ get_header();
 
                       </div>
 
-                    </div>                    
+                    </div>
 
                     <!-- scout Certificate -->
                     <div class="col-lg-4 col-sm-6 single_certificate_col animation_on_scroll slideUp animation_duration_2 animation_delay_09">
@@ -1020,8 +1023,8 @@ get_header();
 
                       </div>
 
-                    </div>                    
-                    
+                    </div>
+
                   </div>
                 </div>
 
@@ -1034,10 +1037,153 @@ get_header();
   </section>
   <!-- Resume Section Area End -->
 
-  <section id="service_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
+
+  <!-- Service Section Area start -->
+  <section id="service_area" class="menu_active_on_view">
+    
+  <div class="container">
+
+      <div class="row justify-content-center align-items-center text-center">
+        
+        <div class="margin-top-80"></div>
+
+        <div class="section_heading">
+          <div class="service_area_title">
+            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_2 animation_delay_03">My Services</h2>
+          </div>
+
+          <div class="service_area_subtitle">
+            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_2 animation_delay_03">As a professional web and WordPress developer, I offer a wide range of services to help businesses create a dynamic and engaging online presence. With a focus on quality and results, I work closely with clients to understand their unique business needs and deliver exceptional results that exceed expectations.</p>
+          </div>
+        </div>
+
+        <!-- Web development -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_04">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Web Development</div>
+            <div class="service_subtitle">I can develop custom websites using various programming languages such as HTML, CSS, JavaScript, PHP, and backend WordPress, Firebase. I will ensure that the website is mobile-friendly, user-friendly, and secure.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_05">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Website Maintenance</div>
+            <div class="service_subtitle">I can provide ongoing maintenance and support for websites, including security updates, software upgrades, and troubleshooting issues that arise with the website.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- E-commerce Development -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_06">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">E-commerce Development</div>
+            <div class="service_subtitle">I can create online stores and marketplaces for businesses, including integrating payment gateways, shipping APIs, and inventory management systems.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Content Management Systems -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_07">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Content Management Systems</div>
+            <div class="service_subtitle">I can work with CMS platforms like WordPress to create dynamic websites that can be easily managed and updated by non-technical users.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Custom Plugin Development -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_08">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Custom Plugin Development</div>
+            <div class="service_subtitle">I can develop custom WordPress plugins to meet the unique needs of my clients. This includes creating custom post types, custom fields, and other functionality specific to the client's business.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Theme Customization -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_09">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Theme Customization</div>
+            <div class="service_subtitle">I can modify existing WordPress themes to meet the specific design requirements of my clients. This includes modifying CSS, HTML, and PHP code to achieve the desired look and feel of the website.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Mobile App Development -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_1">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Mobile App Development</div>
+            <div class="service_subtitle">I can develop mobile applications that can run on iOS, Android, or other platforms.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Technical Support -->
+        <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_11">
+
+          <div class="single_service_wrap d-flex align-items-center element_background">
+            <div class="service_icon d-flex justify-content-center align-items-center">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="service_title">Technical Support</div>
+            <div class="service_subtitle">I can provide technical support to clients, troubleshooting issues that arise with their websites or applications.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="margin-top-50"></div>
+
+      </div>
+    
+    </div>
+  
+  </section>
+  <!-- Service Section Area End -->
+  
+  <section id="project_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
     <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
     <div class="container_test">
-      <div class="newsletter"><p>weee!</p></div>
+      <div class="newsletter">
+        <p>weee!</p>
+      </div>
     </div>
   </section>
 </div>
@@ -1046,14 +1192,14 @@ get_header();
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
-    <!-- The Close Button -->
-    <span id="modal_close">&times;</span>
+  <!-- The Close Button -->
+  <span id="modal_close">&times;</span>
 
-    <!-- Modal Content (The Image) -->
-    <img class="modal_content" id="modal_image">
+  <!-- Modal Content (The Image) -->
+  <img class="modal_content" id="modal_image">
 
-    <!-- Modal Caption (Image Text) -->
-    <div id="modal_caption"></div>
+  <!-- Modal Caption (Image Text) -->
+  <div id="modal_caption"></div>
 
 </div>
 

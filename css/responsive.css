@@ -64,6 +64,10 @@ I. Exceptional
   nav.resume_nav {
     margin-right: 40px;
   }
+  .single_service_wrap {
+    height: 350px;
+    text-align: center;
+  }
 }
 
 /*-----------------------------
@@ -86,6 +90,9 @@ I. Exceptional
   h3,
   .resume_text h3 {
     font-size: 20px;
+  }
+  .margin-top-80 {
+    margin-top: 60px;
   }
 
   /* Tab_Header_Menu_Area */
@@ -124,14 +131,14 @@ I. Exceptional
     font-size: 20pt;
   }
 
-  /* About_Area */
+  /* Tab_About_Area */
   a.download_cv_btn_action {
     padding: 10px 15px;
     font-size: 15px;
     margin-bottom: 15px;
-
-  /* Resume_Area */
-  /* resume_menu */
+  }
+  /* Tab_Resume_Area */
+  /* Tab_resume_menu */
   .stickt_resume_menu {
     position: static;
   }
@@ -141,19 +148,24 @@ I. Exceptional
     margin-bottom: 70px;
   }
 
-  /* resume_menu_page */
+  /* Tab_resume_menu_page */
   .resume_page_wrap {
     border: 0;
     padding-left: 0px;
   }
 
-  /* resume_menu_items */
+  /* Tab_resume_menu_items */
   .resume_text .name {
     font-weight: 600;
     font-size: 16px;
   }
   .resume_text .address {
     font-size: 12px;
+  }
+
+  /* Tab_Service_Arae */
+  .single_service_wrap {
+    height: 450px;
   }
 }
 
@@ -216,6 +228,10 @@ I. Exceptional
   }
   .resume_icon i {
     font-size: 18px;
+  }
+  /* Mobile_Service_Area */
+  .single_service_wrap {
+    height: 320px;
   }
 }
 
