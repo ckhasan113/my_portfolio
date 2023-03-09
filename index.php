@@ -1060,12 +1060,12 @@ get_header();
         <!-- Web development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_04">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/web_development.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_development.png" alt="">
             </div>
-            <div class="service_title">Web Development</div>
-            <div class="service_subtitle">I can develop custom websites using various programming languages such as HTML, CSS, JavaScript, PHP, and backend WordPress, Firebase. I will ensure that the website is mobile-friendly, user-friendly, and secure.
+            <div class="single_card_title">Web Development</div>
+            <div class="single_card_subtitle">I can develop custom websites using various programming languages such as HTML, CSS, JavaScript, PHP, and backend WordPress, Firebase. I will ensure that the website is mobile-friendly, user-friendly, and secure.
             </div>
           </div>
 
@@ -1074,12 +1074,12 @@ get_header();
         <!-- Website Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_05">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/web_maintenance.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
             </div>
-            <div class="service_title">Website Maintenance</div>
-            <div class="service_subtitle">I can provide ongoing maintenance and support for websites, including security updates, software upgrades, and troubleshooting issues that arise with the website.
+            <div class="single_card_title">Website Maintenance</div>
+            <div class="single_card_subtitle">I can provide ongoing maintenance and support for websites, including security updates, software upgrades, and troubleshooting issues that arise with the website.
             </div>
           </div>
 
@@ -1088,12 +1088,12 @@ get_header();
         <!-- E-commerce Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_06">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/e_commerce_development.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/e_commerce_development.png" alt="">
             </div>
-            <div class="service_title">E-commerce Development</div>
-            <div class="service_subtitle">I can create online stores and marketplaces for businesses, including integrating payment gateways, shipping APIs, and inventory management systems.
+            <div class="single_card_title">E-commerce Development</div>
+            <div class="single_card_subtitle">I can create online stores and marketplaces for businesses, including integrating payment gateways, shipping APIs, and inventory management systems.
             </div>
           </div>
 
@@ -1102,12 +1102,12 @@ get_header();
         <!-- Content Management Systems -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_07">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/cms.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/cms.png" alt="">
             </div>
-            <div class="service_title">Content Management Systems</div>
-            <div class="service_subtitle">I can work with CMS platforms like WordPress to create dynamic websites that can be easily managed and updated by non-technical users.
+            <div class="single_card_title">Content Management Systems</div>
+            <div class="single_card_subtitle">I can work with CMS platforms like WordPress to create dynamic websites that can be easily managed and updated by non-technical users.
             </div>
           </div>
 
@@ -1116,12 +1116,12 @@ get_header();
         <!-- Custom Plugin Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_08">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/custom_plugin.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/custom_plugin.png" alt="">
             </div>
-            <div class="service_title">Custom Plugin Development</div>
-            <div class="service_subtitle">I can develop custom WordPress plugins to meet the unique needs of my clients. This includes creating custom post types, custom fields, and other functionality specific to the client's business.
+            <div class="single_card_title">Custom Plugin Development</div>
+            <div class="single_card_subtitle">I can develop custom WordPress plugins to meet the unique needs of my clients. This includes creating custom post types, custom fields, and other functionality specific to the client's business.
             </div>
           </div>
 
@@ -1130,12 +1130,12 @@ get_header();
         <!-- Theme Customization -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_09">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/theme_customization.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/theme_customization.png" alt="">
             </div>
-            <div class="service_title">Theme Customization</div>
-            <div class="service_subtitle">I can modify existing WordPress themes to meet the specific design requirements of my clients. This includes modifying CSS, HTML, and PHP code to achieve the desired look and feel of the website.
+            <div class="single_card_title">Theme Customization</div>
+            <div class="single_card_subtitle">I can modify existing WordPress themes to meet the specific design requirements of my clients. This includes modifying CSS, HTML, and PHP code to achieve the desired look and feel of the website.
             </div>
           </div>
 
@@ -1144,12 +1144,12 @@ get_header();
         <!-- Mobile App Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_1">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/mobile_app_development.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/mobile_app_development.png" alt="">
             </div>
-            <div class="service_title">Mobile App Development</div>
-            <div class="service_subtitle">I can develop mobile applications that can run on iOS, Android, or other platforms.
+            <div class="single_card_title">Mobile App Development</div>
+            <div class="single_card_subtitle">I can develop mobile applications that can run on iOS, Android, or other platforms.
             </div>
           </div>
 
@@ -1158,18 +1158,18 @@ get_header();
         <!-- Technical Support -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_11">
 
-          <div class="single_service_wrap d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
             <div class="service_icon d-flex justify-content-center align-items-center">
-              <img src="/portfolio/wp-content/themes/myportfolio//image/icons/technoical_support.png" alt="">
+              <img src="/portfolio/wp-content/themes/myportfolio/image/icons/technoical_support.png" alt="">
             </div>
-            <div class="service_title">Technical Support</div>
-            <div class="service_subtitle">I can provide technical support to clients, troubleshooting issues that arise with their websites or applications.
+            <div class="single_card_title">Technical Support</div>
+            <div class="single_card_subtitle">I can provide technical support to clients, troubleshooting issues that arise with their websites or applications.
             </div>
           </div>
 
         </div>
 
-        <div class="margin-top-50"></div>
+        <div class="margin-bottom-50"></div>
 
       </div>
     
@@ -1177,11 +1177,130 @@ get_header();
   
   </section>
   <!-- Service Section Area End -->
-
-  <section id="project_area" class="menu_active_on_view">
-    
-  </section>
   
+  <!-- Project Sectoin Area Start -->
+  <section id="project_area" class="menu_active_on_view">
+    <div class="container">
+
+    <!-- Project Heading and Menu -->
+      <div class="row justify-content-center align-items-center text-center">
+
+        <div class="margin-top-80"></div>
+
+        <div class="section_heading">
+          <div class="project_area_title">
+            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">My Services</h2>
+          </div>
+
+          <div class="project_area_subtitle">
+            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_3 animation_delay_03">As a professional web and WordPress developer, I offer a wide range of services to help businesses create a dynamic and engaging online presence. With a focus on quality and results, I work closely with clients to understand their unique business needs and deliver exceptional results that exceed expectations.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-12">
+          <ul class="project_menu body_menu">
+            <li data-filter="*" class="body_menu_link animation_on_scroll fadeIn animation_duration_4 animation_delay_06 current">All</li>
+            <li data-filter=".web" class="body_menu_link animation_on_scroll fadeIn animation_duration_4 animation_delay_08">Web</li>
+            <li data-filter=".mobile_app  " class="body_menu_link animation_on_scroll fadeIn animation_duration_4 animation_delay_1">Mobile App</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project Elements -->
+      <div class="row animation_on_scroll_full slideUp animation_duration_2 animation_delay_01 project_items">
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 web">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Mobile Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 web">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">App Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 web mobile_app">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Website App</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div>          
+       
+        <!-- Website Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <div class="single_project_text d-flex single_card_wrap">
+              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+        <div class="margin-bottom-50"></div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Project Sectoin Area End -->
+  
+  <!-- Contact Sectoin Area Start -->
   <section id="contact_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
     <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
     <div class="container_test">
@@ -1190,25 +1309,15 @@ get_header();
       </div>
     </div>
   </section>
+  <!-- Contact Sectoin Area End -->
 
 </div>
 
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+<?php
 
-  <!-- The Close Button -->
-  <span id="modal_close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal_content" id="modal_image">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="modal_caption"></div>
-
-</div>
-
-<?php wp_footer() ?>
-</body>
-
-</html>
+/**
+ * Footer area is in "footer.php" file
+ */
+get_footer();
+?>

@@ -64,8 +64,9 @@ I. Exceptional
   nav.resume_nav {
     margin-right: 40px;
   }
-  .single_service_wrap {
-    height: 350px;
+  
+  .single_card_height {
+    height: 430px;
     text-align: center;
   }
 }
@@ -164,8 +165,8 @@ I. Exceptional
   }
 
   /* Tab_Service_Arae */
-  .single_service_wrap {
-    height: 450px;
+  .single_card_height {
+    height: 340px;
   }
 }
 
@@ -200,21 +201,29 @@ I. Exceptional
     width: 100%;
   }
 
+  .single_card_height {
+    height: 420px;
+  }
+
   .modal_content {
     width: 100%;
     margin-top: 10%;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
   /* Header_Area */
   #header_area .menu_area ul {
     width: 55%;
+    height: 100%;
   }
   #home_area {
     height: 740px;
   }
   #home_area::before {
     content: none;
+  }
+  #home_area .content_area {
+    margin-top: -40%;
   }
 
   /* Resume-Area */
@@ -230,8 +239,8 @@ I. Exceptional
     font-size: 18px;
   }
   /* Mobile_Service_Area */
-  .single_service_wrap {
-    height: 320px;
+  .single_card_height {
+    height: 0px;
   }
 }
 

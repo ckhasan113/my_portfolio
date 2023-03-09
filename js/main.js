@@ -131,42 +131,46 @@
         false
       );
     });
+
+    // Body menu current class
+    const bodyMenuLink = document.querySelectorAll(".body_menu_link");
+
+    bodyMenuLink.forEach(function (item) {
+      item.addEventListener(
+        "click",
+        function (e) {
+          bodyMenuLink.forEach(function (item) {
+            item.classList.remove("current");
+          });
+          item.classList.add("current");
+        },
+        false
+      );
+    });
+
+
+    // Isotope Activation for Projects
+    // init Isotope
+    const grid = $('.project_items').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.project_menu').on( 'click', 'li', function() {
+      var filterValue = $(this).attr('data-filter');
+      grid.isotope({ filter: filterValue });
+      $(this).addClass("active").siblings().removeClass("active");
+      grid.forEach(element => {
+        // if( element.classList().contains("active")){
+        //   element.style.display="flex";
+        // }else{
+        //   element.style.display="none";
+        // }
+      });
+    });
+
   });
 
-  // const elements = document.querySelectorAll(".animation_on_scroll");
-
-  // $(window).resize(function () {
-  //   if ($(window).width() <= 991) {
-  //     elements.forEach((element) => {
-  //       if (element.classList.contains("animation_delay_01")) {
-  //         element.classList.remove("animation_delay_01");
-  //       }else if (element.classList.contains("animation_delay_02")) {
-  //         element.classList.remove("animation_delay_02");
-  //       }else if (element.classList.contains("animation_delay_03")) {
-  //         element.classList.remove("animation_delay_03");
-  //       } else if (element.classList.contains("animation_delay_04")) {
-  //         element.classList.remove("animation_delay_04");
-  //       } else if (element.classList.contains("animation_delay_05")) {
-  //         element.classList.remove("animation_delay_05");
-  //       } else if (element.classList.contains("animation_delay_06")) {
-  //         element.classList.remove("animation_delay_06");
-  //       } else if (element.classList.contains("animation_delay_065")) {
-  //         element.classList.remove("animation_delay_065");
-  //       } else if (element.classList.contains("animation_delay_07")) {
-  //         element.classList.remove("animation_delay_07");
-  //       } else if (element.classList.contains("animation_delay_075")) {
-  //         element.classList.remove("animation_delay_075");
-  //       } else if (element.classList.contains("animation_delay_08")) {
-  //         element.classList.remove("animation_delay_08");
-  //       } else if (element.classList.contains("animation_delay_1")) {
-  //         element.classList.remove("animation_delay_1");
-  //       }
-  //     });
-  //   }
-  // });
-
   // jquery load function start
-
   jQuery(window).on("load", function () {});
 })(jQuery);
 
@@ -265,6 +269,7 @@ animate();
 
 // Active_Animation_When_It_Is_In_View
 const elements = document.querySelectorAll(".animation_on_scroll");
+const elementsFull = document.querySelectorAll(".animation_on_scroll_full");
 
 window.addEventListener("scroll", checkelEments);
 
@@ -276,7 +281,35 @@ function checkelEments() {
   elements.forEach((element) => {
     if (
       element.getBoundingClientRect().y +
-        (element.getBoundingClientRect().height * 2) / 7 <
+        (element.getBoundingClientRect().height * 1) / 10 <
+      clientHeight
+    ) {
+      if (element.classList.contains("fadeIn")) {
+        -element.classList.add("fadeInAnimation");
+      } else if (element.classList.contains("slideDown")) {
+        element.classList.add("slideDownAnimation");
+      } else if (element.classList.contains("slideDown900")) {
+        element.classList.add("slideDown900Animation");
+      } else if (element.classList.contains("slideUp")) {
+        element.classList.add("slideUpAnimation");
+      } else if (element.classList.contains("slideUpAndLeft")) {
+        element.classList.add("slideUpAndLeftAnimation");
+      } else if (element.classList.contains("slideDownAndRight")) {
+        element.classList.add("slideDownAndRightAnimation");
+      } else if (element.classList.contains("slideFromLeft")) {
+        element.classList.add("slideFromLeftAnimation");
+      } else if (element.classList.contains("slideFromRight")) {
+        element.classList.add("slideFromRightAnimation");
+      } else if (element.classList.contains("slideFromRight900")) {
+        element.classList.add("slideFromRight900Animation");
+      }
+    }
+  });
+
+  elementsFull.forEach((element) => {
+    if (
+      element.getBoundingClientRect().y +
+        (element.getBoundingClientRect().height * 1) / 60 <
       clientHeight
     ) {
       if (element.classList.contains("fadeIn")) {
