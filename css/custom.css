@@ -1170,6 +1170,7 @@ p.heading_subtitle {
 .body_menu {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 .body_menu li {
   padding: 0 15px;

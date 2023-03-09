@@ -1189,11 +1189,11 @@ get_header();
 
         <div class="section_heading">
           <div class="project_area_title">
-            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">My Services</h2>
+            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">My Projects</h2>
           </div>
 
           <div class="project_area_subtitle">
-            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_3 animation_delay_03">As a professional web and WordPress developer, I offer a wide range of services to help businesses create a dynamic and engaging online presence. With a focus on quality and results, I work closely with clients to understand their unique business needs and deliver exceptional results that exceed expectations.</p>
+            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_3 animation_delay_03">Discover a collection of my past and present projects, each highlighting my expertise and innovative approach. From web design and development to mobile apps and more, browse through my portfolio and get a glimpse into the creative solutions I've brought to life for clients and personal ventures alike.</p>
           </div>
         </div>
 
