@@ -1209,90 +1209,54 @@ get_header();
       <!-- Project Elements -->
       <div class="row animation_on_scroll_full slideUp animation_duration_2 animation_delay_01 project_items">
        
-        <!-- Website Maintenance -->
+        <!-- Utech IT Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 web">
           <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/utechit.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_title">Utech IT</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
               </div>
             </div>
           </div>
         </div>          
        
-        <!-- Website Maintenance -->
-        <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
-            <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Mobile Maintenance</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
-              </div>
-            </div>
-          </div>
-        </div>          
-       
-        <!-- Website Maintenance -->
+        <!-- Hodil Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 web">
           <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/hodil.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Website Maintenance</div>
+              <div class="single_card_title">Hodil</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
               </div>
             </div>
           </div>
         </div>          
        
-        <!-- Website Maintenance -->
+        <!-- Toure Mate Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
           <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/toure_mate.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">App Maintenance</div>
+              <div class="single_card_title">Toure Mate</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
               </div>
             </div>
           </div>
         </div>          
        
-        <!-- Website Maintenance -->
-        <div class="col-lg-4 col-sm-6 col-md-6 web mobile_app">
+        <!-- Medilink Maintenance -->
+        <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
           <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
+            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/medilink.jpg" alt="">
             <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Website App</div>
+              <div class="single_card_title">Medilink</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
               </div>
             </div>
           </div>
         </div>          
-       
-        <!-- Website Maintenance -->
-        <div class="col-lg-4 col-sm-6 col-md-6">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
-            <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Website Maintenance</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
-              </div>
-            </div>
-          </div>
-        </div>          
-       
-        <!-- Website Maintenance -->
-        <div class="col-lg-4 col-sm-6 col-md-6">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
-            <div class="single_project_text d-flex single_card_wrap">
-              <div class="single_card_title">Website Maintenance</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
-              </div>
-            </div>
-          </div>
-        </div> 
-        
+               
         <div class="margin-bottom-50"></div>
 
       </div>
