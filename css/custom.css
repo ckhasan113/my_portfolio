@@ -3,34 +3,35 @@
 ========================================*/
 :root {
   /* Color Variables */
-  --menu: #ffffff;
-  --logo_leter: #ffffff;
-  --social_media: #ffffff;
-  --element_background_color_primary: #ffffff;
-  --section_background_color_primary: #dddddd;
-  --section_background_color_secondary: #ebf9ff;
-  --logo_first_leter_background: #3e64ff;
-  --logo_last_part: #5a41cc;
-  --box_shadow_color_light: #dddddd;
-  --box_shadow_color_dark: #000000;
+  --menu: rgb(255, 255, 255);
+  --logo_leter: rgb(255, 255, 255);
+  --social_media: rgb(255, 255, 255);
+  --element_background_color_primary: rgb(255, 255, 255);
+  --element_background_color_secondary: rgb(138, 161, 255, 0.32);
+  --section_background_color_primary: rgb(221, 221, 221);
+  --section_background_color_secondary: rgb(235, 249, 255);
+  --logo_first_leter_background: rgb(62, 100, 255);
+  --logo_last_part: rgb(90, 65, 204);
+  --box_shadow_color_light: rgb(221, 221, 221);
+  --box_shadow_color_dark: rgb(0, 0, 0);
   --border_box_shadow_color_light: rgba(0, 0, 0, 0.15);
-  --active_heighlighter: #00ffb8;
-  --resume_active_heighlighter: #3e64ff;
-  --active_heighlighter_social: #00ffb8;
-  --link_color: #1299f6;
-  --text_color_primary: #000000;
-  --text_color_primary_light: #999999;
-  --text_color_secondary: #ffffff;
-  --button_color: #203bff;
-  --button_text_color_primary: #ffffff;
-  --liner_gradient_first: #0045ff;
-  --liner_gradient_last: #bd29f2;
+  --active_heighlighter: rgb(0, 255, 184);
+  --resume_active_heighlighter: rgb(62, 100, 255);
+  --active_heighlighter_social: rgb(0, 255, 184);
+  --link_color: rgb(18, 153, 246);
+  --text_color_primary: rgb(0, 0, 0);
+  --text_color_primary_light: rgb(153, 153, 153);
+  --text_color_secondary: rgb(255, 255, 255);
+  --button_color: rgb(32, 59, 255);
+  --button_text_color_primary: rgb(255, 255, 255);
+  --liner_gradient_first: rgb(0, 69, 255);
+  --liner_gradient_last: rgb(189, 41, 242);
   --liner_gradient_first_opacity: rgba(0, 47, 255, 0.604);
   --liner_gradient_last_opacity: rgba(201, 28, 244, 0.613);
-  --progress_bar_color: #0045ff;
-  --closs_button_hover: rgb(171, 125, 125);
-  --hover_effect_transparent_background: #3f65ffb4;
-  --hover_effect_transparent_background_text_color_primary: #ffffff;
+  --progress_bar_color: rgb(0, 69, 255);
+  --closs_button_hover: hwb(0 49% 33%);
+  --hover_effect_transparent_background: rgba(63, 101, 255, 0.706);
+  --hover_effect_transparent_background_text_color_primary: rgb(255, 255, 255);
   --liner_gradient_first_edge: "#0045ff";
   --liner_gradient_last_edge: "#bd29f2";
 }
@@ -66,8 +67,11 @@ ul {
   margin-bottom: 50px;
 }
 
-.element_background {
+.element_background_primary {
   background: var(--element_background_color_primary);
+}
+.element_background_secondary {
+  background: var(--element_background_color_secondary);
 }
 /* .shadow {
   box-shadow: 0px 0rem 20px var(--border_box_shadow_color_light) !important;
@@ -1050,7 +1054,7 @@ p.heading_subtitle {
 }
 .single_project_wrap img{
   width: 100%;
-  height: 300px;
+  height: auto;
   padding: 10px;
   transform: scale(1);
   transition: all 0.8s;

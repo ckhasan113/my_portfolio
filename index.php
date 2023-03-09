@@ -137,7 +137,7 @@ get_header();
 
           <!-- Resume Nav Menu -->
           <div class="col-lg-3" id="resume_menu_bar">
-            <nav class="resume_nav element_background animation_on_scroll slideFromLeft animation_duration_2 animation_delay_01">
+            <nav class="resume_nav element_background_primary animation_on_scroll slideFromLeft animation_duration_2 animation_delay_01">
               <ul class="m-0 p-0">
                 <li><a class="resume_menu_link current" href="#page_education">Education</a></li>
                 <li><a class="resume_menu_link" href="#page_experience">Experience</a></li>
@@ -379,7 +379,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_01">
 
-                    <div class="element_background shadow border_radious_15 p-4">
+                    <div class="element_background_primary shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">HTML</h2>
 
@@ -433,7 +433,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_04">
 
-                    <div class="element_background shadow border_radious_15 p-4">
+                    <div class="element_background_primary shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">CSS</h2>
 
@@ -480,7 +480,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_07">
 
-                    <div class="element_background shadow border_radious_15 p-4">
+                    <div class="element_background_primary shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">JavaScript</h2>
 
@@ -527,7 +527,7 @@ get_header();
 
                   <div class="col-lg-3 mb-4 animation_on_scroll slideUp animation_duration_3 animation_delay_1">
 
-                    <div class="element_background shadow border_radious_15 p-4">
+                    <div class="element_background_primary shadow border_radious_15 p-4">
 
                       <h2 class="small_heading mb-4 text-center">PHP</h2>
 
@@ -586,7 +586,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_theme_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_theme_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -604,7 +604,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $wp_plugin_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $wp_plugin_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -622,7 +622,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $jQuery_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $jQuery_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -640,7 +640,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $c_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $c_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -658,7 +658,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $java_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $java_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -676,7 +676,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $android_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $android_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -694,7 +694,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $database_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $database_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -712,7 +712,7 @@ get_header();
                         <p class="linear_progress_value"><span class="counter" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isCounterDone="no">0</span>%</p>
                       </div>
 
-                      <div class="progress element_background" style="height: 10px;">
+                      <div class="progress element_background_primary" style="height: 10px;">
                         <div class="progress-bar linear_progress_bar linear_progress_animation" role="progressbar" style="height: 10px" aria-valuenow="<?php echo $photoshop_progress_value ?>" aria-valuemin="0" aria-valuemax="100" data-val="<?php echo $photoshop_progress_value ?>" data-delay="<?php echo $linear_data_delay ?>" isProgressDone="no"></div>
                       </div>
 
@@ -1060,7 +1060,7 @@ get_header();
         <!-- Web development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_04">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_development.png" alt="">
             </div>
@@ -1074,7 +1074,7 @@ get_header();
         <!-- Website Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_05">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/web_maintenance.png" alt="">
             </div>
@@ -1088,7 +1088,7 @@ get_header();
         <!-- E-commerce Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_06">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/e_commerce_development.png" alt="">
             </div>
@@ -1102,7 +1102,7 @@ get_header();
         <!-- Content Management Systems -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_07">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/cms.png" alt="">
             </div>
@@ -1116,7 +1116,7 @@ get_header();
         <!-- Custom Plugin Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_08">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/custom_plugin.png" alt="">
             </div>
@@ -1130,7 +1130,7 @@ get_header();
         <!-- Theme Customization -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_09">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/theme_customization.png" alt="">
             </div>
@@ -1144,7 +1144,7 @@ get_header();
         <!-- Mobile App Development -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_1">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/mobile_app_development.png" alt="">
             </div>
@@ -1158,7 +1158,7 @@ get_header();
         <!-- Technical Support -->
         <div class="col-lg-4 col-sm-6 col-md-6 animation_on_scroll slideUp animation_duration_2 animation_delay_11">
 
-          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background">
+          <div class="single_service_wrap single_card_wrap single_card_box_shadow single_card_height d-flex align-items-center element_background_primary">
             <div class="service_icon d-flex justify-content-center align-items-center">
               <img src="/portfolio/wp-content/themes/myportfolio/image/icons/technoical_support.png" alt="">
             </div>
@@ -1211,8 +1211,8 @@ get_header();
        
         <!-- Utech IT Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 web">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/utechit.png" alt="">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center">
+            <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/utechit.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Utech IT</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
@@ -1223,8 +1223,8 @@ get_header();
        
         <!-- Hodil Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 web">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/hodil.png" alt="">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center">
+            <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/hodil.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Hodil</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
@@ -1235,8 +1235,8 @@ get_header();
        
         <!-- Toure Mate Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/toure_mate.png" alt="">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center">
+            <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/toure_mate.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Toure Mate</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
@@ -1247,8 +1247,8 @@ get_header();
        
         <!-- Medilink Maintenance -->
         <div class="col-lg-4 col-sm-6 col-md-6 mobile_app">
-          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center element_background">
-            <img src="/portfolio/wp-content/themes/myportfolio/image/projects/medilink.jpg" alt="">
+          <div class="single_project_wrap single_card_box_shadow d-flex align-items-center">
+            <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/medilink.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Medilink</div>
               <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
