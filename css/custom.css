@@ -1044,10 +1044,12 @@ p.heading_subtitle {
   margin-bottom: 30px;
   overflow: hidden;
 }
-.single_project_text.single_card_wrap{
+.single_project_text.single_card_wrap {
   margin-bottom: 0;
   border-radius: 0 0 10px;
   padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
 }
 .single_project_text .single_card_subtitle {
   padding: 0 20px 10px;
@@ -1080,6 +1082,22 @@ p.heading_subtitle {
   color: var(--element_background_color_primary);
   transition: all 0.5s;
 }
+.project_buttons a {
+  border: 1px solid var(--button_color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: var(--button_color);
+  color: var(--button_text_color_primary);
+  transition: all 0.5s;
+}
+.project_buttons:hover a {
+  border: 1px solid var(--button_text_color_primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: var(--button_text_color_primary);
+  color: var(--button_color);
+}
+/* toDo */
 
 
 
@@ -1153,13 +1171,8 @@ p.heading_subtitle {
   border: 1px solid var(--border_box_shadow_color_light);
   margin: 0 10px 10px;
   cursor: pointer;
-}
-.body_menu li {
-  padding: 0 15px;
-  border: 1px solid var(--border_box_shadow_color_light);
-  margin: 0 10px 10px;
-  cursor: pointer;
   border-radius: 5px;
+  transition: all 0.5s;
 }
 .body_menu li.current,
 .body_menu li:hover {

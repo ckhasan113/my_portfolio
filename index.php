@@ -1215,7 +1215,21 @@ get_header();
             <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/utechit.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Utech IT</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              <div class="single_card_subtitle">
+                <p>
+                  <span class="technologies_title">Technologies: </span>
+                  <span class="technologies">HTML</span>
+                  <span class="technologies">CSS</span>
+                  <span class="technologies">JS</span>
+                </p>
+                <p>
+                  <span class="tool_title">Tool: </span>
+                  <span class="tool">VS Code</span>
+                </p>
+                <p>
+                  <span class="project_buttons"><a href="https://github.com/ckhasan113/utechit" target="_blank">Code</a></span>
+                  <span class="project_buttons"><a href="https://utechit.netlify.app/" target="_blank">Visit</a></span>
+                </p>
               </div>
             </div>
           </div>
@@ -1227,7 +1241,21 @@ get_header();
             <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/hodil.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Hodil</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              <div class="single_card_subtitle">
+                <p>
+                  <span class="technologies_title">Technologies: </span>
+                  <span class="technologies">HTML</span>
+                  <span class="technologies">CSS</span>
+                  <span class="technologies">JS</span>
+                </p>
+                <p>
+                  <span class="tool_title">Tool: </span>
+                  <span class="tool">VS Code</span>
+                </p>
+                <p>
+                  <span class="project_buttons"><a href="https://github.com/ckhasan113/hodil" target="_blank">Code</a></span>
+                  <span class="project_buttons"><a href="https://hodil.netlify.app/" target="_blank">Visit</a></span>
+                </p>
               </div>
             </div>
           </div>
@@ -1239,7 +1267,20 @@ get_header();
             <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/toure_mate.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Toure Mate</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              <div class="single_card_subtitle">
+                <p>
+                  <span class="technologies_title">Technologies: </span>
+                  <span class="technologies">Java</span>
+                  <span class="technologies">XML</span>
+                  <span class="technologies">Firebase</span>
+                </p>
+                <p>
+                  <span class="tool_title">Tool: </span>
+                  <span class="tool">Android Studio</span>
+                </p>
+                <p>
+                  <span class="project_buttons"><a href="https://github.com/ckhasan113/TourMate" target="_blank">Code</a></span>
+                </p>
               </div>
             </div>
           </div>
@@ -1251,7 +1292,20 @@ get_header();
             <img class="element_background_secondary" src="/portfolio/wp-content/themes/myportfolio/image/projects/medilink.png" alt="">
             <div class="single_project_text d-flex single_card_wrap">
               <div class="single_card_title">Medilink</div>
-              <div class="single_card_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolore, enim saepe recusandae animi iusto deleniti autem vel, dolorum sint soluta culpa minima. Voluptate, minima blanditiis. Recusandae, ipsum. Beatae, tenetur assumenda? Voluptatem iste enim labore ducimus ratione aspernatur? Ipsum assumenda est officiis error voluptatum, maiores molestiae libero sit vitae ipsam delectus ab sequi architecto placeat excepturi labore laboriosam eaque eos dicta officia animi expedita. Cumque beatae hic vero modi repellendus!
+              <div class="single_card_subtitle">
+                <p>
+                  <span class="technologies_title">Technologies: </span>
+                  <span class="technologies">Java</span>
+                  <span class="technologies">XML</span>
+                  <span class="technologies">Firebase</span>
+                </p>
+                <p>
+                  <span class="tool_title">Tool: </span>
+                  <span class="tool">Android Studio</span>
+                </p>
+                <p>
+                  <span class="project_buttons"><a href="https://github.com/ckhasan113/Medilink" target="_blank">Code</a></span>
+                </p>
               </div>
             </div>
           </div>

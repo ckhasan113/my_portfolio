@@ -542,6 +542,16 @@ function linerProgressValueOnDisplay(event) {
   });
 }
 
+// Technology Spans adding ","
+const technologies = document.querySelectorAll(".technologies");
+
+technologies.forEach((technology, index) => {
+  technology.textContent += ",";
+  // if(!(index === technologies.length - 1)){
+  //   console.log(technology.textContent += ",");
+  // }
+});
+
 
 // Certificate Image View
 // Get the modal
