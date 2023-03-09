@@ -10,6 +10,7 @@
   --element_background_color_secondary: rgb(138, 161, 255, 0.32);
   --section_background_color_primary: rgb(221, 221, 221);
   --section_background_color_secondary: rgb(235, 249, 255);
+  --section_background_color_third: rgba(255, 235, 239, 0.22);
   --logo_first_leter_background: rgb(62, 100, 255);
   --logo_last_part: rgb(90, 65, 204);
   --box_shadow_color_light: rgb(221, 221, 221);
@@ -443,8 +444,8 @@ a.cbtn.cbtn1:hover::after {
   top: 0px;
   z-index: 99;
   position: absolute;
-  padding: 15px 0;
-  /* box-shadow: 0px 0px .53px 0px var(--box_shadow_color_light); */
+  padding: 20px 0;
+  box-shadow: 0px 0px .53px 0px var(--box_shadow_color_light);
   transition: all 2s;
 }
 #header_area.sticky {
@@ -1038,11 +1039,15 @@ p.heading_subtitle {
 /*=======================================
  Project Area
 ========================================*/
+#project_area {
+  background: var(--section_background_color_secondary);
+}
 .single_project_wrap {
   flex-direction: column;
   border-radius: 10px;
   margin-bottom: 30px;
   overflow: hidden;
+  background: var(--element_background_color_primary);
 }
 .single_project_text.single_card_wrap {
   margin-bottom: 0;
