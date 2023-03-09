@@ -39,7 +39,7 @@
               <li><a class="menu_link" href="#resume_area"><span>Resume</span></a></li>
               <li><a class="menu_link" href="#service_area"><span>Service</span></a></li>
               <li><a class="menu_link" href="#project_area"><span>Projects</span></a></li>
-              <li><a class="menu_link" href="#"><span>Contact</span></a></li>
+              <li><a class="menu_link" href="#contact_area"><span>Contact</span></a></li>
             </ul>
           </div>
         </div>
