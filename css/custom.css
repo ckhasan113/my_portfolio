@@ -1066,8 +1066,7 @@ p.heading_subtitle {
   font-size: 35px;
 }
 .single_project_wrap:hover .single_card_wrap::after {
-  top: -2%;
-  right: -5%;
+  top: 0%;
 }
 .single_project_wrap:hover .single_card_wrap .single_card_title {
   color: var(--element_background_color_primary);
