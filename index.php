@@ -1182,11 +1182,11 @@ get_header();
   <section id="project_area" class="menu_active_on_view">
     <div class="container">
 
-    <!-- Project Heading and Menu -->
       <div class="row justify-content-center align-items-center text-center">
 
         <div class="margin-top-80"></div>
 
+        <!-- Project Heading -->
         <div class="section_heading">
           <div class="project_area_title">
             <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">My Projects</h2>
@@ -1197,6 +1197,7 @@ get_header();
           </div>
         </div>
 
+        <!-- Project Menu -->
         <div class="col-xl-12">
           <ul class="project_menu body_menu">
             <li data-filter="*" class="body_menu_link animation_on_scroll fadeIn animation_duration_4 animation_delay_06 current">All</li>
@@ -1319,13 +1320,88 @@ get_header();
   <!-- Project Sectoin Area End -->
   
   <!-- Contact Sectoin Area Start -->
-  <section id="contact_area" class="menu_active_on_view" style="height: 1200px; background: #f00;">
-    <span class="counter" data-val="150" data-delay="5000" isCounterDone="no">0</span>
-    <div class="container_test">
-      <div class="newsletter">
-        <p>weee!</p>
+  <section id="contact_area" class="menu_active_on_view">
+    
+    <div class="container">
+      <div class="row justify-content-center align-items-center text-center">
+        <div class="margin-top-80"></div>
+
+        <!-- Contact Heading -->
+        <div class="section_heading">
+          <div class="contact_area_title">
+            <h2 class="heading animation_on_scroll slideFromLeft animation_duration_3 animation_delay_03">Contact Me</h2>
+          </div>
+
+          <div class="contact_area_subtitle">
+            <p class="heading_subtitle animation_on_scroll slideFromRight animation_duration_3 animation_delay_03">Whether you have a question, an idea, or just want to say hi, I'd love to hear from you. Drop me a message and let's start a conversation about how we can work together to achieve your goals and bring your vision to life.</p>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-lg-6">
+          <div class="row">
+
+            <!-- Location -->
+            <div class="col-sm-6 animation_on_scroll slideUp animation_duration_2 animation_delay_05">
+              
+              <div class="single_contact_wrap single_card_box_shadow d-flex align-items-center element_background_primary">
+                <div class="resume_icon d-flex justify-content-center align-items-center">
+                  <i class="fas fa-map"></i>
+                </div>
+                <div class="single_card_title">Address</div>
+                <a href="https://goo.gl/maps/SchZDwwWBHMhwf7f7" target="_blank">NHA Garden City, Ring Rd, Mohammadpur, Dhaka-1207</a>
+              </div>
+
+            </div>
+
+            <!-- Phone Number -->
+            <div class="col-sm-6 animation_on_scroll slideUp animation_duration_2 animation_delay_06">
+              <div class="single_contact_wrap single_card_box_shadow d-flex align-items-center element_background_primary">
+                <div class="resume_icon d-flex justify-content-center align-items-center">
+                  <i class="fas fa-mobile"></i>
+                </div>
+                <div class="single_card_title">Mobile Number</div>
+                <p class="phone">+88 01734-184888</p>
+                <p class="phone">+88 01845-592277</p>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-sm-6 animation_on_scroll slideUp animation_duration_2 animation_delay_07">
+              
+              <div class="single_contact_wrap single_card_box_shadow d-flex align-items-center element_background_primary">
+                <div class="resume_icon d-flex justify-content-center align-items-center">
+                  <i class="fas fa-at"></i>
+                </div>
+                <div class="single_card_title">Email</div>
+                <a href="mailto:ck.hasan113@gmail.com" target="_blank">ck.hasan113@gmail.com</a>
+              </div>
+
+            </div>
+
+            <!-- Website -->
+            <div class="col-sm-6 animation_on_scroll slideUp animation_duration_2 animation_delay_08">
+              
+              <div class="single_contact_wrap single_card_box_shadow d-flex align-items-center element_background_primary">
+                <div class="resume_icon d-flex justify-content-center align-items-center">
+                  <i class="fas fa-link"></i>
+                </div>
+                <div class="single_card_title">Website</div>
+                <a href="https://goo.gl/maps/SchZDwwWBHMhwf7f7" target="_blank">mehedi.com</a>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Send Message -->
+        <div class="col-lg-6">
+          mehedi
+        </div>
       </div>
     </div>
+
   </section>
   <!-- Contact Sectoin Area End -->
 

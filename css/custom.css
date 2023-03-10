@@ -1014,6 +1014,7 @@ nav.resume_nav {
 
 p.heading_subtitle {
   font-size: 22px;
+  margin-bottom: 30px;
 }
 
 /* Single_Service_Area */
@@ -1040,7 +1041,10 @@ p.heading_subtitle {
  Project Area
 ========================================*/
 #project_area {
-  background: var(--section_background_color_secondary);
+  background: var(--section_background_color_primary);
+}
+#project_area h2.heading{
+  color: var(--text_color_primary);
 }
 .single_project_wrap {
   flex-direction: column;
@@ -1101,6 +1105,28 @@ p.heading_subtitle {
   border-radius: 5px;
   background: var(--button_text_color_primary);
   color: var(--button_color);
+}
+
+
+
+/*=======================================
+ Contact Area
+========================================*/
+#contact_area{
+  background: var(--section_background_color_secondary);
+}
+.single_contact_wrap {
+  flex-direction: column;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.single_contact_wrap a:hover {
+  color: var(--active_heighlighter);
+}
+.single_contact_wrap p {
+  margin: 0;
+  padding: 0;
 }
 /* toDo */
 
@@ -1170,7 +1196,6 @@ p.heading_subtitle {
 .body_menu {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
 }
 .body_menu li {
   padding: 0 15px;
