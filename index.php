@@ -1396,9 +1396,53 @@ get_header();
         </div>
 
         <!-- Send Message -->
-        <div class="col-lg-6">
-          mehedi
-        </div>
+        <!-- <div class="col-lg-6"> -->
+
+
+          <!-- <form id="contact-form" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" required></textarea>
+            <input type="submit" name="submit" value="Send">
+          </form> -->
+
+          <!-- <script>
+            // Function to handle the form submission
+            function handleFormSubmission(event) {
+              event.preventDefault();
+
+              // Collect the form data
+              const form = event.target;
+              const formData = new FormData(form);
+
+              // Send the form data via AJAX
+              const xhr = new XMLHttpRequest();
+              xhr.open('POST', '<?php //echo esc_url( admin_url('admin-ajax.php') ); ?>');
+              xhr.setRequestHeader('Accept', 'application/json');
+              xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4) {
+                  if (xhr.status === 200) {
+                    // Display the result in an alert
+                    const response = JSON.parse(xhr.responseText);
+                    alert(response.message);
+                  } else {
+                    // Display an error message if the request fails
+                    alert('An error occurred while submitting the form. Please try again later.');
+                  }
+                }
+              };
+              xhr.send(formData);
+            }
+
+            // Attach the form submission handler to the form submit event
+            const contactForm = document.getElementById('contact-form');
+            contactForm.addEventListener('submit', handleFormSubmission);
+          </script> -->
+
+        <!-- </div> -->
       </div>
     </div>
 

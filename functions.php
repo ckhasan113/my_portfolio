@@ -23,3 +23,10 @@ include_once('inc/enqueue.php');
 * Walker Menu Properties
 ======================================*/
 include_once('inc/menu_register.php');
+
+
+// Contact form
+/*=====================================
+* 
+======================================*/
+// include_once('inc/contact.php');
